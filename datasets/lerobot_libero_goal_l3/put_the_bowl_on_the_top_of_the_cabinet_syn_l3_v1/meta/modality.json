@@ -1,0 +1,149 @@
+{
+  "state": {
+    "x": {
+      "start": 0,
+      "end": 1,
+      "dtype": "float64",
+      "absolute": true,
+      "rotation_type": null,
+      "original_key": "observation.state"
+    },
+    "y": {
+      "start": 1,
+      "end": 2,
+      "dtype": "float64",
+      "absolute": true,
+      "rotation_type": null,
+      "original_key": "observation.state"
+    },
+    "z": {
+      "start": 2,
+      "end": 3,
+      "dtype": "float64",
+      "absolute": true,
+      "rotation_type": null,
+      "original_key": "observation.state"
+    },
+    "roll": {
+      "start": 3,
+      "end": 4,
+      "dtype": "float64",
+      "absolute": true,
+      "rotation_type": null,
+      "original_key": "observation.state"
+    },
+    "pitch": {
+      "start": 4,
+      "end": 5,
+      "dtype": "float64",
+      "absolute": true,
+      "rotation_type": null,
+      "original_key": "observation.state"
+    },
+    "yaw": {
+      "start": 5,
+      "end": 6,
+      "dtype": "float64",
+      "absolute": true,
+      "rotation_type": null,
+      "original_key": "observation.state"
+    },
+    "pad": {
+      "start": 6,
+      "end": 7,
+      "dtype": "float64",
+      "absolute": false,
+      "rotation_type": null,
+      "original_key": "observation.state"
+    },
+    "gripper": {
+      "start": 7,
+      "end": 8,
+      "dtype": "float64",
+      "absolute": false,
+      "rotation_type": null,
+      "original_key": "observation.state"
+    }
+  },
+  "action": {
+    "x": {
+      "start": 0,
+      "end": 1,
+      "dtype": "float64",
+      "absolute": false,
+      "rotation_type": null,
+      "original_key": "action"
+    },
+    "y": {
+      "start": 1,
+      "end": 2,
+      "dtype": "float64",
+      "absolute": false,
+      "rotation_type": null,
+      "original_key": "action"
+    },
+    "z": {
+      "start": 2,
+      "end": 3,
+      "dtype": "float64",
+      "absolute": false,
+      "rotation_type": null,
+      "original_key": "action"
+    },
+    "roll": {
+      "start": 3,
+      "end": 4,
+      "dtype": "float64",
+      "absolute": false,
+      "rotation_type": null,
+      "original_key": "action"
+    },
+    "pitch": {
+      "start": 4,
+      "end": 5,
+      "dtype": "float64",
+      "absolute": false,
+      "rotation_type": null,
+      "original_key": "action"
+    },
+    "yaw": {
+      "start": 5,
+      "end": 6,
+      "dtype": "float64",
+      "absolute": false,
+      "rotation_type": null,
+      "original_key": "action"
+    },
+    "gripper": {
+      "start": 6,
+      "end": 7,
+      "dtype": "float64",
+      "absolute": false,
+      "rotation_type": null,
+      "original_key": "action"
+    }
+  },
+  "video": {
+    "primary_image": {
+      "start": 0,
+      "end": 1,
+      "dtype": "video",
+      "absolute": true,
+      "rotation_type": null,
+      "original_key": "observation.images.image"
+    },
+    "wrist_image": {
+      "start": 0,
+      "end": 1,
+      "dtype": "video",
+      "absolute": true,
+      "rotation_type": null,
+      "original_key": "observation.images.wrist_image"
+    }
+  },
+  "annotation": {
+    "human.action.task_description": {
+      "original_key": "annotation.human.action.task_description"
+    }
+  }
+}

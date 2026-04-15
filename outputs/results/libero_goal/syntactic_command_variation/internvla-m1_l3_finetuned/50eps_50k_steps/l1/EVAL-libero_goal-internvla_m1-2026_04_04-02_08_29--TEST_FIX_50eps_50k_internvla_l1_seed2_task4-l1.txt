@@ -1,0 +1,470 @@
+=== LEVEL: L1 ===
+Found base syn file: /home/A.CARDAMONE7/repo/VLA-Bench/robosuite_test/LIBERO/libero/bddl_files/libero_goal/put_the_bowl_on_top_of_the_cabinet_syn_l1.bddl
+================================================================================
+TASK 5/10
+Versions to test: [-1, 1, 2, 3]
+================================================================================
+================================================================================
+Testing VERSION: syn_base
+Original Command:  Put the bowl on the top of the cabinet
+Variation Command: Place the bowl on the top of the cabinet
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=1--success=False--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 1 | success=False | running: 0/1 (0.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=2--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 2 | success=True | running: 1/2 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=3--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 3 | success=True | running: 2/3 (66.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=4--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 4 | success=True | running: 3/4 (75.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=5--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 5 | success=True | running: 4/5 (80.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=6--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 6 | success=True | running: 5/6 (83.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=7--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 7 | success=True | running: 6/7 (85.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=8--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 8 | success=True | running: 7/8 (87.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=9--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 9 | success=True | running: 8/9 (88.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=10--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 10 | success=True | running: 9/10 (90.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=11--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 11 | success=True | running: 10/11 (90.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=12--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 12 | success=True | running: 11/12 (91.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=13--success=False--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 13 | success=False | running: 11/13 (84.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=14--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 14 | success=True | running: 12/14 (85.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=15--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 15 | success=True | running: 13/15 (86.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=16--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 16 | success=True | running: 14/16 (87.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=17--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 17 | success=True | running: 15/17 (88.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=18--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 18 | success=True | running: 16/18 (88.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=19--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 19 | success=True | running: 17/19 (89.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=20--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 20 | success=True | running: 18/20 (90.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=21--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 21 | success=True | running: 19/21 (90.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=22--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 22 | success=True | running: 20/22 (90.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=23--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 23 | success=True | running: 21/23 (91.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=24--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 24 | success=True | running: 22/24 (91.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=25--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 25 | success=True | running: 23/25 (92.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=26--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 26 | success=True | running: 24/26 (92.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=27--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 27 | success=True | running: 25/27 (92.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=28--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 28 | success=True | running: 26/28 (92.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=29--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 29 | success=True | running: 27/29 (93.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=30--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 30 | success=True | running: 28/30 (93.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=31--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 31 | success=True | running: 29/31 (93.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=32--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 32 | success=True | running: 30/32 (93.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=33--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 33 | success=True | running: 31/33 (93.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=34--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 34 | success=True | running: 32/34 (94.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=35--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 35 | success=True | running: 33/35 (94.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=36--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 36 | success=True | running: 34/36 (94.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=37--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 37 | success=True | running: 35/37 (94.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=38--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 38 | success=True | running: 36/38 (94.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=39--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 39 | success=True | running: 37/39 (94.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=40--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 40 | success=True | running: 38/40 (95.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=41--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 41 | success=True | running: 39/41 (95.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=42--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 42 | success=True | running: 40/42 (95.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=43--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 43 | success=True | running: 41/43 (95.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=44--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 44 | success=True | running: 42/44 (95.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=45--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 45 | success=True | running: 43/45 (95.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=46--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 46 | success=True | running: 44/46 (95.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=47--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 47 | success=True | running: 45/47 (95.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=48--success=False--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 48 | success=False | running: 45/48 (93.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=49--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 49 | success=True | running: 46/49 (93.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=50--success=True--task=place_the_bowl_on_the_top_of_the_cabinet.mp4
+[syn_base] ep 50 | success=True | running: 47/50 (94.0%)
+
+================================================================================
+VERSION syn_base RESULTS:
+  Episodes:     50
+  Successes:    47
+  Success Rate: 94.0%
+================================================================================
+
+================================================================================
+Testing VERSION: v1
+Original Command:  Put the bowl on the top of the cabinet
+Variation Command: Position the bowl on the top of the cabinet
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=51--success=False--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 1 | success=False | running: 47/51 (92.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=52--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 2 | success=True | running: 48/52 (92.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=53--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 3 | success=True | running: 49/53 (92.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=54--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 4 | success=True | running: 50/54 (92.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=55--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 5 | success=True | running: 51/55 (92.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=56--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 6 | success=True | running: 52/56 (92.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=57--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 7 | success=True | running: 53/57 (93.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=58--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 8 | success=True | running: 54/58 (93.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=59--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 9 | success=True | running: 55/59 (93.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=60--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 10 | success=True | running: 56/60 (93.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=61--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 11 | success=True | running: 57/61 (93.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=62--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 12 | success=True | running: 58/62 (93.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=63--success=False--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 13 | success=False | running: 58/63 (92.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=64--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 14 | success=True | running: 59/64 (92.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=65--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 15 | success=True | running: 60/65 (92.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=66--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 16 | success=True | running: 61/66 (92.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=67--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 17 | success=True | running: 62/67 (92.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=68--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 18 | success=True | running: 63/68 (92.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=69--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 19 | success=True | running: 64/69 (92.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=70--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 20 | success=True | running: 65/70 (92.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=71--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 21 | success=True | running: 66/71 (93.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=72--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 22 | success=True | running: 67/72 (93.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=73--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 23 | success=True | running: 68/73 (93.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=74--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 24 | success=True | running: 69/74 (93.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=75--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 25 | success=True | running: 70/75 (93.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=76--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 26 | success=True | running: 71/76 (93.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=77--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 27 | success=True | running: 72/77 (93.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=78--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 28 | success=True | running: 73/78 (93.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=79--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 29 | success=True | running: 74/79 (93.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=80--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 30 | success=True | running: 75/80 (93.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=81--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 31 | success=True | running: 76/81 (93.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=82--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 32 | success=True | running: 77/82 (93.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=83--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 33 | success=True | running: 78/83 (94.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=84--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 34 | success=True | running: 79/84 (94.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=85--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 35 | success=True | running: 80/85 (94.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=86--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 36 | success=True | running: 81/86 (94.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=87--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 37 | success=True | running: 82/87 (94.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=88--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 38 | success=True | running: 83/88 (94.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=89--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 39 | success=True | running: 84/89 (94.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=90--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 40 | success=True | running: 85/90 (94.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=91--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 41 | success=True | running: 86/91 (94.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=92--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 42 | success=True | running: 87/92 (94.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=93--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 43 | success=True | running: 88/93 (94.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=94--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 44 | success=True | running: 89/94 (94.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=95--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 45 | success=True | running: 90/95 (94.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=96--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 46 | success=True | running: 91/96 (94.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=97--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 47 | success=True | running: 92/97 (94.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=98--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 48 | success=True | running: 93/98 (94.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=99--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 49 | success=True | running: 94/99 (94.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=100--success=True--task=position_the_bowl_on_the_top_of_the_cabinet.mp4
+[v1] ep 50 | success=True | running: 95/100 (95.0%)
+
+================================================================================
+VERSION v1 RESULTS:
+  Episodes:     50
+  Successes:    48
+  Success Rate: 96.0%
+================================================================================
+
+================================================================================
+Testing VERSION: v2
+Original Command:  Put the bowl on the top of the cabinet
+Variation Command: Rest the bowl on the top of the cabinet
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=101--success=False--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 1 | success=False | running: 95/101 (94.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=102--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 2 | success=True | running: 96/102 (94.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=103--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 3 | success=True | running: 97/103 (94.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=104--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 4 | success=True | running: 98/104 (94.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=105--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 5 | success=True | running: 99/105 (94.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=106--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 6 | success=True | running: 100/106 (94.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=107--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 7 | success=True | running: 101/107 (94.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=108--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 8 | success=True | running: 102/108 (94.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=109--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 9 | success=True | running: 103/109 (94.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=110--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 10 | success=True | running: 104/110 (94.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=111--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 11 | success=True | running: 105/111 (94.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=112--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 12 | success=True | running: 106/112 (94.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=113--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 13 | success=True | running: 107/113 (94.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=114--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 14 | success=True | running: 108/114 (94.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=115--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 15 | success=True | running: 109/115 (94.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=116--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 16 | success=True | running: 110/116 (94.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=117--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 17 | success=True | running: 111/117 (94.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=118--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 18 | success=True | running: 112/118 (94.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=119--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 19 | success=True | running: 113/119 (95.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=120--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 20 | success=True | running: 114/120 (95.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=121--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 21 | success=True | running: 115/121 (95.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=122--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 22 | success=True | running: 116/122 (95.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=123--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 23 | success=True | running: 117/123 (95.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=124--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 24 | success=True | running: 118/124 (95.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=125--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 25 | success=True | running: 119/125 (95.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=126--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 26 | success=True | running: 120/126 (95.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=127--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 27 | success=True | running: 121/127 (95.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=128--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 28 | success=True | running: 122/128 (95.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=129--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 29 | success=True | running: 123/129 (95.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=130--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 30 | success=True | running: 124/130 (95.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=131--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 31 | success=True | running: 125/131 (95.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=132--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 32 | success=True | running: 126/132 (95.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=133--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 33 | success=True | running: 127/133 (95.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=134--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 34 | success=True | running: 128/134 (95.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=135--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 35 | success=True | running: 129/135 (95.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=136--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 36 | success=True | running: 130/136 (95.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=137--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 37 | success=True | running: 131/137 (95.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=138--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 38 | success=True | running: 132/138 (95.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=139--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 39 | success=True | running: 133/139 (95.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=140--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 40 | success=True | running: 134/140 (95.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=141--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 41 | success=True | running: 135/141 (95.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=142--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 42 | success=True | running: 136/142 (95.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=143--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 43 | success=True | running: 137/143 (95.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=144--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 44 | success=True | running: 138/144 (95.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=145--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 45 | success=True | running: 139/145 (95.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=146--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 46 | success=True | running: 140/146 (95.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=147--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 47 | success=True | running: 141/147 (95.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=148--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 48 | success=True | running: 142/148 (95.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=149--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 49 | success=True | running: 143/149 (96.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=150--success=True--task=rest_the_bowl_on_the_top_of_the_cabinet.mp4
+[v2] ep 50 | success=True | running: 144/150 (96.0%)
+
+================================================================================
+VERSION v2 RESULTS:
+  Episodes:     50
+  Successes:    49
+  Success Rate: 98.0%
+================================================================================
+
+================================================================================
+Testing VERSION: v3
+Original Command:  Put the bowl on the top of the cabinet
+Variation Command: Lay the bowl on the top of the cabinet
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=151--success=False--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 1 | success=False | running: 144/151 (95.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=152--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 2 | success=True | running: 145/152 (95.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=153--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 3 | success=True | running: 146/153 (95.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=154--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 4 | success=True | running: 147/154 (95.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=155--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 5 | success=True | running: 148/155 (95.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=156--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 6 | success=True | running: 149/156 (95.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=157--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 7 | success=True | running: 150/157 (95.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=158--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 8 | success=True | running: 151/158 (95.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=159--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 9 | success=True | running: 152/159 (95.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=160--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 10 | success=True | running: 153/160 (95.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=161--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 11 | success=True | running: 154/161 (95.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=162--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 12 | success=True | running: 155/162 (95.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=163--success=False--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 13 | success=False | running: 155/163 (95.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=164--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 14 | success=True | running: 156/164 (95.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=165--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 15 | success=True | running: 157/165 (95.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=166--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 16 | success=True | running: 158/166 (95.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=167--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 17 | success=True | running: 159/167 (95.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=168--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 18 | success=True | running: 160/168 (95.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=169--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 19 | success=True | running: 161/169 (95.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=170--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 20 | success=True | running: 162/170 (95.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=171--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 21 | success=True | running: 163/171 (95.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=172--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 22 | success=True | running: 164/172 (95.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=173--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 23 | success=True | running: 165/173 (95.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=174--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 24 | success=True | running: 166/174 (95.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=175--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 25 | success=True | running: 167/175 (95.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=176--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 26 | success=True | running: 168/176 (95.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=177--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 27 | success=True | running: 169/177 (95.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=178--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 28 | success=True | running: 170/178 (95.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=179--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 29 | success=True | running: 171/179 (95.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=180--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 30 | success=True | running: 172/180 (95.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=181--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 31 | success=True | running: 173/181 (95.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=182--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 32 | success=True | running: 174/182 (95.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=183--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 33 | success=True | running: 175/183 (95.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=184--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 34 | success=True | running: 176/184 (95.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=185--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 35 | success=True | running: 177/185 (95.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=186--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 36 | success=True | running: 178/186 (95.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=187--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 37 | success=True | running: 179/187 (95.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=188--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 38 | success=True | running: 180/188 (95.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=189--success=False--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 39 | success=False | running: 180/189 (95.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=190--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 40 | success=True | running: 181/190 (95.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=191--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 41 | success=True | running: 182/191 (95.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=192--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 42 | success=True | running: 183/192 (95.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=193--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 43 | success=True | running: 184/193 (95.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=194--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 44 | success=True | running: 185/194 (95.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=195--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 45 | success=True | running: 186/195 (95.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=196--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 46 | success=True | running: 187/196 (95.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=197--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 47 | success=True | running: 188/197 (95.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=198--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 48 | success=True | running: 189/198 (95.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=199--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 49 | success=True | running: 190/199 (95.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-02_08_29--episode=200--success=True--task=lay_the_bowl_on_the_top_of_the_cabinet.mp4
+[v3] ep 50 | success=True | running: 191/200 (95.5%)
+
+================================================================================
+VERSION v3 RESULTS:
+  Episodes:     50
+  Successes:    47
+  Success Rate: 94.0%
+================================================================================
+
+================================================================================
+SUMMARY BY VERSION:
+--------------------------------------------------------------------------------
+    syn_base: 94.0% (47/50 episodes)
+          v1: 96.0% (48/50 episodes)
+          v2: 98.0% (49/50 episodes)
+          v3: 94.0% (47/50 episodes)
+--------------------------------------------------------------------------------
+     OVERALL: 95.5% (191/200 episodes)
+================================================================================
+Task SR: 0.9550
+LEVEL L1 SR: 0.9550

@@ -1,0 +1,1053 @@
+================================================================================
+ABLATION STUDY: Task 8 Keyword Shortcut Analysis
+================================================================================
+Task Name: Turn on the stove
+Base Command: turn on the stove
+Model: /home/A.CARDAMONE7/checkpoints/openvla-7b-oft-libero-goal-seed2
+Seed: 2
+Trials per ablation: 50
+Ablation tests: ['stove1', 'stove2', 'stove3', 'stove4']
+================================================================================
+================================================================================
+ABLATION TASK: STOVE1
+BDDL File: turn_on_the_stove_ablation_stove1.bddl
+================================================================================
+Using default initial states
+Original Task 8 Command: Turn on the stove
+Ablation Command (from BDDL): 'stove'
+Starting episode 1...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=1--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+Starting episode 2...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=2--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+Starting episode 3...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=3--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+Starting episode 4...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=4--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+Starting episode 5...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=5--success=False--task=ablation_task8_stove1_stove.mp4
+Success: False
+# episodes completed so far: 5
+# successes: 4 (80.0%)
+Starting episode 6...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=6--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 6
+# successes: 5 (83.3%)
+Starting episode 7...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=7--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 7
+# successes: 6 (85.7%)
+Starting episode 8...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=8--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 8
+# successes: 7 (87.5%)
+Starting episode 9...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=9--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 9
+# successes: 8 (88.9%)
+Starting episode 10...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=10--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 10
+# successes: 9 (90.0%)
+Starting episode 11...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=11--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 11
+# successes: 10 (90.9%)
+Starting episode 12...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=12--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 12
+# successes: 11 (91.7%)
+Starting episode 13...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=13--success=False--task=ablation_task8_stove1_stove.mp4
+Success: False
+# episodes completed so far: 13
+# successes: 11 (84.6%)
+Starting episode 14...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=14--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 14
+# successes: 12 (85.7%)
+Starting episode 15...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=15--success=False--task=ablation_task8_stove1_stove.mp4
+Success: False
+# episodes completed so far: 15
+# successes: 12 (80.0%)
+Starting episode 16...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=16--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 16
+# successes: 13 (81.2%)
+Starting episode 17...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=17--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 17
+# successes: 14 (82.4%)
+Starting episode 18...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=18--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 18
+# successes: 15 (83.3%)
+Starting episode 19...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=19--success=False--task=ablation_task8_stove1_stove.mp4
+Success: False
+# episodes completed so far: 19
+# successes: 15 (78.9%)
+Starting episode 20...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=20--success=False--task=ablation_task8_stove1_stove.mp4
+Success: False
+# episodes completed so far: 20
+# successes: 15 (75.0%)
+Starting episode 21...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=21--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 21
+# successes: 16 (76.2%)
+Starting episode 22...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=22--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 22
+# successes: 17 (77.3%)
+Starting episode 23...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=23--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 23
+# successes: 18 (78.3%)
+Starting episode 24...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=24--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 24
+# successes: 19 (79.2%)
+Starting episode 25...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=25--success=False--task=ablation_task8_stove1_stove.mp4
+Success: False
+# episodes completed so far: 25
+# successes: 19 (76.0%)
+Starting episode 26...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=26--success=False--task=ablation_task8_stove1_stove.mp4
+Success: False
+# episodes completed so far: 26
+# successes: 19 (73.1%)
+Starting episode 27...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=27--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 27
+# successes: 20 (74.1%)
+Starting episode 28...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=28--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 28
+# successes: 21 (75.0%)
+Starting episode 29...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=29--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 29
+# successes: 22 (75.9%)
+Starting episode 30...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=30--success=False--task=ablation_task8_stove1_stove.mp4
+Success: False
+# episodes completed so far: 30
+# successes: 22 (73.3%)
+Starting episode 31...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=31--success=False--task=ablation_task8_stove1_stove.mp4
+Success: False
+# episodes completed so far: 31
+# successes: 22 (71.0%)
+Starting episode 32...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=32--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 32
+# successes: 23 (71.9%)
+Starting episode 33...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=33--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 33
+# successes: 24 (72.7%)
+Starting episode 34...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=34--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 34
+# successes: 25 (73.5%)
+Starting episode 35...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=35--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 35
+# successes: 26 (74.3%)
+Starting episode 36...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=36--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 36
+# successes: 27 (75.0%)
+Starting episode 37...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=37--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 37
+# successes: 28 (75.7%)
+Starting episode 38...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=38--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 38
+# successes: 29 (76.3%)
+Starting episode 39...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=39--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 39
+# successes: 30 (76.9%)
+Starting episode 40...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=40--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 40
+# successes: 31 (77.5%)
+Starting episode 41...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=41--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 41
+# successes: 32 (78.0%)
+Starting episode 42...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=42--success=False--task=ablation_task8_stove1_stove.mp4
+Success: False
+# episodes completed so far: 42
+# successes: 32 (76.2%)
+Starting episode 43...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=43--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 43
+# successes: 33 (76.7%)
+Starting episode 44...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=44--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 44
+# successes: 34 (77.3%)
+Starting episode 45...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=45--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 45
+# successes: 35 (77.8%)
+Starting episode 46...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=46--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 46
+# successes: 36 (78.3%)
+Starting episode 47...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=47--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 47
+# successes: 37 (78.7%)
+Starting episode 48...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=48--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 48
+# successes: 38 (79.2%)
+Starting episode 49...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=49--success=False--task=ablation_task8_stove1_stove.mp4
+Success: False
+# episodes completed so far: 49
+# successes: 38 (77.6%)
+Starting episode 50...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=50--success=True--task=ablation_task8_stove1_stove.mp4
+Success: True
+# episodes completed so far: 50
+# successes: 39 (78.0%)
+Current task success rate: 0.78
+================================================================================
+ABLATION TASK: STOVE2
+BDDL File: turn_on_the_stove_ablation_stove2.bddl
+================================================================================
+Using default initial states
+Original Task 8 Command: Turn on the stove
+Ablation Command (from BDDL): 'bowl stove'
+Starting episode 1...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=1--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+Starting episode 2...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=2--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+Starting episode 3...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=3--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 3
+# successes: 0 (0.0%)
+Starting episode 4...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=4--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 4
+# successes: 0 (0.0%)
+Starting episode 5...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=5--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 5
+# successes: 0 (0.0%)
+Starting episode 6...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=6--success=True--task=ablation_task8_stove2_bowl_stove.mp4
+Success: True
+# episodes completed so far: 6
+# successes: 1 (16.7%)
+Starting episode 7...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=7--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 7
+# successes: 1 (14.3%)
+Starting episode 8...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=8--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 8
+# successes: 1 (12.5%)
+Starting episode 9...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=9--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 9
+# successes: 1 (11.1%)
+Starting episode 10...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=10--success=True--task=ablation_task8_stove2_bowl_stove.mp4
+Success: True
+# episodes completed so far: 10
+# successes: 2 (20.0%)
+Starting episode 11...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=11--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 11
+# successes: 2 (18.2%)
+Starting episode 12...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=12--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 12
+# successes: 2 (16.7%)
+Starting episode 13...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=13--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 13
+# successes: 2 (15.4%)
+Starting episode 14...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=14--success=True--task=ablation_task8_stove2_bowl_stove.mp4
+Success: True
+# episodes completed so far: 14
+# successes: 3 (21.4%)
+Starting episode 15...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=15--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 15
+# successes: 3 (20.0%)
+Starting episode 16...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=16--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 16
+# successes: 3 (18.8%)
+Starting episode 17...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=17--success=True--task=ablation_task8_stove2_bowl_stove.mp4
+Success: True
+# episodes completed so far: 17
+# successes: 4 (23.5%)
+Starting episode 18...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=18--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 18
+# successes: 4 (22.2%)
+Starting episode 19...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=19--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 19
+# successes: 4 (21.1%)
+Starting episode 20...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=20--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 20
+# successes: 4 (20.0%)
+Starting episode 21...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=21--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 21
+# successes: 4 (19.0%)
+Starting episode 22...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=22--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 22
+# successes: 4 (18.2%)
+Starting episode 23...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=23--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 23
+# successes: 4 (17.4%)
+Starting episode 24...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=24--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 24
+# successes: 4 (16.7%)
+Starting episode 25...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=25--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 25
+# successes: 4 (16.0%)
+Starting episode 26...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=26--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 26
+# successes: 4 (15.4%)
+Starting episode 27...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=27--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 27
+# successes: 4 (14.8%)
+Starting episode 28...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=28--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 28
+# successes: 4 (14.3%)
+Starting episode 29...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=29--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 29
+# successes: 4 (13.8%)
+Starting episode 30...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=30--success=True--task=ablation_task8_stove2_bowl_stove.mp4
+Success: True
+# episodes completed so far: 30
+# successes: 5 (16.7%)
+Starting episode 31...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=31--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 31
+# successes: 5 (16.1%)
+Starting episode 32...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=32--success=True--task=ablation_task8_stove2_bowl_stove.mp4
+Success: True
+# episodes completed so far: 32
+# successes: 6 (18.8%)
+Starting episode 33...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=33--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 33
+# successes: 6 (18.2%)
+Starting episode 34...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=34--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 34
+# successes: 6 (17.6%)
+Starting episode 35...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=35--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 35
+# successes: 6 (17.1%)
+Starting episode 36...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=36--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 36
+# successes: 6 (16.7%)
+Starting episode 37...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=37--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 37
+# successes: 6 (16.2%)
+Starting episode 38...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=38--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 38
+# successes: 6 (15.8%)
+Starting episode 39...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=39--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 39
+# successes: 6 (15.4%)
+Starting episode 40...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=40--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 40
+# successes: 6 (15.0%)
+Starting episode 41...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=41--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 41
+# successes: 6 (14.6%)
+Starting episode 42...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=42--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 42
+# successes: 6 (14.3%)
+Starting episode 43...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=43--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 43
+# successes: 6 (14.0%)
+Starting episode 44...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=44--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 44
+# successes: 6 (13.6%)
+Starting episode 45...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=45--success=True--task=ablation_task8_stove2_bowl_stove.mp4
+Success: True
+# episodes completed so far: 45
+# successes: 7 (15.6%)
+Starting episode 46...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=46--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 46
+# successes: 7 (15.2%)
+Starting episode 47...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=47--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 47
+# successes: 7 (14.9%)
+Starting episode 48...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=48--success=True--task=ablation_task8_stove2_bowl_stove.mp4
+Success: True
+# episodes completed so far: 48
+# successes: 8 (16.7%)
+Starting episode 49...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=49--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 49
+# successes: 8 (16.3%)
+Starting episode 50...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=50--success=False--task=ablation_task8_stove2_bowl_stove.mp4
+Success: False
+# episodes completed so far: 50
+# successes: 8 (16.0%)
+Current task success rate: 0.16
+================================================================================
+ABLATION TASK: STOVE3
+BDDL File: turn_on_the_stove_ablation_stove3.bddl
+================================================================================
+Using default initial states
+Original Task 8 Command: Turn on the stove
+Ablation Command (from BDDL): 'plate stove'
+Starting episode 1...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=1--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+Starting episode 2...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=2--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+Starting episode 3...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=3--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 3
+# successes: 0 (0.0%)
+Starting episode 4...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=4--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 4
+# successes: 0 (0.0%)
+Starting episode 5...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=5--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 5
+# successes: 0 (0.0%)
+Starting episode 6...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=6--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 6
+# successes: 0 (0.0%)
+Starting episode 7...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=7--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 7
+# successes: 0 (0.0%)
+Starting episode 8...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=8--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 8
+# successes: 0 (0.0%)
+Starting episode 9...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=9--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 9
+# successes: 0 (0.0%)
+Starting episode 10...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=10--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 10
+# successes: 0 (0.0%)
+Starting episode 11...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=11--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 11
+# successes: 0 (0.0%)
+Starting episode 12...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=12--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 12
+# successes: 0 (0.0%)
+Starting episode 13...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=13--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 13
+# successes: 0 (0.0%)
+Starting episode 14...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=14--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 14
+# successes: 0 (0.0%)
+Starting episode 15...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=15--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 15
+# successes: 0 (0.0%)
+Starting episode 16...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=16--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 16
+# successes: 0 (0.0%)
+Starting episode 17...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=17--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 17
+# successes: 0 (0.0%)
+Starting episode 18...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=18--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 18
+# successes: 0 (0.0%)
+Starting episode 19...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=19--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 19
+# successes: 0 (0.0%)
+Starting episode 20...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=20--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 20
+# successes: 0 (0.0%)
+Starting episode 21...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=21--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 21
+# successes: 0 (0.0%)
+Starting episode 22...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=22--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 22
+# successes: 0 (0.0%)
+Starting episode 23...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=23--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 23
+# successes: 0 (0.0%)
+Starting episode 24...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=24--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 24
+# successes: 0 (0.0%)
+Starting episode 25...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=25--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 25
+# successes: 0 (0.0%)
+Starting episode 26...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=26--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 26
+# successes: 0 (0.0%)
+Starting episode 27...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=27--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 27
+# successes: 0 (0.0%)
+Starting episode 28...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=28--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 28
+# successes: 0 (0.0%)
+Starting episode 29...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=29--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 29
+# successes: 0 (0.0%)
+Starting episode 30...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=30--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 30
+# successes: 0 (0.0%)
+Starting episode 31...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=31--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 31
+# successes: 0 (0.0%)
+Starting episode 32...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=32--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 32
+# successes: 0 (0.0%)
+Starting episode 33...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=33--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 33
+# successes: 0 (0.0%)
+Starting episode 34...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=34--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 34
+# successes: 0 (0.0%)
+Starting episode 35...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=35--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 35
+# successes: 0 (0.0%)
+Starting episode 36...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=36--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 36
+# successes: 0 (0.0%)
+Starting episode 37...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=37--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 37
+# successes: 0 (0.0%)
+Starting episode 38...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=38--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 38
+# successes: 0 (0.0%)
+Starting episode 39...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=39--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 39
+# successes: 0 (0.0%)
+Starting episode 40...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=40--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 40
+# successes: 0 (0.0%)
+Starting episode 41...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=41--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 41
+# successes: 0 (0.0%)
+Starting episode 42...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=42--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 42
+# successes: 0 (0.0%)
+Starting episode 43...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=43--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 43
+# successes: 0 (0.0%)
+Starting episode 44...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=44--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 44
+# successes: 0 (0.0%)
+Starting episode 45...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=45--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 45
+# successes: 0 (0.0%)
+Starting episode 46...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=46--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 46
+# successes: 0 (0.0%)
+Starting episode 47...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=47--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 47
+# successes: 0 (0.0%)
+Starting episode 48...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=48--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 48
+# successes: 0 (0.0%)
+Starting episode 49...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=49--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 49
+# successes: 0 (0.0%)
+Starting episode 50...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=50--success=False--task=ablation_task8_stove3_plate_stove.mp4
+Success: False
+# episodes completed so far: 50
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+================================================================================
+ABLATION TASK: STOVE4
+BDDL File: turn_on_the_stove_ablation_stove4.bddl
+================================================================================
+Using default initial states
+Original Task 8 Command: Turn on the stove
+Ablation Command (from BDDL): 'Turn on'
+Starting episode 1...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=1--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+Starting episode 2...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=2--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+Starting episode 3...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=3--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+Starting episode 4...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=4--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+Starting episode 5...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=5--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+Starting episode 6...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=6--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 6
+# successes: 6 (100.0%)
+Starting episode 7...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=7--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 7
+# successes: 7 (100.0%)
+Starting episode 8...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=8--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 8
+# successes: 8 (100.0%)
+Starting episode 9...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=9--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 9
+# successes: 9 (100.0%)
+Starting episode 10...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=10--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 10
+# successes: 10 (100.0%)
+Starting episode 11...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=11--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 11
+# successes: 11 (100.0%)
+Starting episode 12...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=12--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 12
+# successes: 12 (100.0%)
+Starting episode 13...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=13--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 13
+# successes: 13 (100.0%)
+Starting episode 14...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=14--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 14
+# successes: 14 (100.0%)
+Starting episode 15...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=15--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 15
+# successes: 15 (100.0%)
+Starting episode 16...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=16--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 16
+# successes: 16 (100.0%)
+Starting episode 17...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=17--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 17
+# successes: 17 (100.0%)
+Starting episode 18...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=18--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 18
+# successes: 18 (100.0%)
+Starting episode 19...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=19--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 19
+# successes: 19 (100.0%)
+Starting episode 20...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=20--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 20
+# successes: 20 (100.0%)
+Starting episode 21...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=21--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 21
+# successes: 21 (100.0%)
+Starting episode 22...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=22--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 22
+# successes: 22 (100.0%)
+Starting episode 23...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=23--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 23
+# successes: 23 (100.0%)
+Starting episode 24...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=24--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 24
+# successes: 24 (100.0%)
+Starting episode 25...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=25--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 25
+# successes: 25 (100.0%)
+Starting episode 26...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=26--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 26
+# successes: 26 (100.0%)
+Starting episode 27...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=27--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 27
+# successes: 27 (100.0%)
+Starting episode 28...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=28--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 28
+# successes: 28 (100.0%)
+Starting episode 29...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=29--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 29
+# successes: 29 (100.0%)
+Starting episode 30...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=30--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 30
+# successes: 30 (100.0%)
+Starting episode 31...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=31--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 31
+# successes: 31 (100.0%)
+Starting episode 32...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=32--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 32
+# successes: 32 (100.0%)
+Starting episode 33...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=33--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 33
+# successes: 33 (100.0%)
+Starting episode 34...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=34--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 34
+# successes: 34 (100.0%)
+Starting episode 35...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=35--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 35
+# successes: 35 (100.0%)
+Starting episode 36...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=36--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 36
+# successes: 36 (100.0%)
+Starting episode 37...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=37--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 37
+# successes: 37 (100.0%)
+Starting episode 38...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=38--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 38
+# successes: 38 (100.0%)
+Starting episode 39...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=39--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 39
+# successes: 39 (100.0%)
+Starting episode 40...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=40--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 40
+# successes: 40 (100.0%)
+Starting episode 41...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=41--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 41
+# successes: 41 (100.0%)
+Starting episode 42...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=42--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 42
+# successes: 42 (100.0%)
+Starting episode 43...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=43--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 43
+# successes: 43 (100.0%)
+Starting episode 44...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=44--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 44
+# successes: 44 (100.0%)
+Starting episode 45...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=45--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 45
+# successes: 45 (100.0%)
+Starting episode 46...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=46--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 46
+# successes: 46 (100.0%)
+Starting episode 47...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=47--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 47
+# successes: 47 (100.0%)
+Starting episode 48...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=48--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 48
+# successes: 48 (100.0%)
+Starting episode 49...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=49--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 49
+# successes: 49 (100.0%)
+Starting episode 50...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_28-19_25_42--episode=50--success=True--task=ablation_task8_stove4_turn_on.mp4
+Success: True
+# episodes completed so far: 50
+# successes: 50 (100.0%)
+Current task success rate: 1.0
+
+================================================================================
+FINAL RESULTS
+================================================================================
+stove1 ('stove'): 78.0% (39/50)
+stove2 ('bowl stove'): 16.0% (8/50)
+stove3 ('plate stove'): 0.0% (0/50)
+stove4 ('Turn on'): 100.0% (50/50)
+
+AVERAGE: 48.5%
+================================================================================

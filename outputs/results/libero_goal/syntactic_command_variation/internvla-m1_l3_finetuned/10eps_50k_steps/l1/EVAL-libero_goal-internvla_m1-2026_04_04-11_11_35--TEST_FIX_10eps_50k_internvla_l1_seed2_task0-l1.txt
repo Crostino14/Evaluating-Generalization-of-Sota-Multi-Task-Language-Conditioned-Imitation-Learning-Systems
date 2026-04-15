@@ -1,0 +1,470 @@
+=== LEVEL: L1 ===
+Found base syn file: /home/A.CARDAMONE7/repo/VLA-Bench/robosuite_test/LIBERO/libero/bddl_files/libero_goal/open_the_middle_drawer_of_the_cabinet_syn_l1.bddl
+================================================================================
+TASK 1/10
+Versions to test: [-1, 1, 2, 3]
+================================================================================
+================================================================================
+Testing VERSION: syn_base
+Original Command:  Open the middle layer of the drawer
+Variation Command: Pull the middle layer of the drawer
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=1--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 1 | success=True | running: 1/1 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=2--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 2 | success=True | running: 2/2 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=3--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 3 | success=True | running: 3/3 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=4--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 4 | success=True | running: 4/4 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=5--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 5 | success=True | running: 5/5 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=6--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 6 | success=True | running: 6/6 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=7--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 7 | success=True | running: 7/7 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=8--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 8 | success=True | running: 8/8 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=9--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 9 | success=True | running: 9/9 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=10--success=False--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 10 | success=False | running: 9/10 (90.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=11--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 11 | success=True | running: 10/11 (90.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=12--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 12 | success=True | running: 11/12 (91.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=13--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 13 | success=True | running: 12/13 (92.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=14--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 14 | success=True | running: 13/14 (92.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=15--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 15 | success=True | running: 14/15 (93.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=16--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 16 | success=True | running: 15/16 (93.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=17--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 17 | success=True | running: 16/17 (94.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=18--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 18 | success=True | running: 17/18 (94.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=19--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 19 | success=True | running: 18/19 (94.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=20--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 20 | success=True | running: 19/20 (95.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=21--success=False--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 21 | success=False | running: 19/21 (90.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=22--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 22 | success=True | running: 20/22 (90.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=23--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 23 | success=True | running: 21/23 (91.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=24--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 24 | success=True | running: 22/24 (91.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=25--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 25 | success=True | running: 23/25 (92.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=26--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 26 | success=True | running: 24/26 (92.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=27--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 27 | success=True | running: 25/27 (92.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=28--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 28 | success=True | running: 26/28 (92.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=29--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 29 | success=True | running: 27/29 (93.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=30--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 30 | success=True | running: 28/30 (93.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=31--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 31 | success=True | running: 29/31 (93.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=32--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 32 | success=True | running: 30/32 (93.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=33--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 33 | success=True | running: 31/33 (93.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=34--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 34 | success=True | running: 32/34 (94.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=35--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 35 | success=True | running: 33/35 (94.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=36--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 36 | success=True | running: 34/36 (94.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=37--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 37 | success=True | running: 35/37 (94.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=38--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 38 | success=True | running: 36/38 (94.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=39--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 39 | success=True | running: 37/39 (94.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=40--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 40 | success=True | running: 38/40 (95.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=41--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 41 | success=True | running: 39/41 (95.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=42--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 42 | success=True | running: 40/42 (95.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=43--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 43 | success=True | running: 41/43 (95.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=44--success=False--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 44 | success=False | running: 41/44 (93.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=45--success=False--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 45 | success=False | running: 41/45 (91.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=46--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 46 | success=True | running: 42/46 (91.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=47--success=False--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 47 | success=False | running: 42/47 (89.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=48--success=False--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 48 | success=False | running: 42/48 (87.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=49--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 49 | success=True | running: 43/49 (87.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=50--success=True--task=pull_the_middle_layer_of_the_drawer.mp4
+[syn_base] ep 50 | success=True | running: 44/50 (88.0%)
+
+================================================================================
+VERSION syn_base RESULTS:
+  Episodes:     50
+  Successes:    44
+  Success Rate: 88.0%
+================================================================================
+
+================================================================================
+Testing VERSION: v1
+Original Command:  Open the middle layer of the drawer
+Variation Command: Draw out the middle drawer of the cabinet
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=51--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 1 | success=True | running: 45/51 (88.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=52--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 2 | success=True | running: 46/52 (88.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=53--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 3 | success=True | running: 47/53 (88.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=54--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 4 | success=True | running: 48/54 (88.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=55--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 5 | success=True | running: 49/55 (89.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=56--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 6 | success=True | running: 50/56 (89.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=57--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 7 | success=True | running: 51/57 (89.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=58--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 8 | success=True | running: 52/58 (89.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=59--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 9 | success=True | running: 53/59 (89.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=60--success=False--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 10 | success=False | running: 53/60 (88.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=61--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 11 | success=True | running: 54/61 (88.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=62--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 12 | success=True | running: 55/62 (88.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=63--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 13 | success=True | running: 56/63 (88.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=64--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 14 | success=True | running: 57/64 (89.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=65--success=False--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 15 | success=False | running: 57/65 (87.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=66--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 16 | success=True | running: 58/66 (87.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=67--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 17 | success=True | running: 59/67 (88.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=68--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 18 | success=True | running: 60/68 (88.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=69--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 19 | success=True | running: 61/69 (88.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=70--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 20 | success=True | running: 62/70 (88.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=71--success=False--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 21 | success=False | running: 62/71 (87.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=72--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 22 | success=True | running: 63/72 (87.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=73--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 23 | success=True | running: 64/73 (87.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=74--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 24 | success=True | running: 65/74 (87.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=75--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 25 | success=True | running: 66/75 (88.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=76--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 26 | success=True | running: 67/76 (88.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=77--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 27 | success=True | running: 68/77 (88.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=78--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 28 | success=True | running: 69/78 (88.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=79--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 29 | success=True | running: 70/79 (88.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=80--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 30 | success=True | running: 71/80 (88.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=81--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 31 | success=True | running: 72/81 (88.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=82--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 32 | success=True | running: 73/82 (89.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=83--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 33 | success=True | running: 74/83 (89.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=84--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 34 | success=True | running: 75/84 (89.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=85--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 35 | success=True | running: 76/85 (89.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=86--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 36 | success=True | running: 77/86 (89.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=87--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 37 | success=True | running: 78/87 (89.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=88--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 38 | success=True | running: 79/88 (89.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=89--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 39 | success=True | running: 80/89 (89.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=90--success=False--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 40 | success=False | running: 80/90 (88.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=91--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 41 | success=True | running: 81/91 (89.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=92--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 42 | success=True | running: 82/92 (89.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=93--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 43 | success=True | running: 83/93 (89.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=94--success=False--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 44 | success=False | running: 83/94 (88.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=95--success=False--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 45 | success=False | running: 83/95 (87.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=96--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 46 | success=True | running: 84/96 (87.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=97--success=False--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 47 | success=False | running: 84/97 (86.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=98--success=False--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 48 | success=False | running: 84/98 (85.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=99--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 49 | success=True | running: 85/99 (85.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=100--success=True--task=draw_out_the_middle_drawer_of_the_cabinet.mp4
+[v1] ep 50 | success=True | running: 86/100 (86.0%)
+
+================================================================================
+VERSION v1 RESULTS:
+  Episodes:     50
+  Successes:    42
+  Success Rate: 84.0%
+================================================================================
+
+================================================================================
+Testing VERSION: v2
+Original Command:  Open the middle layer of the drawer
+Variation Command: Slide out the middle drawer of the cabinet
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=101--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 1 | success=True | running: 87/101 (86.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=102--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 2 | success=True | running: 88/102 (86.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=103--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 3 | success=True | running: 89/103 (86.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=104--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 4 | success=True | running: 90/104 (86.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=105--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 5 | success=True | running: 91/105 (86.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=106--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 6 | success=True | running: 92/106 (86.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=107--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 7 | success=True | running: 93/107 (86.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=108--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 8 | success=True | running: 94/108 (87.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=109--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 9 | success=True | running: 95/109 (87.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=110--success=False--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 10 | success=False | running: 95/110 (86.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=111--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 11 | success=True | running: 96/111 (86.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=112--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 12 | success=True | running: 97/112 (86.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=113--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 13 | success=True | running: 98/113 (86.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=114--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 14 | success=True | running: 99/114 (86.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=115--success=False--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 15 | success=False | running: 99/115 (86.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=116--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 16 | success=True | running: 100/116 (86.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=117--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 17 | success=True | running: 101/117 (86.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=118--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 18 | success=True | running: 102/118 (86.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=119--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 19 | success=True | running: 103/119 (86.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=120--success=False--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 20 | success=False | running: 103/120 (85.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=121--success=False--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 21 | success=False | running: 103/121 (85.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=122--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 22 | success=True | running: 104/122 (85.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=123--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 23 | success=True | running: 105/123 (85.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=124--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 24 | success=True | running: 106/124 (85.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=125--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 25 | success=True | running: 107/125 (85.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=126--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 26 | success=True | running: 108/126 (85.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=127--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 27 | success=True | running: 109/127 (85.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=128--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 28 | success=True | running: 110/128 (85.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=129--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 29 | success=True | running: 111/129 (86.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=130--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 30 | success=True | running: 112/130 (86.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=131--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 31 | success=True | running: 113/131 (86.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=132--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 32 | success=True | running: 114/132 (86.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=133--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 33 | success=True | running: 115/133 (86.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=134--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 34 | success=True | running: 116/134 (86.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=135--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 35 | success=True | running: 117/135 (86.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=136--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 36 | success=True | running: 118/136 (86.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=137--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 37 | success=True | running: 119/137 (86.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=138--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 38 | success=True | running: 120/138 (87.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=139--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 39 | success=True | running: 121/139 (87.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=140--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 40 | success=True | running: 122/140 (87.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=141--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 41 | success=True | running: 123/141 (87.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=142--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 42 | success=True | running: 124/142 (87.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=143--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 43 | success=True | running: 125/143 (87.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=144--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 44 | success=True | running: 126/144 (87.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=145--success=False--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 45 | success=False | running: 126/145 (86.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=146--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 46 | success=True | running: 127/146 (87.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=147--success=False--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 47 | success=False | running: 127/147 (86.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=148--success=False--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 48 | success=False | running: 127/148 (85.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=149--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 49 | success=True | running: 128/149 (85.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=150--success=True--task=slide_out_the_middle_drawer_of_the_cabinet.mp4
+[v2] ep 50 | success=True | running: 129/150 (86.0%)
+
+================================================================================
+VERSION v2 RESULTS:
+  Episodes:     50
+  Successes:    43
+  Success Rate: 86.0%
+================================================================================
+
+================================================================================
+Testing VERSION: v3
+Original Command:  Open the middle layer of the drawer
+Variation Command: Ease out the middle drawer of the cabinet
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=151--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 1 | success=True | running: 130/151 (86.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=152--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 2 | success=True | running: 131/152 (86.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=153--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 3 | success=True | running: 132/153 (86.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=154--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 4 | success=True | running: 133/154 (86.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=155--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 5 | success=True | running: 134/155 (86.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=156--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 6 | success=True | running: 135/156 (86.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=157--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 7 | success=True | running: 136/157 (86.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=158--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 8 | success=True | running: 137/158 (86.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=159--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 9 | success=True | running: 138/159 (86.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=160--success=False--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 10 | success=False | running: 138/160 (86.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=161--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 11 | success=True | running: 139/161 (86.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=162--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 12 | success=True | running: 140/162 (86.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=163--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 13 | success=True | running: 141/163 (86.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=164--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 14 | success=True | running: 142/164 (86.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=165--success=False--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 15 | success=False | running: 142/165 (86.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=166--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 16 | success=True | running: 143/166 (86.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=167--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 17 | success=True | running: 144/167 (86.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=168--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 18 | success=True | running: 145/168 (86.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=169--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 19 | success=True | running: 146/169 (86.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=170--success=False--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 20 | success=False | running: 146/170 (85.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=171--success=False--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 21 | success=False | running: 146/171 (85.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=172--success=False--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 22 | success=False | running: 146/172 (84.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=173--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 23 | success=True | running: 147/173 (85.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=174--success=False--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 24 | success=False | running: 147/174 (84.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=175--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 25 | success=True | running: 148/175 (84.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=176--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 26 | success=True | running: 149/176 (84.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=177--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 27 | success=True | running: 150/177 (84.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=178--success=False--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 28 | success=False | running: 150/178 (84.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=179--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 29 | success=True | running: 151/179 (84.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=180--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 30 | success=True | running: 152/180 (84.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=181--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 31 | success=True | running: 153/181 (84.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=182--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 32 | success=True | running: 154/182 (84.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=183--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 33 | success=True | running: 155/183 (84.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=184--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 34 | success=True | running: 156/184 (84.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=185--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 35 | success=True | running: 157/185 (84.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=186--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 36 | success=True | running: 158/186 (84.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=187--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 37 | success=True | running: 159/187 (85.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=188--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 38 | success=True | running: 160/188 (85.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=189--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 39 | success=True | running: 161/189 (85.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=190--success=False--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 40 | success=False | running: 161/190 (84.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=191--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 41 | success=True | running: 162/191 (84.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=192--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 42 | success=True | running: 163/192 (84.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=193--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 43 | success=True | running: 164/193 (85.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=194--success=False--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 44 | success=False | running: 164/194 (84.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=195--success=False--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 45 | success=False | running: 164/195 (84.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=196--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 46 | success=True | running: 165/196 (84.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=197--success=False--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 47 | success=False | running: 165/197 (83.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=198--success=False--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 48 | success=False | running: 165/198 (83.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=199--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 49 | success=True | running: 166/199 (83.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l1/run_2/2026_04_04-11_11_35--episode=200--success=True--task=ease_out_the_middle_drawer_of_the_cabinet.mp4
+[v3] ep 50 | success=True | running: 167/200 (83.5%)
+
+================================================================================
+VERSION v3 RESULTS:
+  Episodes:     50
+  Successes:    38
+  Success Rate: 76.0%
+================================================================================
+
+================================================================================
+SUMMARY BY VERSION:
+--------------------------------------------------------------------------------
+    syn_base: 88.0% (44/50 episodes)
+          v1: 84.0% (42/50 episodes)
+          v2: 86.0% (43/50 episodes)
+          v3: 76.0% (38/50 episodes)
+--------------------------------------------------------------------------------
+     OVERALL: 83.5% (167/200 episodes)
+================================================================================
+Task SR: 0.8350
+LEVEL L1 SR: 0.8350

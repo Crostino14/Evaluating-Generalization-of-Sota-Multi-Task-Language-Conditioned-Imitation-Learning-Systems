@@ -1,0 +1,983 @@
+==========================================
+Starting LIBERO Goal Evaluation
+Job ID: 175960
+Array Task ID (Seed): 0
+Seed: 0
+Model: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/openvla/openvla-7b+libero_goal_no_noops_20000_chkpt
+Start time: Mon Mar  9 10:55:11 PM CET 2026
+
+Using LIBERO constants:
+  NUM_ACTIONS_CHUNK = 8
+  ACTION_DIM = 7
+  PROPRIO_DIM = 8
+  ACTION_PROPRIO_NORMALIZATION_TYPE = bounds_q99
+If needed, manually set the correct constants in `prismatic/vla/constants.py`!
+Instantiating pretrained VLA policy...
+Created backup of original config at: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/openvla/openvla-7b+libero_goal_no_noops_20000_chkpt/config.json.back.20260309_225537
+Updated config.json at: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/openvla/openvla-7b+libero_goal_no_noops_20000_chkpt/config.json
+Changes made:
+  - Set AutoConfig to "configuration_prismatic.OpenVLAConfig"
+  - Set AutoModelForVision2Seq to "modeling_prismatic.OpenVLAForActionPrediction"
+03/09 [22:55:49] INFO     | >> Action head caricato       run_libero_eval.py:183
+                          separatamente                                         
+                 INFO     | >> Available norm_stats keys: run_libero_eval.py:206
+                          ['libero_goal_no_noops']                              
+                 INFO     | >> cfg.unnorm_key from        run_libero_eval.py:207
+                          config: 'libero_goal_noops'                           
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+                 INFO     | >> Logging to local log file: run_libero_eval.py:244
+                          /mnt/beegfs/a.cardamone7/output                       
+                          s/logs/EVAL-libero_goal-openvla                       
+                          -2026_03_09-22_55_37--libero_go                       
+                          al_eval_task4_l2_seed_0--l2.txt                       
+                 INFO     | >>                            run_libero_eval.py:259
+                          ===============================                       
+                          ===============================                       
+                          ==================                                    
+                 INFO     | >> EVALUATING: L2             run_libero_eval.py:259
+                 INFO     | >>                            run_libero_eval.py:259
+                          ===============================                       
+                          ===============================                       
+                          ==================                                    
+                 INFO     | >> Task suite: libero_goal    run_libero_eval.py:259
+                 INFO     | >> Testing command level: l2  run_libero_eval.py:259
+                 INFO     | >> Evaluating only task 4     run_libero_eval.py:259
+                 INFO     | >> Using default initial      run_libero_eval.py:259
+                          states                                                
+Using custom BDDL: /home/A.CARDAMONE7/repo/VLA-Bench/robosuite_test/LIBERO/libero/bddl_files/libero_goal/put_the_bowl_on_top_of_the_cabinet_syn_l2.bddl
+03/09 [22:55:52] INFO     | >>                            run_libero_eval.py:259
+                          ===============================                       
+                          ===============================                       
+                          ==================                                    
+                 INFO     | >> TASK 5/10                  run_libero_eval.py:259
+                 INFO     | >> Original Command: Put the  run_libero_eval.py:259
+                          bowl on the top of the cabinet                        
+                 INFO     | >> Command Level: L2          run_libero_eval.py:259
+                 INFO     | >> Variation Command: The top run_libero_eval.py:259
+                          of the cabinet needs to have                          
+                          the bowl on it                                        
+                 INFO     | >>                            run_libero_eval.py:259
+                          ===============================                       
+                          ===============================                       
+                          ==================                                    
+                 INFO     | >> Starting episode 1...      run_libero_eval.py:259
+03/09 [22:55:55] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.126 0.026 -0.044 0.000]...                         
+03/09 [22:55:56] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.966 0.148 -0.280 -0.017]...                        
+03/09 [22:55:57] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.211 0.059 -0.945 0.010]...                         
+03/09 [22:55:58] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.332 0.059 -0.916 0.006]...                        
+03/09 [22:55:59] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.203 0.065 -0.392 -0.019]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=1--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=1--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:56:04] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 1                                                
+                 INFO     | >> # successes: 1 (100.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 2...      run_libero_eval.py:259
+03/09 [22:56:06] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.335 0.199 -0.069 -0.008]...                        
+03/09 [22:56:07] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.870 0.202 -0.491 -0.010]...                        
+03/09 [22:56:08] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.173 -0.005 -0.952 -0.005]...                       
+03/09 [22:56:09] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.357 -0.062 -0.919                                 
+                          -0.008]...                                            
+03/09 [22:56:10] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.084 -0.017 -0.114                                 
+                          -0.021]...                                            
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=2--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=2--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:56:14] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 2                                                
+                 INFO     | >> # successes: 2 (100.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 3...      run_libero_eval.py:259
+03/09 [22:56:16] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.310 0.179 -0.072 -0.002]...                        
+03/09 [22:56:17] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.945 0.161 -0.374 -0.013]...                        
+03/09 [22:56:18] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.128 -0.011 -0.945 0.005]...                        
+03/09 [22:56:19] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.231 -0.019 -0.934                                 
+                          -0.001]...                                            
+03/09 [22:56:20] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.025 0.006 -0.043 -0.022]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=3--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=3--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:56:25] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 3                                                
+                 INFO     | >> # successes: 3 (100.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 4...      run_libero_eval.py:259
+03/09 [22:56:28] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.039 -0.002 -0.065 0.003]...                        
+03/09 [22:56:29] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.913 0.138 -0.200 -0.028]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.611 0.124 -0.813 0.005]...                         
+03/09 [22:56:30] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.284 -0.004 -0.930 0.006]...                       
+03/09 [22:56:31] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.336 0.008 -0.619 -0.019]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=4--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=4--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:56:36] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 4                                                
+                 INFO     | >> # successes: 4 (100.0%)    run_libero_eval.py:259
+03/09 [22:56:37] INFO     | >> Starting episode 5...      run_libero_eval.py:259
+03/09 [22:56:39] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.035 0.037 -0.020 0.002]...                         
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.838 0.217 -0.124 -0.042]...                        
+03/09 [22:56:40] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.710 0.123 -0.780 0.002]...                         
+03/09 [22:56:41] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.311 -0.051 -0.927                                 
+                          -0.006]...                                            
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.288 -0.042 -0.725 0.008]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=5--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=5--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:56:46] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 5                                                
+                 INFO     | >> # successes: 5 (100.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 6...      run_libero_eval.py:259
+03/09 [22:56:48] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.052 0.028 -0.065 0.004]...                         
+03/09 [22:56:49] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.870 0.190 -0.359 -0.040]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.292 -0.020 -0.916 0.004]...                        
+03/09 [22:56:50] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.362 -0.016 -0.901                                 
+                          -0.000]...                                            
+03/09 [22:56:51] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [0.100 -0.057 -0.051 -0.023]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=6--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=6--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:56:58] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 6                                                
+                 INFO     | >> # successes: 6 (100.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 7...      run_libero_eval.py:259
+03/09 [22:57:00] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.178 0.024 -0.049 0.000]...                         
+03/09 [22:57:02] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.952 0.174 -0.293 -0.018]...                        
+03/09 [22:57:03] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.100 0.091 -0.952 0.000]...                         
+                 INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.347 0.050 -0.934 0.004]...                        
+03/09 [22:57:04] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.215 0.054 -0.480 -0.017]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=7--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=7--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:57:11] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 7                                                
+                 INFO     | >> # successes: 7 (100.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 8...      run_libero_eval.py:259
+03/09 [22:57:14] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.158 0.083 -0.014 0.002]...                         
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.923 0.235 -0.249 -0.036]...                        
+03/09 [22:57:15] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.228 -0.039 -0.919 0.007]...                        
+03/09 [22:57:16] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.311 0.020 -0.927 0.007]...                        
+03/09 [22:57:17] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.053 -0.010 -0.538                                 
+                          -0.002]...                                            
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=8--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=8--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:57:23] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 8                                                
+                 INFO     | >> # successes: 8 (100.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 9...      run_libero_eval.py:259
+03/09 [22:57:26] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.169 0.041 -0.038 0.010]...                         
+03/09 [22:57:27] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.881 0.197 -0.348 -0.039]...                        
+03/09 [22:57:28] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.223 0.112 -0.959 0.011]...                         
+03/09 [22:57:29] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.157 0.035 -0.879 -0.001]...                       
+03/09 [22:57:30] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.082 0.029 -0.366 -0.023]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=9--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=9--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:57:36] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 9                                                
+                 INFO     | >> # successes: 9 (100.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 10...     run_libero_eval.py:259
+03/09 [22:57:39] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.065 0.033 -0.014 0.002]...                         
+03/09 [22:57:40] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.888 0.266 -0.081 -0.040]...                        
+03/09 [22:57:41] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.618 -0.002 -0.824 -0.000]...                       
+03/09 [22:57:42] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.398 -0.073 -0.908                                 
+                          -0.001]...                                            
+03/09 [22:57:43] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.276 -0.006 -0.725                                 
+                          -0.000]...                                            
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=10--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=10--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:57:49] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 10                                               
+                 INFO     | >> # successes: 10 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 11...     run_libero_eval.py:259
+03/09 [22:57:51] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.122 0.065 -0.028 0.001]...                         
+03/09 [22:57:52] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.867 0.330 -0.253 -0.023]...                        
+03/09 [22:57:53] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.377 -0.020 -0.923 0.011]...                        
+03/09 [22:57:54] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.323 -0.026 -0.905                                 
+                          -0.006]...                                            
+03/09 [22:57:55] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.131 0.037 -0.480 -0.025]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=11--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=11--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:58:02] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 11                                               
+                 INFO     | >> # successes: 11 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 12...     run_libero_eval.py:259
+03/09 [22:58:04] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.118 0.072 0.008 -0.002]...                         
+03/09 [22:58:05] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.987 0.174 -0.193 -0.037]...                        
+03/09 [22:58:06] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.329 0.031 -0.927 0.009]...                         
+03/09 [22:58:07] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.172 0.048 -0.894 0.011]...                        
+03/09 [22:58:08] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.409 0.025 -0.434 -0.014]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=12--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=12--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:58:15] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 12                                               
+                 INFO     | >> # successes: 12 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 13...     run_libero_eval.py:259
+03/09 [22:58:18] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.072 0.029 -0.009 0.007]...                         
+03/09 [22:58:19] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.898 0.212 -0.286 -0.027]...                        
+03/09 [22:58:20] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.299 -0.064 -0.938 0.007]...                        
+03/09 [22:58:21] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.334 -0.031 -0.916 0.001]...                       
+03/09 [22:58:22] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.007 0.008 -0.175 -0.031]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=13--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=13--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:58:27] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 13                                               
+                 INFO     | >> # successes: 13 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 14...     run_libero_eval.py:259
+03/09 [22:58:30] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.064 0.044 -0.007 -0.000]...                        
+03/09 [22:58:31] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.845 0.104 -0.425 -0.039]...                        
+03/09 [22:58:32] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.135 -0.024 -0.923 0.008]...                        
+03/09 [22:58:33] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.277 -0.025 -0.908                                 
+                          -0.001]...                                            
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.058 0.054 -0.348 -0.025]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=14--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=14--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:58:39] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 14                                               
+                 INFO     | >> # successes: 14 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 15...     run_libero_eval.py:259
+03/09 [22:58:42] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.134 0.022 -0.046 0.003]...                         
+03/09 [22:58:43] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.902 0.144 -0.202 -0.033]...                        
+03/09 [22:58:44] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.597 0.027 -0.824 0.006]...                         
+03/09 [22:58:45] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.210 0.001 -0.912 0.003]...                        
+03/09 [22:58:46] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.215 0.043 -0.604 -0.004]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=15--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=15--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:58:53] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 15                                               
+                 INFO     | >> # successes: 15 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 16...     run_libero_eval.py:259
+03/09 [22:58:55] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.294 0.157 -0.003 0.001]...                         
+03/09 [22:58:56] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.945 0.140 -0.322 -0.017]...                        
+03/09 [22:58:57] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.076 -0.004 -0.959 0.005]...                        
+03/09 [22:58:58] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.407 0.008 -0.927 0.003]...                        
+03/09 [22:58:59] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.024 -0.019 -0.223                                 
+                          -0.009]...                                            
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=16--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=16--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:59:04] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 16                                               
+                 INFO     | >> # successes: 16 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 17...     run_libero_eval.py:259
+03/09 [22:59:07] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.388 0.210 -0.091 0.005]...                         
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.909 0.228 -0.480 -0.007]...                        
+03/09 [22:59:08] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.060 -0.048 -0.930 0.004]...                        
+03/09 [22:59:09] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.153 -0.019 -0.806                                 
+                          -0.008]...                                            
+03/09 [22:59:10] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [0.025 -0.017 0.112 -0.019]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=17--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=17--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:59:16] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 17                                               
+                 INFO     | >> # successes: 17 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 18...     run_libero_eval.py:259
+03/09 [22:59:19] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.054 0.039 -0.025 0.002]...                         
+03/09 [22:59:20] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.835 0.212 -0.357 -0.039]...                        
+03/09 [22:59:21] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.482 0.044 -0.938 0.007]...                         
+03/09 [22:59:22] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.320 0.004 -0.938 -0.001]...                       
+03/09 [22:59:23] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.073 -0.007 -0.447                                 
+                          -0.010]...                                            
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=18--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=18--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:59:29] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 18                                               
+                 INFO     | >> # successes: 18 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 19...     run_libero_eval.py:259
+03/09 [22:59:31] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.148 0.075 0.006 0.003]...                          
+03/09 [22:59:32] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.945 0.212 -0.144 -0.016]...                        
+03/09 [22:59:33] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.491 0.050 -0.831 0.009]...                         
+03/09 [22:59:34] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.304 0.030 -0.952 0.005]...                        
+03/09 [22:59:35] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.384 0.056 -0.776 -0.004]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=19--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=19--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:59:43] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 19                                               
+                 INFO     | >> # successes: 19 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 20...     run_libero_eval.py:259
+03/09 [22:59:45] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.078 0.027 -0.014 0.004]...                         
+03/09 [22:59:46] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.874 0.265 -0.207 -0.046]...                        
+03/09 [22:59:47] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.405 -0.022 -0.916 0.007]...                        
+03/09 [22:59:48] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.352 -0.015 -0.908                                 
+                          -0.002]...                                            
+03/09 [22:59:49] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.062 0.006 -0.364 -0.014]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=20--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=20--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [22:59:55] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 20                                               
+                 INFO     | >> # successes: 20 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 21...     run_libero_eval.py:259
+03/09 [22:59:58] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.579 0.168 -0.045 -0.004]...                        
+03/09 [22:59:59] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.952 0.106 -0.421 -0.015]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.009 0.046 -0.938 0.010]...                         
+03/09 [23:00:00] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.513 0.003 -0.886 -0.001]...                       
+03/09 [23:00:01] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.247 0.041 -0.322 -0.043]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=21--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=21--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:00:07] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 21                                               
+                 INFO     | >> # successes: 21 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 22...     run_libero_eval.py:259
+03/09 [23:00:09] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.191 0.097 -0.055 -0.001]...                        
+03/09 [23:00:11] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.895 0.194 -0.320 -0.036]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.252 -0.074 -0.938 0.005]...                        
+03/09 [23:00:12] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.268 0.010 -0.923 -0.001]...                       
+03/09 [23:00:13] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.040 -0.046 -0.287                                 
+                          -0.017]...                                            
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=22--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=22--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:00:18] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 22                                               
+                 INFO     | >> # successes: 22 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 23...     run_libero_eval.py:259
+03/09 [23:00:21] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.095 0.035 -0.041 0.002]...                         
+03/09 [23:00:22] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.913 0.179 -0.370 -0.015]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.037 0.126 -0.908 -0.001]...                        
+03/09 [23:00:23] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.331 0.042 -0.905 0.007]...                        
+03/09 [23:00:24] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.160 0.007 -0.390 -0.018]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=23--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=23--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:00:30] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 23                                               
+                 INFO     | >> # successes: 23 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 24...     run_libero_eval.py:259
+03/09 [23:00:32] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.220 0.124 -0.045 -0.005]...                        
+03/09 [23:00:33] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.881 0.209 -0.502 -0.019]...                        
+03/09 [23:00:34] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.022 0.024 -0.952 -0.000]...                        
+03/09 [23:00:35] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.389 0.024 -0.857 0.005]...                        
+03/09 [23:00:36] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.020 0.014 -0.271 -0.009]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=24--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=24--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:00:42] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 24                                               
+                 INFO     | >> # successes: 24 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 25...     run_libero_eval.py:259
+03/09 [23:00:44] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.143 -0.034 -0.035 0.006]...                        
+03/09 [23:00:45] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.906 -0.005 -0.231 -0.014]...                       
+03/09 [23:00:46] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.327 0.180 -0.923 0.004]...                         
+03/09 [23:00:47] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.284 0.024 -0.912 0.005]...                        
+03/09 [23:00:48] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.371 0.020 -0.472 -0.015]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=25--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=25--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:00:54] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 25                                               
+                 INFO     | >> # successes: 25 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 26...     run_libero_eval.py:259
+03/09 [23:00:56] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.087 0.048 -0.016 0.002]...                         
+03/09 [23:00:57] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.945 0.278 -0.136 -0.031]...                        
+03/09 [23:00:58] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.460 -0.048 -0.897 0.020]...                        
+03/09 [23:00:59] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.217 0.005 -0.930 0.000]...                        
+03/09 [23:01:00] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.510 0.033 -0.729 -0.012]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=26--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=26--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:01:07] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 26                                               
+                 INFO     | >> # successes: 26 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 27...     run_libero_eval.py:259
+03/09 [23:01:09] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.120 0.038 0.017 0.005]...                          
+03/09 [23:01:10] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.923 0.239 -0.099 -0.045]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.562 -0.008 -0.809 0.008]...                        
+03/09 [23:01:11] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.153 0.015 -0.905 0.006]...                        
+03/09 [23:01:12] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.359 0.075 -0.612 -0.012]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=27--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=27--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:01:19] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 27                                               
+                 INFO     | >> # successes: 27 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 28...     run_libero_eval.py:259
+03/09 [23:01:21] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.233 0.090 0.000 -0.002]...                         
+03/09 [23:01:22] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.923 0.185 -0.333 -0.023]...                        
+03/09 [23:01:23] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.114 -0.088 -0.959 0.008]...                        
+03/09 [23:01:24] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.439 -0.005 -0.934                                 
+                          -0.000]...                                            
+03/09 [23:01:25] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.022 0.020 -0.273 -0.030]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=28--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=28--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:01:33] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 28                                               
+                 INFO     | >> # successes: 28 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 29...     run_libero_eval.py:259
+03/09 [23:01:36] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.082 0.036 -0.012 0.004]...                         
+03/09 [23:01:37] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.895 0.307 -0.116 -0.051]...                        
+03/09 [23:01:38] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.576 -0.080 -0.780 0.005]...                        
+03/09 [23:01:39] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.190 -0.013 -0.923 0.002]...                       
+03/09 [23:01:40] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.292 -0.004 -0.853                                 
+                          -0.002]...                                            
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=29--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=29--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:01:47] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 29                                               
+                 INFO     | >> # successes: 29 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 30...     run_libero_eval.py:259
+03/09 [23:01:49] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.134 0.042 -0.043 0.001]...                         
+03/09 [23:01:50] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.938 0.214 -0.269 -0.036]...                        
+03/09 [23:01:51] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.249 -0.020 -0.967 0.005]...                        
+03/09 [23:01:52] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.336 0.016 -0.908 0.006]...                        
+03/09 [23:01:53] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.123 0.027 -0.505 0.006]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=30--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=30--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:02:00] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 30                                               
+                 INFO     | >> # successes: 30 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 31...     run_libero_eval.py:259
+03/09 [23:02:02] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.025 0.057 -0.053 0.004]...                         
+03/09 [23:02:03] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.852 0.289 -0.178 -0.057]...                        
+03/09 [23:02:04] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.647 -0.052 -0.828 0.007]...                        
+03/09 [23:02:05] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.283 -0.018 -0.912 0.005]...                       
+03/09 [23:02:07] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.242 0.014 -0.725 0.001]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=31--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=31--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:02:12] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 31                                               
+                 INFO     | >> # successes: 31 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 32...     run_libero_eval.py:259
+03/09 [23:02:14] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.007 -0.004 -0.101 0.001]...                        
+03/09 [23:02:15] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.789 0.166 -0.342 -0.041]...                        
+03/09 [23:02:16] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.476 -0.046 -0.923 0.006]...                        
+03/09 [23:02:17] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.192 -0.025 -0.923 0.002]...                       
+03/09 [23:02:18] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [0.070 0.020 -0.160 -0.033]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=32--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=32--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:02:23] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 32                                               
+                 INFO     | >> # successes: 32 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 33...     run_libero_eval.py:259
+03/09 [23:02:25] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.173 0.062 0.000 0.001]...                          
+03/09 [23:02:26] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.994 0.249 -0.262 -0.046]...                        
+03/09 [23:02:27] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.025 -0.037 -0.919 0.008]...                        
+03/09 [23:02:28] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.410 -0.000 -0.934                                 
+                          -0.001]...                                            
+03/09 [23:02:29] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.124 -0.003 -0.320                                 
+                          -0.012]...                                            
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=33--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=33--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:02:36] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 33                                               
+                 INFO     | >> # successes: 33 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 34...     run_libero_eval.py:259
+03/09 [23:02:38] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.157 0.085 -0.048 -0.000]...                        
+03/09 [23:02:39] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.909 0.180 -0.465 -0.019]...                        
+03/09 [23:02:40] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.203 -0.035 -0.967 0.004]...                        
+03/09 [23:02:41] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.300 0.007 -0.905 -0.001]...                       
+03/09 [23:02:43] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.196 0.025 -0.276 -0.026]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=34--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=34--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:02:49] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 34                                               
+                 INFO     | >> # successes: 34 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 35...     run_libero_eval.py:259
+03/09 [23:02:51] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.028 0.025 -0.026 0.002]...                         
+03/09 [23:02:52] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.909 0.277 -0.069 -0.044]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.593 0.017 -0.879 0.006]...                         
+03/09 [23:02:53] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.350 -0.043 -0.897                                 
+                          -0.004]...                                            
+03/09 [23:02:54] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.150 -0.028 -0.667 0.001]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=35--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=35--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:03:01] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 35                                               
+                 INFO     | >> # successes: 35 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 36...     run_libero_eval.py:259
+03/09 [23:03:03] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.292 0.194 -0.018 -0.008]...                        
+03/09 [23:03:04] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.767 -0.021 -0.667 0.003]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.030 -0.004 -0.959 -0.001]...                       
+03/09 [23:03:05] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.217 -0.004 -0.857                                 
+                          -0.001]...                                            
+03/09 [23:03:06] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.054 -0.015 -0.020                                 
+                          -0.014]...                                            
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=36--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=36--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:03:12] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 36                                               
+                 INFO     | >> # successes: 36 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 37...     run_libero_eval.py:259
+03/09 [23:03:14] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.089 0.042 -0.015 0.002]...                         
+03/09 [23:03:15] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.952 0.149 -0.262 -0.028]...                        
+03/09 [23:03:16] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.382 0.025 -0.927 0.009]...                         
+                 INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.345 -0.000 -0.912 0.009]...                       
+03/09 [23:03:17] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.125 0.015 -0.549 -0.004]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=37--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=37--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:03:24] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 37                                               
+                 INFO     | >> # successes: 37 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 38...     run_libero_eval.py:259
+03/09 [23:03:26] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.072 0.051 -0.025 0.002]...                         
+03/09 [23:03:27] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.796 0.356 -0.319 -0.018]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.359 0.035 -0.919 0.000]...                         
+03/09 [23:03:28] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.188 0.048 -0.945 -0.013]...                       
+03/09 [23:03:29] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.076 0.032 -0.476 -0.016]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=38--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=38--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:03:35] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 38                                               
+                 INFO     | >> # successes: 38 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 39...     run_libero_eval.py:259
+03/09 [23:03:37] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.149 0.012 0.006 0.000]...                          
+03/09 [23:03:38] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.987 0.139 -0.202 -0.024]...                        
+03/09 [23:03:39] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.167 0.004 -0.934 0.012]...                         
+03/09 [23:03:41] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.240 0.003 -0.945 0.005]...                        
+03/09 [23:03:42] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.417 0.032 -0.505 -0.028]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=39--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=39--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:03:48] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 39                                               
+                 INFO     | >> # successes: 39 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 40...     run_libero_eval.py:259
+03/09 [23:03:50] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.147 -0.011 0.033 -0.001]...                        
+03/09 [23:03:51] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.945 0.110 -0.104 -0.021]...                        
+03/09 [23:03:52] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.375 0.082 -0.817 0.005]...                         
+03/09 [23:03:53] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.267 0.029 -0.945 0.004]...                        
+03/09 [23:03:54] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.357 0.049 -0.696 -0.002]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=40--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=40--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:04:03] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 40                                               
+                 INFO     | >> # successes: 40 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 41...     run_libero_eval.py:259
+03/09 [23:04:05] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.147 0.055 -0.015 0.001]...                         
+03/09 [23:04:06] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.952 0.241 -0.181 -0.028]...                        
+03/09 [23:04:08] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.354 -0.012 -0.938 0.015]...                        
+03/09 [23:04:09] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.128 0.072 -0.927 0.009]...                        
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.481 0.052 -0.538 -0.015]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=41--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=41--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:04:17] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 41                                               
+                 INFO     | >> # successes: 41 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 42...     run_libero_eval.py:259
+03/09 [23:04:19] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.319 0.124 0.014 0.004]...                          
+03/09 [23:04:20] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.959 0.135 -0.348 -0.021]...                        
+03/09 [23:04:21] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.036 -0.009 -0.919 0.004]...                       
+03/09 [23:04:22] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.460 -0.004 -0.916 0.000]...                       
+03/09 [23:04:23] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.093 -0.033 -0.122                                 
+                          -0.021]...                                            
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=42--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=42--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:04:29] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 42                                               
+                 INFO     | >> # successes: 42 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 43...     run_libero_eval.py:259
+03/09 [23:04:31] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.076 0.023 -0.045 0.003]...                         
+03/09 [23:04:32] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.891 0.210 -0.315 -0.033]...                        
+03/09 [23:04:33] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.265 -0.022 -0.945 0.005]...                        
+03/09 [23:04:34] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.293 -0.016 -0.908                                 
+                          -0.001]...                                            
+03/09 [23:04:35] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.068 0.011 -0.136 -0.023]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=43--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=43--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:04:42] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 43                                               
+                 INFO     | >> # successes: 43 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 44...     run_libero_eval.py:259
+03/09 [23:04:45] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.045 0.031 -0.031 0.004]...                         
+03/09 [23:04:46] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.831 0.257 -0.355 -0.037]...                        
+03/09 [23:04:47] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.154 -0.069 -0.967 0.003]...                        
+03/09 [23:04:48] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.203 -0.016 -0.938                                 
+                          -0.001]...                                            
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.006 0.028 -0.313 -0.032]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=44--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=44--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:04:53] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 44                                               
+                 INFO     | >> # successes: 44 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 45...     run_libero_eval.py:259
+03/09 [23:04:56] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.281 0.114 0.030 0.004]...                          
+03/09 [23:04:57] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.973 0.101 -0.328 -0.021]...                        
+03/09 [23:04:58] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.076 0.110 -0.959 0.011]...                         
+03/09 [23:04:59] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.378 0.010 -0.919 -0.003]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.096 -0.031 -0.084                                 
+                          -0.024]...                                            
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=45--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=45--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:05:05] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 45                                               
+                 INFO     | >> # successes: 45 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 46...     run_libero_eval.py:259
+03/09 [23:05:07] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.071 0.042 -0.023 0.002]...                         
+03/09 [23:05:08] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.945 0.241 -0.161 -0.053]...                        
+03/09 [23:05:09] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.251 -0.047 -0.886 0.008]...                        
+03/09 [23:05:10] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.355 -0.031 -0.945 0.004]...                       
+03/09 [23:05:11] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.136 -0.105 -0.670 0.009]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=46--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=46--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:05:16] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 46                                               
+                 INFO     | >> # successes: 46 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 47...     run_libero_eval.py:259
+03/09 [23:05:18] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.103 0.048 -0.051 0.000]...                         
+03/09 [23:05:20] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.895 0.292 -0.313 -0.044]...                        
+03/09 [23:05:21] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.347 -0.112 -0.930 0.008]...                        
+03/09 [23:05:22] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.240 0.013 -0.908 0.000]...                        
+03/09 [23:05:23] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [0.083 -0.034 -0.134 -0.021]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=47--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=47--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:05:28] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 47                                               
+                 INFO     | >> # successes: 47 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 48...     run_libero_eval.py:259
+03/09 [23:05:30] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.119 -0.048 -0.071 0.008]...                        
+03/09 [23:05:31] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.891 0.080 -0.278 -0.028]...                        
+03/09 [23:05:32] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.363 0.130 -0.879 0.003]...                         
+03/09 [23:05:33] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.110 0.070 -0.897 -0.002]...                       
+03/09 [23:05:34] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.129 0.097 -0.597 -0.015]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=48--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=48--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:05:40] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 48                                               
+                 INFO     | >> # successes: 48 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 49...     run_libero_eval.py:259
+03/09 [23:05:42] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.124 0.015 -0.029 0.006]...                         
+03/09 [23:05:44] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.952 0.130 -0.225 -0.034]...                        
+03/09 [23:05:45] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.358 0.161 -0.945 0.010]...                         
+03/09 [23:05:46] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.210 0.076 -0.923 0.007]...                        
+03/09 [23:05:47] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.272 0.028 -0.568 -0.005]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=49--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=49--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:05:53] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 49                                               
+                 INFO     | >> # successes: 49 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Starting episode 50...     run_libero_eval.py:259
+03/09 [23:05:55] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.150 0.055 -0.057 -0.002]...                        
+03/09 [23:05:56] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.877 0.270 -0.267 -0.028]...                        
+03/09 [23:05:57] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.131 -0.023 -0.938 0.008]...                        
+03/09 [23:05:58] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.348 -0.002 -0.912                                 
+                          -0.008]...                                            
+03/09 [23:05:59] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.059 0.045 -0.179 -0.030]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=50--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task4_l2_seed_0/2026_03_09-22_55_18--episode=50--success=True--task=the_top_of_the_cabinet_needs_to_have_the_bowl_on_i.npy
+03/09 [23:06:06] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 50                                               
+                 INFO     | >> # successes: 50 (100.0%)   run_libero_eval.py:259
+                 INFO     | >> Current task success rate: run_libero_eval.py:259
+                          1.0                                                   
+                 INFO     | >> Current total success      run_libero_eval.py:259
+                          rate: 1.0                                             
+                 INFO     | >> Environment closed         run_libero_eval.py:259
+                          successfully                                          
+03/09 [23:06:07] INFO     | >> Forced garbage collection  run_libero_eval.py:259
+                          after task                                            
+                 INFO     | >>                            run_libero_eval.py:259
+                          ===============================                       
+                          ===============================                       
+                          ==================                                    
+                 INFO     | >> RESULTS FOR L2:            run_libero_eval.py:259
+                 INFO     | >>                            run_libero_eval.py:259
+                          ===============================                       
+                          ===============================                       
+                          ==================                                    
+                 INFO     | >> Total episodes: 50         run_libero_eval.py:259
+                 INFO     | >> Total successes: 50        run_libero_eval.py:259
+                 INFO     | >> Overall success rate:      run_libero_eval.py:259
+                          1.0000 (100.0%)                                       
+                 INFO     | >>                            run_libero_eval.py:259
+                          ===============================                       
+                          ===============================                       
+                          ==================                                    
+
+====================================================================================================
+DETAILED RESULTS TABLE
+====================================================================================================
+Task                                               | Success Rate | Episodes
+----------------------------------------------------------------------------------------------------
+The top of the cabinet needs to have the bowl on it |      100.0% |       50
+----------------------------------------------------------------------------------------------------
+OVERALL                                            |      100.0% |       50
+====================================================================================================
+
+SUMMARY BY COMMAND LEVEL:
+------------------------------------------------------------
+               L2: 100.0% (50/50 episodes)
+====================================================================================================
+
+Finish time: Mon Mar  9 11:06:09 PM CET 2026
+==========================================
+Evaluation with seed 0 completed!

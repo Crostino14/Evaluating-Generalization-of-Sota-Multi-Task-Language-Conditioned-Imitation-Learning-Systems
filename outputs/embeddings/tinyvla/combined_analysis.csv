@@ -1,0 +1,31 @@
+task_id,level,default_command,variation_command,default_rollouts,variation_rollouts,default_success_rate,variation_success_rate,cosine_similarity,euclidean_distance,levenshtein_distance
+0,l1,Open the middle layer of the drawer,Pull the middle layer of the drawer,10,10,,,0.9793844,8.912379,0.11428571428571428
+0,l2,Open the middle layer of the drawer,The middle layer of the drawer needs to be opened,10,10,,,0.9901525,6.216726,0.5102040816326531
+0,l3,Open the middle layer of the drawer,Open the layer of the drawer located between the top and bottom,10,10,,,0.85222626,23.551933,0.6507936507936508
+1,l1,Put the bowl on the stove,Set the bowl on the stove,10,10,,,0.99371576,4.190979,0.08
+1,l2,Put the bowl on the stove,The stove needs to have the bowl on it,10,10,,,0.8859358,17.21455,0.6842105263157895
+1,l3,Put the bowl on the stove,Put the object between the wine bottle and the cream cheese on the stove,10,10,,,0.4910694,36.97067,0.6666666666666666
+2,l1,Put the wine bottle on the top of the cabinet,Place the wine bottle on the top of the cabinet,10,10,,,0.99394155,4.3380666,0.0851063829787234
+2,l2,Put the wine bottle on the top of the cabinet,Top of the cabinet needs to have the wine bottle on it,10,10,,,0.6050496,38.512997,0.6481481481481481
+2,l3,Put the wine bottle on the top of the cabinet,Put the object behind the bowl on the top of the cabinet,10,10,,,0.5728526,34.53013,0.30357142857142855
+3,l1,Open the top layer of the drawer and put the bowl inside,Pull the top layer of the drawer and put the bowl inside,10,10,,,0.96391404,12.515169,0.07142857142857142
+3,l2,Open the top layer of the drawer and put the bowl inside,The top layer of the drawer needs to be opened and the bowl needs to be put inside,10,10,,,0.95875835,14.892237,0.5
+3,l3,Open the top layer of the drawer and put the bowl inside,Open the top layer of the drawer and put the object between the plate and the cream cheese inside,10,10,,,0.984844,9.6632395,0.4329896907216495
+4,l1,Put the bowl on the top of the cabinet,Place the bowl on the top of the cabinet,10,10,,,0.9929734,4.5469327,0.1
+4,l2,Put the bowl on the top of the cabinet,The top of the cabinet needs to have the bowl on it,10,10,,,0.5145775,41.073544,0.6470588235294118
+4,l3,Put the bowl on the top of the cabinet,Put the object between the wine bottle and the cream cheese on the top of the cabinet,10,10,,,0.44683632,37.751022,0.5647058823529412
+5,l1,Push the plate to the front of the stove,Move the plate to the front of the stove,10,10,,,0.95631146,13.432954,0.1
+5,l2,Push the plate to the front of the stove,The space in front of the stove needs to have the plate in it,10,10,,,0.81452334,27.46708,0.6885245901639344
+5,l3,Push the plate to the front of the stove,Push the object in front of the drawer to the front of the stove,10,10,,,0.98659813,9.134112,0.421875
+6,l1,Put the cream cheese on the bowl,Place the cream cheese on the bowl,10,10,,,0.99531513,4.1932054,0.11764705882352941
+6,l2,Put the cream cheese on the bowl,The cream cheese needs to be put on the bowl,10,10,,,0.98181295,9.524708,0.4772727272727273
+6,l3,Put the cream cheese on the bowl,Put the object in front of the stove on the bowl,10,10,,,0.60557985,33.300774,0.4375
+7,l1,Turn on the stove,Switch on the stove,10,10,,,0.9852301,6.7710195,0.3157894736842105
+7,l2,Turn on the stove,The stove needs to be turned on,10,10,,,0.9509022,12.759814,0.7419354838709677
+7,l3,Turn on the stove,Turn on the object behind the cream cheese,10,10,,,0.9060957,17.732342,0.6666666666666666
+8,l1,Put the bowl on the plate,Place the bowl on the plate,10,10,,,0.995219,3.8943515,0.14814814814814814
+8,l2,Put the bowl on the plate,The plate needs to have the bowl on it,10,10,,,0.89062464,19.2751,0.7105263157894737
+8,l3,Put the bowl on the plate,Put the object between the wine bottle and the cream cheese on the plate,10,10,,,0.5252187,37.206326,0.6666666666666666
+9,l1,Put the wine bottle on the rack,Place the wine bottle on the rack,10,10,,,0.9924146,4.847778,0.12121212121212122
+9,l2,Put the wine bottle on the rack,The rack needs to be filled with the wine bottle in it,10,10,,,0.73175365,28.35077,0.7037037037037037
+9,l3,Put the wine bottle on the rack,Put the object behind the bowl on the rack,10,10,,,0.6136464,32.059193,0.40476190476190477

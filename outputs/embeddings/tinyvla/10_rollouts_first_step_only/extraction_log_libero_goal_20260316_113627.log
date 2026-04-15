@@ -1,0 +1,1764 @@
+2026-03-16 11:36:27,475 - INFO - ================================================================================
+2026-03-16 11:36:27,479 - INFO - TINYVLA EMBEDDING EXTRACTION STARTED
+2026-03-16 11:36:27,479 - INFO - ================================================================================
+2026-03-16 11:36:27,480 - INFO - Start time: 2026-03-16 11:36:27
+2026-03-16 11:36:27,480 - INFO - Log file: /mnt/beegfs/a.cardamone7/outputs/embeddings/tinyvla/10_rollouts_first_step_only/extraction_log_libero_goal_20260316_113627.log
+2026-03-16 11:36:27,480 - INFO - Model path: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/tinyvla/post_processed_tiny_vla_llava_pythia_lora_libero_goal_no_noops_lora_r_64_processed/checkpoint-54000
+2026-03-16 11:36:27,481 - INFO - Model base: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/tinyvla/parte2_llava_pythia_libero_goal_no_noops_64/1.3B
+2026-03-16 11:36:27,481 - INFO - Task suite: libero_goal
+2026-03-16 11:36:27,482 - INFO - Command levels: ('l2',)
+2026-03-16 11:36:27,482 - INFO - Rollouts per task: 10
+2026-03-16 11:36:27,482 - INFO - First step only: True
+2026-03-16 11:36:27,483 - INFO - Seed: 0
+2026-03-16 11:36:27,483 - INFO - Resolution: 256
+2026-03-16 11:36:27,483 - INFO - ================================================================================
+2026-03-16 11:36:27,484 - INFO - ============================================================
+2026-03-16 11:36:27,484 - INFO - INITIALIZING POLICY
+2026-03-16 11:36:27,484 - INFO - ============================================================
+2026-03-16 11:36:27,485 - INFO - Starting policy loading...
+2026-03-16 11:36:27,485 - INFO - Model path: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/tinyvla/post_processed_tiny_vla_llava_pythia_lora_libero_goal_no_noops_lora_r_64_processed/checkpoint-54000
+2026-03-16 11:36:27,485 - INFO - Model base: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/tinyvla/parte2_llava_pythia_libero_goal_no_noops_64/1.3B
+2026-03-16 11:36:27,486 - INFO - LoRA enabled: True
+2026-03-16 11:36:27,486 - INFO - Clearing GPU cache before loading...
+2026-03-16 11:36:27,487 - DEBUG - [Before cleanup] GPU Memory - Allocated: 0.00GB, Reserved: 0.00GB, Max: 0.00GB
+2026-03-16 11:36:27,870 - DEBUG - [After cleanup] GPU Memory - Allocated: 0.00GB, Reserved: 0.00GB, Max: 0.00GB
+2026-03-16 11:36:27,870 - INFO - Loading model: post_processed_tiny_vla_llava_pythia_lora_libero_goal_no_noops_lora_r_64_processed_checkpoint-54000
+2026-03-16 11:36:27,871 - INFO - Step 1/3: Loading tokenizer...
+2026-03-16 11:36:57,741 - INFO - Step 2/3: Base model loaded successfully
+2026-03-16 11:36:57,746 - DEBUG - [After base model load] GPU Memory - Allocated: 4.99GB, Reserved: 5.52GB, Max: 5.35GB
+2026-03-16 11:36:57,751 - INFO - Step 3/3: Config loaded successfully
+2026-03-16 11:36:57,752 - INFO - Context length: 2048
+2026-03-16 11:36:57,753 - INFO - Action dimension: 10
+2026-03-16 11:36:57,753 - INFO - Chunk size: 16
+2026-03-16 11:36:57,754 - INFO - Policy loaded successfully!
+2026-03-16 11:36:57,754 - INFO - Policy initialization complete
+2026-03-16 11:36:57,757 - INFO - Policy set to eval mode
+2026-03-16 11:36:57,762 - INFO - Loading dataset stats from: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/tinyvla/post_processed_tiny_vla_llava_pythia_lora_libero_goal_no_noops_lora_r_64_processed/dataset_stats.pkl
+2026-03-16 11:36:57,785 - INFO - Dataset stats loaded successfully
+2026-03-16 11:36:57,785 - DEBUG - EmbeddingCapture initialized
+2026-03-16 11:36:57,785 - INFO - Forward hook registered on GPT-NeoX backbone
+2026-03-16 11:36:57,786 - INFO - Setting seed: 0
+2026-03-16 11:36:57,792 - INFO - Loading task suite: libero_goal
+2026-03-16 11:36:57,792 - INFO - Task suite loaded: 10 tasks, max 300 steps per episode
+2026-03-16 11:36:57,793 - INFO - Mode: FIRST STEP ONLY
+2026-03-16 11:36:57,793 - INFO - Total episodes to run: 100
+2026-03-16 11:36:57,793 - INFO - ================================================================================
+2026-03-16 11:36:57,800 - INFO - 
+2026-03-16 11:36:57,801 - INFO - ================================================================================
+2026-03-16 11:36:57,801 - INFO - TASK 1/10: open_the_middle_drawer_of_the_cabinet
+2026-03-16 11:36:57,801 - INFO - Initial states available: 50
+2026-03-16 11:36:57,802 - INFO - ================================================================================
+2026-03-16 11:36:57,805 - INFO - 
+  COMMAND LEVEL: L2
+2026-03-16 11:36:57,805 - INFO -   Command text: 'The middle layer of the drawer needs to be opened'
+2026-03-16 11:36:57,806 - INFO -   Running 10 rollouts...
+2026-03-16 11:36:57,806 - INFO - 
+  Rollout 1/10 (Episode 1/100)
+2026-03-16 11:36:57,806 - DEBUG -     Creating environment...
+2026-03-16 11:37:00,801 - DEBUG -     Environment created, seed=0
+2026-03-16 11:37:00,801 - DEBUG -     Using initial state 0
+2026-03-16 11:37:00,801 - DEBUG - Starting episode with task: 'The middle layer of the drawer needs to be opened'
+2026-03-16 11:37:00,801 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:37:03,745 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:37:03,752 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:37:04,006 - DEBUG - Starting main rollout loop...
+2026-03-16 11:37:04,068 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:37:58,953 - DEBUG - Warmup complete
+2026-03-16 11:38:03,978 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:38:03,978 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:38:03,979 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:38:04,388 - DEBUG -     Environment closed
+2026-03-16 11:38:04,389 - INFO - 
+  Rollout 2/10 (Episode 2/100)
+2026-03-16 11:38:04,390 - DEBUG -     Creating environment...
+2026-03-16 11:38:06,953 - DEBUG -     Environment created, seed=1
+2026-03-16 11:38:06,953 - DEBUG -     Using initial state 1
+2026-03-16 11:38:06,953 - DEBUG - Starting episode with task: 'The middle layer of the drawer needs to be opened'
+2026-03-16 11:38:06,954 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:38:09,638 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:38:09,647 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:38:09,854 - DEBUG - Starting main rollout loop...
+2026-03-16 11:38:09,906 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:39:00,350 - DEBUG - Warmup complete
+2026-03-16 11:39:05,061 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:39:05,061 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:39:05,062 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:39:05,486 - DEBUG -     Environment closed
+2026-03-16 11:39:05,486 - INFO - 
+  Rollout 3/10 (Episode 3/100)
+2026-03-16 11:39:05,487 - DEBUG -     Creating environment...
+2026-03-16 11:39:08,059 - DEBUG -     Environment created, seed=2
+2026-03-16 11:39:08,059 - DEBUG -     Using initial state 2
+2026-03-16 11:39:08,059 - DEBUG - Starting episode with task: 'The middle layer of the drawer needs to be opened'
+2026-03-16 11:39:08,060 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:39:10,804 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:39:10,815 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:39:11,021 - DEBUG - Starting main rollout loop...
+2026-03-16 11:39:11,074 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:40:03,561 - DEBUG - Warmup complete
+2026-03-16 11:40:09,405 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:40:09,405 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:40:09,405 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:40:09,854 - DEBUG -     Environment closed
+2026-03-16 11:40:09,854 - INFO - 
+  Rollout 4/10 (Episode 4/100)
+2026-03-16 11:40:09,855 - DEBUG -     Creating environment...
+2026-03-16 11:40:12,467 - DEBUG -     Environment created, seed=3
+2026-03-16 11:40:12,467 - DEBUG -     Using initial state 3
+2026-03-16 11:40:12,468 - DEBUG - Starting episode with task: 'The middle layer of the drawer needs to be opened'
+2026-03-16 11:40:12,468 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:40:15,789 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:40:15,798 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:40:16,000 - DEBUG - Starting main rollout loop...
+2026-03-16 11:40:16,057 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:41:11,408 - DEBUG - Warmup complete
+2026-03-16 11:41:16,634 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:41:16,634 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:41:16,635 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:41:17,071 - DEBUG -     Environment closed
+2026-03-16 11:41:17,071 - INFO - 
+  Rollout 5/10 (Episode 5/100)
+2026-03-16 11:41:17,072 - DEBUG -     Creating environment...
+2026-03-16 11:41:19,612 - DEBUG -     Environment created, seed=4
+2026-03-16 11:41:19,613 - DEBUG -     Using initial state 4
+2026-03-16 11:41:19,613 - DEBUG - Starting episode with task: 'The middle layer of the drawer needs to be opened'
+2026-03-16 11:41:19,613 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:41:22,512 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:41:22,521 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:41:22,721 - DEBUG - Starting main rollout loop...
+2026-03-16 11:41:22,778 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:42:17,028 - DEBUG - Warmup complete
+2026-03-16 11:42:21,999 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:42:21,999 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:42:22,000 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:42:22,425 - DEBUG -     Environment closed
+2026-03-16 11:42:22,426 - INFO - 
+  Rollout 6/10 (Episode 6/100)
+2026-03-16 11:42:22,427 - DEBUG -     Creating environment...
+2026-03-16 11:42:24,965 - DEBUG -     Environment created, seed=5
+2026-03-16 11:42:24,966 - DEBUG -     Using initial state 5
+2026-03-16 11:42:24,966 - DEBUG - Starting episode with task: 'The middle layer of the drawer needs to be opened'
+2026-03-16 11:42:24,966 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:42:27,681 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:42:27,688 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:42:27,894 - DEBUG - Starting main rollout loop...
+2026-03-16 11:42:27,947 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:43:19,771 - DEBUG - Warmup complete
+2026-03-16 11:43:24,557 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:43:24,557 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:43:24,558 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:43:24,972 - DEBUG -     Environment closed
+2026-03-16 11:43:24,972 - INFO - 
+  Rollout 7/10 (Episode 7/100)
+2026-03-16 11:43:24,973 - DEBUG -     Creating environment...
+2026-03-16 11:43:27,526 - DEBUG -     Environment created, seed=6
+2026-03-16 11:43:27,526 - DEBUG -     Using initial state 6
+2026-03-16 11:43:27,526 - DEBUG - Starting episode with task: 'The middle layer of the drawer needs to be opened'
+2026-03-16 11:43:27,526 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:43:30,265 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:43:30,273 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:43:30,479 - DEBUG - Starting main rollout loop...
+2026-03-16 11:43:30,537 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:44:22,453 - DEBUG - Warmup complete
+2026-03-16 11:44:27,839 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:44:27,839 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:44:27,840 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:44:28,262 - DEBUG -     Environment closed
+2026-03-16 11:44:28,263 - INFO - 
+  Rollout 8/10 (Episode 8/100)
+2026-03-16 11:44:28,263 - DEBUG -     Creating environment...
+2026-03-16 11:44:30,724 - DEBUG -     Environment created, seed=7
+2026-03-16 11:44:30,725 - DEBUG -     Using initial state 7
+2026-03-16 11:44:30,725 - DEBUG - Starting episode with task: 'The middle layer of the drawer needs to be opened'
+2026-03-16 11:44:30,725 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:44:33,552 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:44:33,561 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:44:33,769 - DEBUG - Starting main rollout loop...
+2026-03-16 11:44:33,828 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:45:23,365 - DEBUG - Warmup complete
+2026-03-16 11:45:28,336 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:45:28,336 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:45:28,337 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:45:28,759 - DEBUG -     Environment closed
+2026-03-16 11:45:28,760 - INFO - 
+  Rollout 9/10 (Episode 9/100)
+2026-03-16 11:45:28,761 - DEBUG -     Creating environment...
+2026-03-16 11:45:31,222 - DEBUG -     Environment created, seed=8
+2026-03-16 11:45:31,222 - DEBUG -     Using initial state 8
+2026-03-16 11:45:31,223 - DEBUG - Starting episode with task: 'The middle layer of the drawer needs to be opened'
+2026-03-16 11:45:31,223 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:45:33,950 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:45:33,957 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:45:34,162 - DEBUG - Starting main rollout loop...
+2026-03-16 11:45:34,222 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:46:24,485 - DEBUG - Warmup complete
+2026-03-16 11:46:29,518 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:46:29,518 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:46:29,518 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:46:29,894 - DEBUG -     Environment closed
+2026-03-16 11:46:29,895 - INFO - 
+  Rollout 10/10 (Episode 10/100)
+2026-03-16 11:46:29,896 - DEBUG -     Creating environment...
+2026-03-16 11:46:32,444 - DEBUG -     Environment created, seed=9
+2026-03-16 11:46:32,444 - DEBUG -     Using initial state 9
+2026-03-16 11:46:32,444 - DEBUG - Starting episode with task: 'The middle layer of the drawer needs to be opened'
+2026-03-16 11:46:32,444 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:46:35,151 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:46:35,158 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:46:35,366 - DEBUG - Starting main rollout loop...
+2026-03-16 11:46:35,420 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:47:25,520 - DEBUG - Warmup complete
+2026-03-16 11:47:30,509 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:47:30,510 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:47:30,510 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:47:30,879 - DEBUG -     Environment closed
+2026-03-16 11:47:30,881 - INFO -   Summary: 10 embeddings, shape: (2048,)
+2026-03-16 11:47:30,886 - INFO - 
+2026-03-16 11:47:30,887 - INFO - ================================================================================
+2026-03-16 11:47:30,887 - INFO - TASK 2/10: put_the_bowl_on_the_stove
+2026-03-16 11:47:30,887 - INFO - Initial states available: 50
+2026-03-16 11:47:30,888 - INFO - ================================================================================
+2026-03-16 11:47:30,890 - INFO - 
+  COMMAND LEVEL: L2
+2026-03-16 11:47:30,890 - INFO -   Command text: 'The stove needs to have the bowl on it'
+2026-03-16 11:47:30,891 - INFO -   Running 10 rollouts...
+2026-03-16 11:47:30,891 - INFO - 
+  Rollout 1/10 (Episode 11/100)
+2026-03-16 11:47:30,892 - DEBUG -     Creating environment...
+2026-03-16 11:47:33,453 - DEBUG -     Environment created, seed=0
+2026-03-16 11:47:33,453 - DEBUG -     Using initial state 0
+2026-03-16 11:47:33,454 - DEBUG - Starting episode with task: 'The stove needs to have the bowl on it'
+2026-03-16 11:47:33,454 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:47:36,118 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:47:36,125 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:47:36,330 - DEBUG - Starting main rollout loop...
+2026-03-16 11:47:36,377 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:48:26,626 - DEBUG - Warmup complete
+2026-03-16 11:48:31,703 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:48:31,704 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:48:31,704 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:48:32,092 - DEBUG -     Environment closed
+2026-03-16 11:48:32,093 - INFO - 
+  Rollout 2/10 (Episode 12/100)
+2026-03-16 11:48:32,093 - DEBUG -     Creating environment...
+2026-03-16 11:48:34,658 - DEBUG -     Environment created, seed=1
+2026-03-16 11:48:34,659 - DEBUG -     Using initial state 1
+2026-03-16 11:48:34,659 - DEBUG - Starting episode with task: 'The stove needs to have the bowl on it'
+2026-03-16 11:48:34,659 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:48:37,325 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:48:37,330 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:48:37,539 - DEBUG - Starting main rollout loop...
+2026-03-16 11:48:37,591 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:49:27,783 - DEBUG - Warmup complete
+2026-03-16 11:49:32,852 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:49:32,853 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:49:32,853 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:49:33,238 - DEBUG -     Environment closed
+2026-03-16 11:49:33,239 - INFO - 
+  Rollout 3/10 (Episode 13/100)
+2026-03-16 11:49:33,240 - DEBUG -     Creating environment...
+2026-03-16 11:49:35,762 - DEBUG -     Environment created, seed=2
+2026-03-16 11:49:35,763 - DEBUG -     Using initial state 2
+2026-03-16 11:49:35,763 - DEBUG - Starting episode with task: 'The stove needs to have the bowl on it'
+2026-03-16 11:49:35,763 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:49:38,605 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:49:38,612 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:49:38,821 - DEBUG - Starting main rollout loop...
+2026-03-16 11:49:38,876 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:50:28,867 - DEBUG - Warmup complete
+2026-03-16 11:50:33,923 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:50:33,923 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:50:33,924 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:50:34,297 - DEBUG -     Environment closed
+2026-03-16 11:50:34,297 - INFO - 
+  Rollout 4/10 (Episode 14/100)
+2026-03-16 11:50:34,298 - DEBUG -     Creating environment...
+2026-03-16 11:50:36,808 - DEBUG -     Environment created, seed=3
+2026-03-16 11:50:36,809 - DEBUG -     Using initial state 3
+2026-03-16 11:50:36,809 - DEBUG - Starting episode with task: 'The stove needs to have the bowl on it'
+2026-03-16 11:50:36,809 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:50:39,497 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:50:39,506 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:50:39,713 - DEBUG - Starting main rollout loop...
+2026-03-16 11:50:39,771 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:51:27,074 - DEBUG - Warmup complete
+2026-03-16 11:51:32,170 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:51:32,170 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:51:32,171 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:51:32,650 - DEBUG -     Environment closed
+2026-03-16 11:51:32,650 - INFO - 
+  Rollout 5/10 (Episode 15/100)
+2026-03-16 11:51:32,651 - DEBUG -     Creating environment...
+2026-03-16 11:51:35,148 - DEBUG -     Environment created, seed=4
+2026-03-16 11:51:35,149 - DEBUG -     Using initial state 4
+2026-03-16 11:51:35,149 - DEBUG - Starting episode with task: 'The stove needs to have the bowl on it'
+2026-03-16 11:51:35,149 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:51:37,815 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:51:37,822 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:51:38,032 - DEBUG - Starting main rollout loop...
+2026-03-16 11:51:38,081 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:52:27,056 - DEBUG - Warmup complete
+2026-03-16 11:52:32,065 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:52:32,066 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:52:32,066 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:52:32,543 - DEBUG -     Environment closed
+2026-03-16 11:52:32,543 - INFO - 
+  Rollout 6/10 (Episode 16/100)
+2026-03-16 11:52:32,544 - DEBUG -     Creating environment...
+2026-03-16 11:52:35,104 - DEBUG -     Environment created, seed=5
+2026-03-16 11:52:35,105 - DEBUG -     Using initial state 5
+2026-03-16 11:52:35,105 - DEBUG - Starting episode with task: 'The stove needs to have the bowl on it'
+2026-03-16 11:52:35,105 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:52:37,858 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:52:37,863 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:52:38,070 - DEBUG - Starting main rollout loop...
+2026-03-16 11:52:38,121 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:53:27,782 - DEBUG - Warmup complete
+2026-03-16 11:53:32,795 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:53:32,795 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:53:32,796 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:53:33,182 - DEBUG -     Environment closed
+2026-03-16 11:53:33,183 - INFO - 
+  Rollout 7/10 (Episode 17/100)
+2026-03-16 11:53:33,183 - DEBUG -     Creating environment...
+2026-03-16 11:53:35,747 - DEBUG -     Environment created, seed=6
+2026-03-16 11:53:35,747 - DEBUG -     Using initial state 6
+2026-03-16 11:53:35,748 - DEBUG - Starting episode with task: 'The stove needs to have the bowl on it'
+2026-03-16 11:53:35,748 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:53:38,430 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:53:38,437 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:53:38,640 - DEBUG - Starting main rollout loop...
+2026-03-16 11:53:38,690 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:54:28,507 - DEBUG - Warmup complete
+2026-03-16 11:54:33,565 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:54:33,566 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:54:33,566 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:54:33,953 - DEBUG -     Environment closed
+2026-03-16 11:54:33,953 - INFO - 
+  Rollout 8/10 (Episode 18/100)
+2026-03-16 11:54:33,954 - DEBUG -     Creating environment...
+2026-03-16 11:54:36,475 - DEBUG -     Environment created, seed=7
+2026-03-16 11:54:36,475 - DEBUG -     Using initial state 7
+2026-03-16 11:54:36,475 - DEBUG - Starting episode with task: 'The stove needs to have the bowl on it'
+2026-03-16 11:54:36,475 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:54:39,317 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:54:39,324 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:54:39,532 - DEBUG - Starting main rollout loop...
+2026-03-16 11:54:39,583 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:55:30,119 - DEBUG - Warmup complete
+2026-03-16 11:55:35,150 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:55:35,151 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:55:35,151 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:55:35,527 - DEBUG -     Environment closed
+2026-03-16 11:55:35,528 - INFO - 
+  Rollout 9/10 (Episode 19/100)
+2026-03-16 11:55:35,528 - DEBUG -     Creating environment...
+2026-03-16 11:55:38,079 - DEBUG -     Environment created, seed=8
+2026-03-16 11:55:38,079 - DEBUG -     Using initial state 8
+2026-03-16 11:55:38,080 - DEBUG - Starting episode with task: 'The stove needs to have the bowl on it'
+2026-03-16 11:55:38,080 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:55:40,829 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:55:40,837 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:55:41,053 - DEBUG - Starting main rollout loop...
+2026-03-16 11:55:41,112 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:56:33,738 - DEBUG - Warmup complete
+2026-03-16 11:56:39,256 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:56:39,257 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:56:39,257 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:56:39,632 - DEBUG -     Environment closed
+2026-03-16 11:56:39,633 - INFO - 
+  Rollout 10/10 (Episode 20/100)
+2026-03-16 11:56:39,634 - DEBUG -     Creating environment...
+2026-03-16 11:56:42,196 - DEBUG -     Environment created, seed=9
+2026-03-16 11:56:42,197 - DEBUG -     Using initial state 9
+2026-03-16 11:56:42,197 - DEBUG - Starting episode with task: 'The stove needs to have the bowl on it'
+2026-03-16 11:56:42,197 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:56:45,786 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:56:45,799 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:56:46,004 - DEBUG - Starting main rollout loop...
+2026-03-16 11:56:46,117 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:57:36,349 - DEBUG - Warmup complete
+2026-03-16 11:57:41,355 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:57:41,355 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:57:41,356 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:57:41,729 - DEBUG -     Environment closed
+2026-03-16 11:57:41,730 - INFO -   Summary: 10 embeddings, shape: (2048,)
+2026-03-16 11:57:41,737 - INFO - 
+2026-03-16 11:57:41,738 - INFO - ================================================================================
+2026-03-16 11:57:41,738 - INFO - TASK 3/10: put_the_wine_bottle_on_top_of_the_cabinet
+2026-03-16 11:57:41,739 - INFO - Initial states available: 50
+2026-03-16 11:57:41,739 - INFO - ================================================================================
+2026-03-16 11:57:41,742 - INFO - 
+  COMMAND LEVEL: L2
+2026-03-16 11:57:41,742 - INFO -   Command text: 'Top of the cabinet needs to have the wine bottle on it'
+2026-03-16 11:57:41,743 - INFO -   Running 10 rollouts...
+2026-03-16 11:57:41,743 - INFO - 
+  Rollout 1/10 (Episode 21/100)
+2026-03-16 11:57:41,744 - DEBUG -     Creating environment...
+2026-03-16 11:57:44,298 - DEBUG -     Environment created, seed=0
+2026-03-16 11:57:44,298 - DEBUG -     Using initial state 0
+2026-03-16 11:57:44,298 - DEBUG - Starting episode with task: 'Top of the cabinet needs to have the wine bottle on it'
+2026-03-16 11:57:44,299 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:57:47,049 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:57:47,058 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:57:47,264 - DEBUG - Starting main rollout loop...
+2026-03-16 11:57:47,313 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:58:39,864 - DEBUG - Warmup complete
+2026-03-16 11:58:45,732 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:58:45,733 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:58:45,733 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:58:46,108 - DEBUG -     Environment closed
+2026-03-16 11:58:46,109 - INFO - 
+  Rollout 2/10 (Episode 22/100)
+2026-03-16 11:58:46,110 - DEBUG -     Creating environment...
+2026-03-16 11:58:48,753 - DEBUG -     Environment created, seed=1
+2026-03-16 11:58:48,753 - DEBUG -     Using initial state 1
+2026-03-16 11:58:48,753 - DEBUG - Starting episode with task: 'Top of the cabinet needs to have the wine bottle on it'
+2026-03-16 11:58:48,754 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:58:51,434 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:58:51,441 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:58:51,650 - DEBUG - Starting main rollout loop...
+2026-03-16 11:58:51,713 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 11:59:44,075 - DEBUG - Warmup complete
+2026-03-16 11:59:49,805 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 11:59:49,805 - DEBUG - First step extraction complete, returning early
+2026-03-16 11:59:49,805 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 11:59:50,187 - DEBUG -     Environment closed
+2026-03-16 11:59:50,188 - INFO - 
+  Rollout 3/10 (Episode 23/100)
+2026-03-16 11:59:50,189 - DEBUG -     Creating environment...
+2026-03-16 11:59:52,683 - DEBUG -     Environment created, seed=2
+2026-03-16 11:59:52,684 - DEBUG -     Using initial state 2
+2026-03-16 11:59:52,684 - DEBUG - Starting episode with task: 'Top of the cabinet needs to have the wine bottle on it'
+2026-03-16 11:59:52,684 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 11:59:56,045 - DEBUG - Set initial state from checkpoint
+2026-03-16 11:59:56,063 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 11:59:56,274 - DEBUG - Starting main rollout loop...
+2026-03-16 11:59:56,334 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:00:48,712 - DEBUG - Warmup complete
+2026-03-16 12:00:53,927 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:00:53,927 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:00:53,927 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:00:54,302 - DEBUG -     Environment closed
+2026-03-16 12:00:54,303 - INFO - 
+  Rollout 4/10 (Episode 24/100)
+2026-03-16 12:00:54,303 - DEBUG -     Creating environment...
+2026-03-16 12:00:57,346 - DEBUG -     Environment created, seed=3
+2026-03-16 12:00:57,346 - DEBUG -     Using initial state 3
+2026-03-16 12:00:57,347 - DEBUG - Starting episode with task: 'Top of the cabinet needs to have the wine bottle on it'
+2026-03-16 12:00:57,347 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:01:00,507 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:01:00,518 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:01:00,726 - DEBUG - Starting main rollout loop...
+2026-03-16 12:01:00,819 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:01:52,737 - DEBUG - Warmup complete
+2026-03-16 12:01:57,749 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:01:57,750 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:01:57,750 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:01:58,116 - DEBUG -     Environment closed
+2026-03-16 12:01:58,116 - INFO - 
+  Rollout 5/10 (Episode 25/100)
+2026-03-16 12:01:58,117 - DEBUG -     Creating environment...
+2026-03-16 12:02:00,675 - DEBUG -     Environment created, seed=4
+2026-03-16 12:02:00,675 - DEBUG -     Using initial state 4
+2026-03-16 12:02:00,675 - DEBUG - Starting episode with task: 'Top of the cabinet needs to have the wine bottle on it'
+2026-03-16 12:02:00,675 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:02:03,466 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:02:03,477 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:02:03,684 - DEBUG - Starting main rollout loop...
+2026-03-16 12:02:03,820 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:02:56,271 - DEBUG - Warmup complete
+2026-03-16 12:03:01,778 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:03:01,779 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:03:01,779 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:03:02,153 - DEBUG -     Environment closed
+2026-03-16 12:03:02,154 - INFO - 
+  Rollout 6/10 (Episode 26/100)
+2026-03-16 12:03:02,154 - DEBUG -     Creating environment...
+2026-03-16 12:03:04,654 - DEBUG -     Environment created, seed=5
+2026-03-16 12:03:04,655 - DEBUG -     Using initial state 5
+2026-03-16 12:03:04,655 - DEBUG - Starting episode with task: 'Top of the cabinet needs to have the wine bottle on it'
+2026-03-16 12:03:04,655 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:03:07,509 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:03:07,518 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:03:07,721 - DEBUG - Starting main rollout loop...
+2026-03-16 12:03:07,780 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:03:59,310 - DEBUG - Warmup complete
+2026-03-16 12:04:04,332 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:04:04,332 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:04:04,333 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:04:04,704 - DEBUG -     Environment closed
+2026-03-16 12:04:04,705 - INFO - 
+  Rollout 7/10 (Episode 27/100)
+2026-03-16 12:04:04,706 - DEBUG -     Creating environment...
+2026-03-16 12:04:07,416 - DEBUG -     Environment created, seed=6
+2026-03-16 12:04:07,417 - DEBUG -     Using initial state 6
+2026-03-16 12:04:07,417 - DEBUG - Starting episode with task: 'Top of the cabinet needs to have the wine bottle on it'
+2026-03-16 12:04:07,417 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:04:10,366 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:04:10,375 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:04:10,577 - DEBUG - Starting main rollout loop...
+2026-03-16 12:04:10,707 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:05:02,665 - DEBUG - Warmup complete
+2026-03-16 12:05:08,009 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:05:08,009 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:05:08,010 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:05:08,386 - DEBUG -     Environment closed
+2026-03-16 12:05:08,387 - INFO - 
+  Rollout 8/10 (Episode 28/100)
+2026-03-16 12:05:08,388 - DEBUG -     Creating environment...
+2026-03-16 12:05:10,842 - DEBUG -     Environment created, seed=7
+2026-03-16 12:05:10,843 - DEBUG -     Using initial state 7
+2026-03-16 12:05:10,849 - DEBUG - Starting episode with task: 'Top of the cabinet needs to have the wine bottle on it'
+2026-03-16 12:05:10,849 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:05:14,375 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:05:14,406 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:05:14,611 - DEBUG - Starting main rollout loop...
+2026-03-16 12:05:14,665 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:06:03,912 - DEBUG - Warmup complete
+2026-03-16 12:06:08,926 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:06:08,927 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:06:08,927 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:06:09,308 - DEBUG -     Environment closed
+2026-03-16 12:06:09,309 - INFO - 
+  Rollout 9/10 (Episode 29/100)
+2026-03-16 12:06:09,309 - DEBUG -     Creating environment...
+2026-03-16 12:06:11,975 - DEBUG -     Environment created, seed=8
+2026-03-16 12:06:11,975 - DEBUG -     Using initial state 8
+2026-03-16 12:06:11,976 - DEBUG - Starting episode with task: 'Top of the cabinet needs to have the wine bottle on it'
+2026-03-16 12:06:11,976 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:06:15,808 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:06:15,826 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:06:16,033 - DEBUG - Starting main rollout loop...
+2026-03-16 12:06:16,087 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:07:06,018 - DEBUG - Warmup complete
+2026-03-16 12:07:11,004 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:07:11,005 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:07:11,005 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:07:11,409 - DEBUG -     Environment closed
+2026-03-16 12:07:11,410 - INFO - 
+  Rollout 10/10 (Episode 30/100)
+2026-03-16 12:07:11,411 - DEBUG -     Creating environment...
+2026-03-16 12:07:14,046 - DEBUG -     Environment created, seed=9
+2026-03-16 12:07:14,046 - DEBUG -     Using initial state 9
+2026-03-16 12:07:14,046 - DEBUG - Starting episode with task: 'Top of the cabinet needs to have the wine bottle on it'
+2026-03-16 12:07:14,046 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:07:16,781 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:07:16,808 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:07:17,022 - DEBUG - Starting main rollout loop...
+2026-03-16 12:07:17,080 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:08:06,667 - DEBUG - Warmup complete
+2026-03-16 12:08:11,962 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:08:11,963 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:08:11,963 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:08:12,334 - DEBUG -     Environment closed
+2026-03-16 12:08:12,335 - INFO -   Summary: 10 embeddings, shape: (2048,)
+2026-03-16 12:08:12,342 - INFO - 
+2026-03-16 12:08:12,342 - INFO - ================================================================================
+2026-03-16 12:08:12,343 - INFO - TASK 4/10: open_the_top_drawer_and_put_the_bowl_inside
+2026-03-16 12:08:12,343 - INFO - Initial states available: 50
+2026-03-16 12:08:12,344 - INFO - ================================================================================
+2026-03-16 12:08:12,346 - INFO - 
+  COMMAND LEVEL: L2
+2026-03-16 12:08:12,346 - INFO -   Command text: 'The top layer of the drawer needs to be opened and the bowl needs to be put inside'
+2026-03-16 12:08:12,347 - INFO -   Running 10 rollouts...
+2026-03-16 12:08:12,347 - INFO - 
+  Rollout 1/10 (Episode 31/100)
+2026-03-16 12:08:12,347 - DEBUG -     Creating environment...
+2026-03-16 12:08:15,790 - DEBUG -     Environment created, seed=0
+2026-03-16 12:08:15,791 - DEBUG -     Using initial state 0
+2026-03-16 12:08:15,791 - DEBUG - Starting episode with task: 'The top layer of the drawer needs to be opened and the bowl needs to be put inside'
+2026-03-16 12:08:15,791 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:08:18,594 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:08:18,602 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:08:18,809 - DEBUG - Starting main rollout loop...
+2026-03-16 12:08:18,866 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:09:10,404 - DEBUG - Warmup complete
+2026-03-16 12:09:15,390 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:09:15,391 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:09:15,391 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:09:15,768 - DEBUG -     Environment closed
+2026-03-16 12:09:15,769 - INFO - 
+  Rollout 2/10 (Episode 32/100)
+2026-03-16 12:09:15,770 - DEBUG -     Creating environment...
+2026-03-16 12:09:18,802 - DEBUG -     Environment created, seed=1
+2026-03-16 12:09:18,802 - DEBUG -     Using initial state 1
+2026-03-16 12:09:18,803 - DEBUG - Starting episode with task: 'The top layer of the drawer needs to be opened and the bowl needs to be put inside'
+2026-03-16 12:09:18,803 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:09:22,138 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:09:22,146 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:09:22,354 - DEBUG - Starting main rollout loop...
+2026-03-16 12:09:22,505 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:10:13,965 - DEBUG - Warmup complete
+2026-03-16 12:10:18,899 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:10:18,899 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:10:18,900 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:10:19,669 - DEBUG -     Environment closed
+2026-03-16 12:10:19,670 - INFO - 
+  Rollout 3/10 (Episode 33/100)
+2026-03-16 12:10:19,671 - DEBUG -     Creating environment...
+2026-03-16 12:10:22,248 - DEBUG -     Environment created, seed=2
+2026-03-16 12:10:22,252 - DEBUG -     Using initial state 2
+2026-03-16 12:10:22,252 - DEBUG - Starting episode with task: 'The top layer of the drawer needs to be opened and the bowl needs to be put inside'
+2026-03-16 12:10:22,253 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:10:25,557 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:10:25,577 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:10:25,788 - DEBUG - Starting main rollout loop...
+2026-03-16 12:10:25,844 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:11:16,589 - DEBUG - Warmup complete
+2026-03-16 12:11:22,406 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:11:22,406 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:11:22,407 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:11:23,204 - DEBUG -     Environment closed
+2026-03-16 12:11:23,205 - INFO - 
+  Rollout 4/10 (Episode 34/100)
+2026-03-16 12:11:23,206 - DEBUG -     Creating environment...
+2026-03-16 12:11:25,907 - DEBUG -     Environment created, seed=3
+2026-03-16 12:11:25,908 - DEBUG -     Using initial state 3
+2026-03-16 12:11:25,908 - DEBUG - Starting episode with task: 'The top layer of the drawer needs to be opened and the bowl needs to be put inside'
+2026-03-16 12:11:25,908 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:11:29,154 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:11:29,175 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:11:29,393 - DEBUG - Starting main rollout loop...
+2026-03-16 12:11:29,446 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:12:23,693 - DEBUG - Warmup complete
+2026-03-16 12:12:28,691 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:12:28,691 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:12:28,692 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:12:29,421 - DEBUG -     Environment closed
+2026-03-16 12:12:29,423 - INFO - 
+  Rollout 5/10 (Episode 35/100)
+2026-03-16 12:12:29,423 - DEBUG -     Creating environment...
+2026-03-16 12:12:32,235 - DEBUG -     Environment created, seed=4
+2026-03-16 12:12:32,235 - DEBUG -     Using initial state 4
+2026-03-16 12:12:32,236 - DEBUG - Starting episode with task: 'The top layer of the drawer needs to be opened and the bowl needs to be put inside'
+2026-03-16 12:12:32,236 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:12:35,469 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:12:35,478 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:12:35,684 - DEBUG - Starting main rollout loop...
+2026-03-16 12:12:35,734 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:13:25,321 - DEBUG - Warmup complete
+2026-03-16 12:13:30,301 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:13:30,302 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:13:30,302 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:13:31,115 - DEBUG -     Environment closed
+2026-03-16 12:13:31,116 - INFO - 
+  Rollout 6/10 (Episode 36/100)
+2026-03-16 12:13:31,117 - DEBUG -     Creating environment...
+2026-03-16 12:13:33,824 - DEBUG -     Environment created, seed=5
+2026-03-16 12:13:33,825 - DEBUG -     Using initial state 5
+2026-03-16 12:13:33,828 - DEBUG - Starting episode with task: 'The top layer of the drawer needs to be opened and the bowl needs to be put inside'
+2026-03-16 12:13:33,828 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:13:36,984 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:13:36,992 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:13:37,196 - DEBUG - Starting main rollout loop...
+2026-03-16 12:13:37,250 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:14:27,332 - DEBUG - Warmup complete
+2026-03-16 12:14:32,271 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:14:32,271 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:14:32,271 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:14:33,175 - DEBUG -     Environment closed
+2026-03-16 12:14:33,177 - INFO - 
+  Rollout 7/10 (Episode 37/100)
+2026-03-16 12:14:33,177 - DEBUG -     Creating environment...
+2026-03-16 12:14:35,752 - DEBUG -     Environment created, seed=6
+2026-03-16 12:14:35,753 - DEBUG -     Using initial state 6
+2026-03-16 12:14:35,753 - DEBUG - Starting episode with task: 'The top layer of the drawer needs to be opened and the bowl needs to be put inside'
+2026-03-16 12:14:35,753 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:14:38,822 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:14:38,830 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:14:39,037 - DEBUG - Starting main rollout loop...
+2026-03-16 12:14:39,093 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:15:30,324 - DEBUG - Warmup complete
+2026-03-16 12:15:35,199 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:15:35,200 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:15:35,200 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:15:35,930 - DEBUG -     Environment closed
+2026-03-16 12:15:35,931 - INFO - 
+  Rollout 8/10 (Episode 38/100)
+2026-03-16 12:15:35,932 - DEBUG -     Creating environment...
+2026-03-16 12:15:38,501 - DEBUG -     Environment created, seed=7
+2026-03-16 12:15:38,502 - DEBUG -     Using initial state 7
+2026-03-16 12:15:38,502 - DEBUG - Starting episode with task: 'The top layer of the drawer needs to be opened and the bowl needs to be put inside'
+2026-03-16 12:15:38,502 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:15:41,628 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:15:41,637 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:15:41,835 - DEBUG - Starting main rollout loop...
+2026-03-16 12:15:41,887 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:16:32,305 - DEBUG - Warmup complete
+2026-03-16 12:16:37,340 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:16:37,340 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:16:37,341 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:16:37,985 - DEBUG -     Environment closed
+2026-03-16 12:16:37,986 - INFO - 
+  Rollout 9/10 (Episode 39/100)
+2026-03-16 12:16:37,986 - DEBUG -     Creating environment...
+2026-03-16 12:16:40,532 - DEBUG -     Environment created, seed=8
+2026-03-16 12:16:40,532 - DEBUG -     Using initial state 8
+2026-03-16 12:16:40,533 - DEBUG - Starting episode with task: 'The top layer of the drawer needs to be opened and the bowl needs to be put inside'
+2026-03-16 12:16:40,533 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:16:43,675 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:16:43,683 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:16:43,885 - DEBUG - Starting main rollout loop...
+2026-03-16 12:16:43,935 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:17:34,417 - DEBUG - Warmup complete
+2026-03-16 12:17:39,462 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:17:39,463 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:17:39,463 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:17:40,169 - DEBUG -     Environment closed
+2026-03-16 12:17:40,170 - INFO - 
+  Rollout 10/10 (Episode 40/100)
+2026-03-16 12:17:40,171 - DEBUG -     Creating environment...
+2026-03-16 12:17:42,783 - DEBUG -     Environment created, seed=9
+2026-03-16 12:17:42,783 - DEBUG -     Using initial state 9
+2026-03-16 12:17:42,784 - DEBUG - Starting episode with task: 'The top layer of the drawer needs to be opened and the bowl needs to be put inside'
+2026-03-16 12:17:42,784 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:17:46,442 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:17:46,451 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:17:46,647 - DEBUG - Starting main rollout loop...
+2026-03-16 12:17:46,705 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:18:36,687 - DEBUG - Warmup complete
+2026-03-16 12:18:41,674 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:18:41,675 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:18:41,676 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:18:42,341 - DEBUG -     Environment closed
+2026-03-16 12:18:42,343 - INFO -   Summary: 10 embeddings, shape: (2048,)
+2026-03-16 12:18:42,349 - INFO - 
+2026-03-16 12:18:42,349 - INFO - ================================================================================
+2026-03-16 12:18:42,350 - INFO - TASK 5/10: put_the_bowl_on_top_of_the_cabinet
+2026-03-16 12:18:42,350 - INFO - Initial states available: 50
+2026-03-16 12:18:42,350 - INFO - ================================================================================
+2026-03-16 12:18:42,353 - INFO - 
+  COMMAND LEVEL: L2
+2026-03-16 12:18:42,353 - INFO -   Command text: 'The top of the cabinet needs to have the bowl on it'
+2026-03-16 12:18:42,353 - INFO -   Running 10 rollouts...
+2026-03-16 12:18:42,354 - INFO - 
+  Rollout 1/10 (Episode 41/100)
+2026-03-16 12:18:42,354 - DEBUG -     Creating environment...
+2026-03-16 12:18:45,925 - DEBUG -     Environment created, seed=0
+2026-03-16 12:18:45,925 - DEBUG -     Using initial state 0
+2026-03-16 12:18:45,925 - DEBUG - Starting episode with task: 'The top of the cabinet needs to have the bowl on it'
+2026-03-16 12:18:45,925 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:18:49,324 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:18:49,331 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:18:49,534 - DEBUG - Starting main rollout loop...
+2026-03-16 12:18:49,593 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:19:41,049 - DEBUG - Warmup complete
+2026-03-16 12:19:45,994 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:19:45,995 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:19:45,995 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:19:46,975 - DEBUG -     Environment closed
+2026-03-16 12:19:46,976 - INFO - 
+  Rollout 2/10 (Episode 42/100)
+2026-03-16 12:19:46,976 - DEBUG -     Creating environment...
+2026-03-16 12:19:49,522 - DEBUG -     Environment created, seed=1
+2026-03-16 12:19:49,523 - DEBUG -     Using initial state 1
+2026-03-16 12:19:49,523 - DEBUG - Starting episode with task: 'The top of the cabinet needs to have the bowl on it'
+2026-03-16 12:19:49,523 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:19:52,657 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:19:52,664 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:19:52,869 - DEBUG - Starting main rollout loop...
+2026-03-16 12:19:52,918 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:20:43,072 - DEBUG - Warmup complete
+2026-03-16 12:20:48,227 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:20:48,228 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:20:48,228 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:20:48,829 - DEBUG -     Environment closed
+2026-03-16 12:20:48,830 - INFO - 
+  Rollout 3/10 (Episode 43/100)
+2026-03-16 12:20:48,831 - DEBUG -     Creating environment...
+2026-03-16 12:20:51,381 - DEBUG -     Environment created, seed=2
+2026-03-16 12:20:51,382 - DEBUG -     Using initial state 2
+2026-03-16 12:20:51,382 - DEBUG - Starting episode with task: 'The top of the cabinet needs to have the bowl on it'
+2026-03-16 12:20:51,382 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:20:54,238 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:20:54,247 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:20:54,453 - DEBUG - Starting main rollout loop...
+2026-03-16 12:20:54,507 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:21:45,073 - DEBUG - Warmup complete
+2026-03-16 12:21:49,956 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:21:49,956 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:21:49,957 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:21:50,718 - DEBUG -     Environment closed
+2026-03-16 12:21:50,719 - INFO - 
+  Rollout 4/10 (Episode 44/100)
+2026-03-16 12:21:50,720 - DEBUG -     Creating environment...
+2026-03-16 12:21:53,280 - DEBUG -     Environment created, seed=3
+2026-03-16 12:21:53,281 - DEBUG -     Using initial state 3
+2026-03-16 12:21:53,281 - DEBUG - Starting episode with task: 'The top of the cabinet needs to have the bowl on it'
+2026-03-16 12:21:53,281 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:21:56,777 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:21:56,786 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:21:56,995 - DEBUG - Starting main rollout loop...
+2026-03-16 12:21:57,042 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:22:47,118 - DEBUG - Warmup complete
+2026-03-16 12:22:52,081 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:22:52,082 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:22:52,082 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:22:52,748 - DEBUG -     Environment closed
+2026-03-16 12:22:52,749 - INFO - 
+  Rollout 5/10 (Episode 45/100)
+2026-03-16 12:22:52,749 - DEBUG -     Creating environment...
+2026-03-16 12:22:55,767 - DEBUG -     Environment created, seed=4
+2026-03-16 12:22:55,767 - DEBUG -     Using initial state 4
+2026-03-16 12:22:55,768 - DEBUG - Starting episode with task: 'The top of the cabinet needs to have the bowl on it'
+2026-03-16 12:22:55,768 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:22:58,869 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:22:58,878 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:22:59,083 - DEBUG - Starting main rollout loop...
+2026-03-16 12:22:59,097 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:23:49,405 - DEBUG - Warmup complete
+2026-03-16 12:23:54,373 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:23:54,373 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:23:54,374 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:23:55,080 - DEBUG -     Environment closed
+2026-03-16 12:23:55,081 - INFO - 
+  Rollout 6/10 (Episode 46/100)
+2026-03-16 12:23:55,082 - DEBUG -     Creating environment...
+2026-03-16 12:23:57,864 - DEBUG -     Environment created, seed=5
+2026-03-16 12:23:57,865 - DEBUG -     Using initial state 5
+2026-03-16 12:23:57,865 - DEBUG - Starting episode with task: 'The top of the cabinet needs to have the bowl on it'
+2026-03-16 12:23:57,865 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:24:00,836 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:24:00,845 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:24:01,041 - DEBUG - Starting main rollout loop...
+2026-03-16 12:24:01,094 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:24:51,698 - DEBUG - Warmup complete
+2026-03-16 12:24:56,698 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:24:56,698 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:24:56,699 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:24:57,319 - DEBUG -     Environment closed
+2026-03-16 12:24:57,320 - INFO - 
+  Rollout 7/10 (Episode 47/100)
+2026-03-16 12:24:57,321 - DEBUG -     Creating environment...
+2026-03-16 12:24:59,918 - DEBUG -     Environment created, seed=6
+2026-03-16 12:24:59,918 - DEBUG -     Using initial state 6
+2026-03-16 12:24:59,919 - DEBUG - Starting episode with task: 'The top of the cabinet needs to have the bowl on it'
+2026-03-16 12:24:59,919 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:25:03,037 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:25:03,046 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:25:03,244 - DEBUG - Starting main rollout loop...
+2026-03-16 12:25:03,297 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:25:54,004 - DEBUG - Warmup complete
+2026-03-16 12:25:58,842 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:25:58,842 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:25:58,843 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:25:59,468 - DEBUG -     Environment closed
+2026-03-16 12:25:59,469 - INFO - 
+  Rollout 8/10 (Episode 48/100)
+2026-03-16 12:25:59,470 - DEBUG -     Creating environment...
+2026-03-16 12:26:02,042 - DEBUG -     Environment created, seed=7
+2026-03-16 12:26:02,042 - DEBUG -     Using initial state 7
+2026-03-16 12:26:02,042 - DEBUG - Starting episode with task: 'The top of the cabinet needs to have the bowl on it'
+2026-03-16 12:26:02,043 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:26:05,134 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:26:05,143 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:26:05,345 - DEBUG - Starting main rollout loop...
+2026-03-16 12:26:05,350 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:26:56,316 - DEBUG - Warmup complete
+2026-03-16 12:27:01,322 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:27:01,322 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:27:01,322 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:27:01,954 - DEBUG -     Environment closed
+2026-03-16 12:27:01,955 - INFO - 
+  Rollout 9/10 (Episode 49/100)
+2026-03-16 12:27:01,955 - DEBUG -     Creating environment...
+2026-03-16 12:27:04,546 - DEBUG -     Environment created, seed=8
+2026-03-16 12:27:04,547 - DEBUG -     Using initial state 8
+2026-03-16 12:27:04,547 - DEBUG - Starting episode with task: 'The top of the cabinet needs to have the bowl on it'
+2026-03-16 12:27:04,547 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:27:07,640 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:27:07,649 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:27:07,849 - DEBUG - Starting main rollout loop...
+2026-03-16 12:27:07,902 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:27:58,692 - DEBUG - Warmup complete
+2026-03-16 12:28:03,630 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:28:03,630 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:28:03,631 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:28:04,265 - DEBUG -     Environment closed
+2026-03-16 12:28:04,266 - INFO - 
+  Rollout 10/10 (Episode 50/100)
+2026-03-16 12:28:04,267 - DEBUG -     Creating environment...
+2026-03-16 12:28:06,854 - DEBUG -     Environment created, seed=9
+2026-03-16 12:28:06,855 - DEBUG -     Using initial state 9
+2026-03-16 12:28:06,855 - DEBUG - Starting episode with task: 'The top of the cabinet needs to have the bowl on it'
+2026-03-16 12:28:06,855 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:28:09,932 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:28:09,940 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:28:10,144 - DEBUG - Starting main rollout loop...
+2026-03-16 12:28:10,197 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:29:00,812 - DEBUG - Warmup complete
+2026-03-16 12:29:05,839 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:29:05,839 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:29:05,840 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:29:06,582 - DEBUG -     Environment closed
+2026-03-16 12:29:06,583 - INFO -   Summary: 10 embeddings, shape: (2048,)
+2026-03-16 12:29:06,589 - INFO - 
+2026-03-16 12:29:06,589 - INFO - ================================================================================
+2026-03-16 12:29:06,590 - INFO - TASK 6/10: push_the_plate_to_the_front_of_the_stove
+2026-03-16 12:29:06,590 - INFO - Initial states available: 50
+2026-03-16 12:29:06,591 - INFO - ================================================================================
+2026-03-16 12:29:06,593 - INFO - 
+  COMMAND LEVEL: L2
+2026-03-16 12:29:06,593 - INFO -   Command text: 'The space in front of the stove needs to have the plate in it'
+2026-03-16 12:29:06,594 - INFO -   Running 10 rollouts...
+2026-03-16 12:29:06,594 - INFO - 
+  Rollout 1/10 (Episode 51/100)
+2026-03-16 12:29:06,594 - DEBUG -     Creating environment...
+2026-03-16 12:29:09,145 - DEBUG -     Environment created, seed=0
+2026-03-16 12:29:09,145 - DEBUG -     Using initial state 0
+2026-03-16 12:29:09,146 - DEBUG - Starting episode with task: 'The space in front of the stove needs to have the plate in it'
+2026-03-16 12:29:09,146 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:29:12,255 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:29:12,265 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:29:12,470 - DEBUG - Starting main rollout loop...
+2026-03-16 12:29:12,524 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:30:03,267 - DEBUG - Warmup complete
+2026-03-16 12:30:08,259 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:30:08,260 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:30:08,260 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:30:09,092 - DEBUG -     Environment closed
+2026-03-16 12:30:09,094 - INFO - 
+  Rollout 2/10 (Episode 52/100)
+2026-03-16 12:30:09,094 - DEBUG -     Creating environment...
+2026-03-16 12:30:11,659 - DEBUG -     Environment created, seed=1
+2026-03-16 12:30:11,659 - DEBUG -     Using initial state 1
+2026-03-16 12:30:11,660 - DEBUG - Starting episode with task: 'The space in front of the stove needs to have the plate in it'
+2026-03-16 12:30:11,660 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:30:15,123 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:30:15,132 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:30:15,333 - DEBUG - Starting main rollout loop...
+2026-03-16 12:30:15,379 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:31:05,383 - DEBUG - Warmup complete
+2026-03-16 12:31:10,399 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:31:10,400 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:31:10,400 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:31:11,021 - DEBUG -     Environment closed
+2026-03-16 12:31:11,022 - INFO - 
+  Rollout 3/10 (Episode 53/100)
+2026-03-16 12:31:11,023 - DEBUG -     Creating environment...
+2026-03-16 12:31:13,565 - DEBUG -     Environment created, seed=2
+2026-03-16 12:31:13,565 - DEBUG -     Using initial state 2
+2026-03-16 12:31:13,565 - DEBUG - Starting episode with task: 'The space in front of the stove needs to have the plate in it'
+2026-03-16 12:31:13,565 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:31:16,727 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:31:16,737 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:31:16,939 - DEBUG - Starting main rollout loop...
+2026-03-16 12:31:16,988 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:32:07,286 - DEBUG - Warmup complete
+2026-03-16 12:32:12,256 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:32:12,257 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:32:12,257 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:32:12,972 - DEBUG -     Environment closed
+2026-03-16 12:32:12,973 - INFO - 
+  Rollout 4/10 (Episode 54/100)
+2026-03-16 12:32:12,974 - DEBUG -     Creating environment...
+2026-03-16 12:32:16,491 - DEBUG -     Environment created, seed=3
+2026-03-16 12:32:16,491 - DEBUG -     Using initial state 3
+2026-03-16 12:32:16,491 - DEBUG - Starting episode with task: 'The space in front of the stove needs to have the plate in it'
+2026-03-16 12:32:16,492 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:32:19,644 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:32:19,648 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:32:19,851 - DEBUG - Starting main rollout loop...
+2026-03-16 12:32:19,903 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:33:12,052 - DEBUG - Warmup complete
+2026-03-16 12:33:17,113 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:33:17,113 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:33:17,114 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:33:17,761 - DEBUG -     Environment closed
+2026-03-16 12:33:17,762 - INFO - 
+  Rollout 5/10 (Episode 55/100)
+2026-03-16 12:33:17,762 - DEBUG -     Creating environment...
+2026-03-16 12:33:20,348 - DEBUG -     Environment created, seed=4
+2026-03-16 12:33:20,348 - DEBUG -     Using initial state 4
+2026-03-16 12:33:20,349 - DEBUG - Starting episode with task: 'The space in front of the stove needs to have the plate in it'
+2026-03-16 12:33:20,349 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:33:23,401 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:33:23,410 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:33:23,615 - DEBUG - Starting main rollout loop...
+2026-03-16 12:33:23,667 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:34:14,462 - DEBUG - Warmup complete
+2026-03-16 12:34:19,417 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:34:19,417 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:34:19,417 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:34:20,094 - DEBUG -     Environment closed
+2026-03-16 12:34:20,095 - INFO - 
+  Rollout 6/10 (Episode 56/100)
+2026-03-16 12:34:20,096 - DEBUG -     Creating environment...
+2026-03-16 12:34:22,718 - DEBUG -     Environment created, seed=5
+2026-03-16 12:34:22,719 - DEBUG -     Using initial state 5
+2026-03-16 12:34:22,719 - DEBUG - Starting episode with task: 'The space in front of the stove needs to have the plate in it'
+2026-03-16 12:34:22,719 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:34:25,840 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:34:25,849 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:34:26,058 - DEBUG - Starting main rollout loop...
+2026-03-16 12:34:26,103 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:35:16,656 - DEBUG - Warmup complete
+2026-03-16 12:35:21,613 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:35:21,613 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:35:21,614 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:35:22,366 - DEBUG -     Environment closed
+2026-03-16 12:35:22,367 - INFO - 
+  Rollout 7/10 (Episode 57/100)
+2026-03-16 12:35:22,368 - DEBUG -     Creating environment...
+2026-03-16 12:35:24,936 - DEBUG -     Environment created, seed=6
+2026-03-16 12:35:24,936 - DEBUG -     Using initial state 6
+2026-03-16 12:35:24,937 - DEBUG - Starting episode with task: 'The space in front of the stove needs to have the plate in it'
+2026-03-16 12:35:24,937 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:35:28,027 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:35:28,035 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:35:28,237 - DEBUG - Starting main rollout loop...
+2026-03-16 12:35:28,293 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:36:18,698 - DEBUG - Warmup complete
+2026-03-16 12:36:23,597 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:36:23,597 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:36:23,598 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:36:24,270 - DEBUG -     Environment closed
+2026-03-16 12:36:24,272 - INFO - 
+  Rollout 8/10 (Episode 58/100)
+2026-03-16 12:36:24,272 - DEBUG -     Creating environment...
+2026-03-16 12:36:26,855 - DEBUG -     Environment created, seed=7
+2026-03-16 12:36:26,855 - DEBUG -     Using initial state 7
+2026-03-16 12:36:26,855 - DEBUG - Starting episode with task: 'The space in front of the stove needs to have the plate in it'
+2026-03-16 12:36:26,856 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:36:30,034 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:36:30,043 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:36:30,245 - DEBUG - Starting main rollout loop...
+2026-03-16 12:36:30,263 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:37:20,407 - DEBUG - Warmup complete
+2026-03-16 12:37:25,344 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:37:25,345 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:37:25,345 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:37:25,978 - DEBUG -     Environment closed
+2026-03-16 12:37:25,979 - INFO - 
+  Rollout 9/10 (Episode 59/100)
+2026-03-16 12:37:25,979 - DEBUG -     Creating environment...
+2026-03-16 12:37:28,599 - DEBUG -     Environment created, seed=8
+2026-03-16 12:37:28,600 - DEBUG -     Using initial state 8
+2026-03-16 12:37:28,600 - DEBUG - Starting episode with task: 'The space in front of the stove needs to have the plate in it'
+2026-03-16 12:37:28,601 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:37:31,809 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:37:31,817 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:37:32,023 - DEBUG - Starting main rollout loop...
+2026-03-16 12:37:32,071 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:38:21,856 - DEBUG - Warmup complete
+2026-03-16 12:38:26,894 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:38:26,894 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:38:26,895 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:38:27,645 - DEBUG -     Environment closed
+2026-03-16 12:38:27,647 - INFO - 
+  Rollout 10/10 (Episode 60/100)
+2026-03-16 12:38:27,647 - DEBUG -     Creating environment...
+2026-03-16 12:38:30,248 - DEBUG -     Environment created, seed=9
+2026-03-16 12:38:30,248 - DEBUG -     Using initial state 9
+2026-03-16 12:38:30,249 - DEBUG - Starting episode with task: 'The space in front of the stove needs to have the plate in it'
+2026-03-16 12:38:30,249 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:38:33,282 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:38:33,289 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:38:33,493 - DEBUG - Starting main rollout loop...
+2026-03-16 12:38:33,551 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:39:23,842 - DEBUG - Warmup complete
+2026-03-16 12:39:28,788 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:39:28,789 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:39:28,789 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:39:29,475 - DEBUG -     Environment closed
+2026-03-16 12:39:29,476 - INFO -   Summary: 10 embeddings, shape: (2048,)
+2026-03-16 12:39:29,483 - INFO - 
+2026-03-16 12:39:29,483 - INFO - ================================================================================
+2026-03-16 12:39:29,484 - INFO - TASK 7/10: put_the_cream_cheese_in_the_bowl
+2026-03-16 12:39:29,484 - INFO - Initial states available: 50
+2026-03-16 12:39:29,485 - INFO - ================================================================================
+2026-03-16 12:39:29,489 - INFO - 
+  COMMAND LEVEL: L2
+2026-03-16 12:39:29,490 - INFO -   Command text: 'The cream cheese needs to be put on the bowl'
+2026-03-16 12:39:29,490 - INFO -   Running 10 rollouts...
+2026-03-16 12:39:29,490 - INFO - 
+  Rollout 1/10 (Episode 61/100)
+2026-03-16 12:39:29,491 - DEBUG -     Creating environment...
+2026-03-16 12:39:32,047 - DEBUG -     Environment created, seed=0
+2026-03-16 12:39:32,047 - DEBUG -     Using initial state 0
+2026-03-16 12:39:32,047 - DEBUG - Starting episode with task: 'The cream cheese needs to be put on the bowl'
+2026-03-16 12:39:32,048 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:39:35,245 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:39:35,254 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:39:35,457 - DEBUG - Starting main rollout loop...
+2026-03-16 12:39:35,518 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:40:26,193 - DEBUG - Warmup complete
+2026-03-16 12:40:31,210 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:40:31,210 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:40:31,211 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:40:31,827 - DEBUG -     Environment closed
+2026-03-16 12:40:31,828 - INFO - 
+  Rollout 2/10 (Episode 62/100)
+2026-03-16 12:40:31,829 - DEBUG -     Creating environment...
+2026-03-16 12:40:34,425 - DEBUG -     Environment created, seed=1
+2026-03-16 12:40:34,425 - DEBUG -     Using initial state 1
+2026-03-16 12:40:34,426 - DEBUG - Starting episode with task: 'The cream cheese needs to be put on the bowl'
+2026-03-16 12:40:34,426 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:40:37,529 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:40:37,538 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:40:37,741 - DEBUG - Starting main rollout loop...
+2026-03-16 12:40:37,787 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:41:28,317 - DEBUG - Warmup complete
+2026-03-16 12:41:33,283 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:41:33,284 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:41:33,284 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:41:34,024 - DEBUG -     Environment closed
+2026-03-16 12:41:34,025 - INFO - 
+  Rollout 3/10 (Episode 63/100)
+2026-03-16 12:41:34,026 - DEBUG -     Creating environment...
+2026-03-16 12:41:36,618 - DEBUG -     Environment created, seed=2
+2026-03-16 12:41:36,619 - DEBUG -     Using initial state 2
+2026-03-16 12:41:36,619 - DEBUG - Starting episode with task: 'The cream cheese needs to be put on the bowl'
+2026-03-16 12:41:36,619 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:41:39,748 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:41:39,757 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:41:39,961 - DEBUG - Starting main rollout loop...
+2026-03-16 12:41:40,012 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:42:30,352 - DEBUG - Warmup complete
+2026-03-16 12:42:35,316 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:42:35,317 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:42:35,317 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:42:36,066 - DEBUG -     Environment closed
+2026-03-16 12:42:36,067 - INFO - 
+  Rollout 4/10 (Episode 64/100)
+2026-03-16 12:42:36,067 - DEBUG -     Creating environment...
+2026-03-16 12:42:38,666 - DEBUG -     Environment created, seed=3
+2026-03-16 12:42:38,667 - DEBUG -     Using initial state 3
+2026-03-16 12:42:38,667 - DEBUG - Starting episode with task: 'The cream cheese needs to be put on the bowl'
+2026-03-16 12:42:38,667 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:42:41,803 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:42:41,812 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:42:42,021 - DEBUG - Starting main rollout loop...
+2026-03-16 12:42:42,069 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:43:32,021 - DEBUG - Warmup complete
+2026-03-16 12:43:37,168 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:43:37,169 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:43:37,169 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:43:37,875 - DEBUG -     Environment closed
+2026-03-16 12:43:37,876 - INFO - 
+  Rollout 5/10 (Episode 65/100)
+2026-03-16 12:43:37,876 - DEBUG -     Creating environment...
+2026-03-16 12:43:40,430 - DEBUG -     Environment created, seed=4
+2026-03-16 12:43:40,430 - DEBUG -     Using initial state 4
+2026-03-16 12:43:40,430 - DEBUG - Starting episode with task: 'The cream cheese needs to be put on the bowl'
+2026-03-16 12:43:40,430 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:43:43,541 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:43:43,549 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:43:43,750 - DEBUG - Starting main rollout loop...
+2026-03-16 12:43:43,810 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:44:32,485 - DEBUG - Warmup complete
+2026-03-16 12:44:37,460 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:44:37,461 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:44:37,461 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:44:38,214 - DEBUG -     Environment closed
+2026-03-16 12:44:38,215 - INFO - 
+  Rollout 6/10 (Episode 66/100)
+2026-03-16 12:44:38,215 - DEBUG -     Creating environment...
+2026-03-16 12:44:40,766 - DEBUG -     Environment created, seed=5
+2026-03-16 12:44:40,766 - DEBUG -     Using initial state 5
+2026-03-16 12:44:40,767 - DEBUG - Starting episode with task: 'The cream cheese needs to be put on the bowl'
+2026-03-16 12:44:40,767 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:44:43,773 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:44:43,782 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:44:43,986 - DEBUG - Starting main rollout loop...
+2026-03-16 12:44:44,035 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:45:33,629 - DEBUG - Warmup complete
+2026-03-16 12:45:39,197 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:45:39,198 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:45:39,198 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:45:39,906 - DEBUG -     Environment closed
+2026-03-16 12:45:39,907 - INFO - 
+  Rollout 7/10 (Episode 67/100)
+2026-03-16 12:45:39,908 - DEBUG -     Creating environment...
+2026-03-16 12:45:42,815 - DEBUG -     Environment created, seed=6
+2026-03-16 12:45:42,815 - DEBUG -     Using initial state 6
+2026-03-16 12:45:42,816 - DEBUG - Starting episode with task: 'The cream cheese needs to be put on the bowl'
+2026-03-16 12:45:42,816 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:45:46,508 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:45:46,522 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:45:46,734 - DEBUG - Starting main rollout loop...
+2026-03-16 12:45:46,788 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:46:36,237 - DEBUG - Warmup complete
+2026-03-16 12:46:41,223 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:46:41,227 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:46:41,227 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:46:41,876 - DEBUG -     Environment closed
+2026-03-16 12:46:41,877 - INFO - 
+  Rollout 8/10 (Episode 68/100)
+2026-03-16 12:46:41,878 - DEBUG -     Creating environment...
+2026-03-16 12:46:45,797 - DEBUG -     Environment created, seed=7
+2026-03-16 12:46:45,797 - DEBUG -     Using initial state 7
+2026-03-16 12:46:45,797 - DEBUG - Starting episode with task: 'The cream cheese needs to be put on the bowl'
+2026-03-16 12:46:45,798 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:46:49,112 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:46:49,122 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:46:49,329 - DEBUG - Starting main rollout loop...
+2026-03-16 12:46:49,383 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:47:39,479 - DEBUG - Warmup complete
+2026-03-16 12:47:44,506 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:47:44,507 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:47:44,507 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:47:45,285 - DEBUG -     Environment closed
+2026-03-16 12:47:45,285 - INFO - 
+  Rollout 9/10 (Episode 69/100)
+2026-03-16 12:47:45,287 - DEBUG -     Creating environment...
+2026-03-16 12:47:48,010 - DEBUG -     Environment created, seed=8
+2026-03-16 12:47:48,011 - DEBUG -     Using initial state 8
+2026-03-16 12:47:48,011 - DEBUG - Starting episode with task: 'The cream cheese needs to be put on the bowl'
+2026-03-16 12:47:48,011 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:47:51,385 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:47:51,394 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:47:51,590 - DEBUG - Starting main rollout loop...
+2026-03-16 12:47:51,646 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:48:14,511 - DEBUG - Warmup complete
+2026-03-16 12:48:17,065 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:48:17,066 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:48:17,066 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:48:17,746 - DEBUG -     Environment closed
+2026-03-16 12:48:17,747 - INFO - 
+  Rollout 10/10 (Episode 70/100)
+2026-03-16 12:48:17,747 - DEBUG -     Creating environment...
+2026-03-16 12:48:20,380 - DEBUG -     Environment created, seed=9
+2026-03-16 12:48:20,380 - DEBUG -     Using initial state 9
+2026-03-16 12:48:20,381 - DEBUG - Starting episode with task: 'The cream cheese needs to be put on the bowl'
+2026-03-16 12:48:20,381 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:48:23,539 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:48:23,546 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:48:23,748 - DEBUG - Starting main rollout loop...
+2026-03-16 12:48:23,801 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:48:49,012 - DEBUG - Warmup complete
+2026-03-16 12:48:51,561 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:48:51,562 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:48:51,562 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:48:52,279 - DEBUG -     Environment closed
+2026-03-16 12:48:52,284 - INFO -   Summary: 10 embeddings, shape: (2048,)
+2026-03-16 12:48:52,290 - INFO - 
+2026-03-16 12:48:52,291 - INFO - ================================================================================
+2026-03-16 12:48:52,291 - INFO - TASK 8/10: turn_on_the_stove
+2026-03-16 12:48:52,291 - INFO - Initial states available: 50
+2026-03-16 12:48:52,292 - INFO - ================================================================================
+2026-03-16 12:48:52,296 - INFO - 
+  COMMAND LEVEL: L2
+2026-03-16 12:48:52,296 - INFO -   Command text: 'The stove needs to be turned on'
+2026-03-16 12:48:52,297 - INFO -   Running 10 rollouts...
+2026-03-16 12:48:52,299 - INFO - 
+  Rollout 1/10 (Episode 71/100)
+2026-03-16 12:48:52,299 - DEBUG -     Creating environment...
+2026-03-16 12:48:55,070 - DEBUG -     Environment created, seed=0
+2026-03-16 12:48:55,070 - DEBUG -     Using initial state 0
+2026-03-16 12:48:55,071 - DEBUG - Starting episode with task: 'The stove needs to be turned on'
+2026-03-16 12:48:55,071 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:48:58,905 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:48:58,913 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:48:59,110 - DEBUG - Starting main rollout loop...
+2026-03-16 12:48:59,163 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:49:24,509 - DEBUG - Warmup complete
+2026-03-16 12:49:26,863 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:49:26,865 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:49:26,865 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:49:27,556 - DEBUG -     Environment closed
+2026-03-16 12:49:27,556 - INFO - 
+  Rollout 2/10 (Episode 72/100)
+2026-03-16 12:49:27,557 - DEBUG -     Creating environment...
+2026-03-16 12:49:30,293 - DEBUG -     Environment created, seed=1
+2026-03-16 12:49:30,293 - DEBUG -     Using initial state 1
+2026-03-16 12:49:30,293 - DEBUG - Starting episode with task: 'The stove needs to be turned on'
+2026-03-16 12:49:30,294 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:49:33,405 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:49:33,415 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:49:33,619 - DEBUG - Starting main rollout loop...
+2026-03-16 12:49:33,683 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:49:59,747 - DEBUG - Warmup complete
+2026-03-16 12:50:02,368 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:50:02,372 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:50:02,372 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:50:03,068 - DEBUG -     Environment closed
+2026-03-16 12:50:03,072 - INFO - 
+  Rollout 3/10 (Episode 73/100)
+2026-03-16 12:50:03,072 - DEBUG -     Creating environment...
+2026-03-16 12:50:05,743 - DEBUG -     Environment created, seed=2
+2026-03-16 12:50:05,743 - DEBUG -     Using initial state 2
+2026-03-16 12:50:05,743 - DEBUG - Starting episode with task: 'The stove needs to be turned on'
+2026-03-16 12:50:05,744 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:50:09,078 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:50:09,086 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:50:09,288 - DEBUG - Starting main rollout loop...
+2026-03-16 12:50:09,374 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:50:18,356 - DEBUG - Warmup complete
+2026-03-16 12:50:18,788 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:50:18,788 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:50:18,788 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:50:19,490 - DEBUG -     Environment closed
+2026-03-16 12:50:19,491 - INFO - 
+  Rollout 4/10 (Episode 74/100)
+2026-03-16 12:50:19,492 - DEBUG -     Creating environment...
+2026-03-16 12:50:22,219 - DEBUG -     Environment created, seed=3
+2026-03-16 12:50:22,219 - DEBUG -     Using initial state 3
+2026-03-16 12:50:22,220 - DEBUG - Starting episode with task: 'The stove needs to be turned on'
+2026-03-16 12:50:22,220 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:50:25,371 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:50:25,380 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:50:25,581 - DEBUG - Starting main rollout loop...
+2026-03-16 12:50:25,634 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:51:12,998 - DEBUG - Warmup complete
+2026-03-16 12:51:17,991 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:51:17,991 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:51:17,992 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:51:18,831 - DEBUG -     Environment closed
+2026-03-16 12:51:18,832 - INFO - 
+  Rollout 5/10 (Episode 75/100)
+2026-03-16 12:51:18,833 - DEBUG -     Creating environment...
+2026-03-16 12:51:21,602 - DEBUG -     Environment created, seed=4
+2026-03-16 12:51:21,602 - DEBUG -     Using initial state 4
+2026-03-16 12:51:21,603 - DEBUG - Starting episode with task: 'The stove needs to be turned on'
+2026-03-16 12:51:21,603 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:51:24,787 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:51:24,796 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:51:25,004 - DEBUG - Starting main rollout loop...
+2026-03-16 12:51:25,058 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:52:14,270 - DEBUG - Warmup complete
+2026-03-16 12:52:19,332 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:52:19,336 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:52:19,336 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:52:20,019 - DEBUG -     Environment closed
+2026-03-16 12:52:20,020 - INFO - 
+  Rollout 6/10 (Episode 76/100)
+2026-03-16 12:52:20,021 - DEBUG -     Creating environment...
+2026-03-16 12:52:22,717 - DEBUG -     Environment created, seed=5
+2026-03-16 12:52:22,718 - DEBUG -     Using initial state 5
+2026-03-16 12:52:22,718 - DEBUG - Starting episode with task: 'The stove needs to be turned on'
+2026-03-16 12:52:22,718 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:52:25,716 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:52:25,734 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:52:25,939 - DEBUG - Starting main rollout loop...
+2026-03-16 12:52:25,991 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:53:14,294 - DEBUG - Warmup complete
+2026-03-16 12:53:19,103 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:53:19,103 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:53:19,104 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:53:19,781 - DEBUG -     Environment closed
+2026-03-16 12:53:19,782 - INFO - 
+  Rollout 7/10 (Episode 77/100)
+2026-03-16 12:53:19,783 - DEBUG -     Creating environment...
+2026-03-16 12:53:22,447 - DEBUG -     Environment created, seed=6
+2026-03-16 12:53:22,448 - DEBUG -     Using initial state 6
+2026-03-16 12:53:22,448 - DEBUG - Starting episode with task: 'The stove needs to be turned on'
+2026-03-16 12:53:22,448 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:53:25,619 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:53:25,635 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:53:25,842 - DEBUG - Starting main rollout loop...
+2026-03-16 12:53:25,904 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:54:16,295 - DEBUG - Warmup complete
+2026-03-16 12:54:21,299 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:54:21,300 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:54:21,301 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:54:22,065 - DEBUG -     Environment closed
+2026-03-16 12:54:22,066 - INFO - 
+  Rollout 8/10 (Episode 78/100)
+2026-03-16 12:54:22,067 - DEBUG -     Creating environment...
+2026-03-16 12:54:25,026 - DEBUG -     Environment created, seed=7
+2026-03-16 12:54:25,026 - DEBUG -     Using initial state 7
+2026-03-16 12:54:25,026 - DEBUG - Starting episode with task: 'The stove needs to be turned on'
+2026-03-16 12:54:25,027 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:54:27,921 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:54:27,934 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:54:28,163 - DEBUG - Starting main rollout loop...
+2026-03-16 12:54:28,218 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:55:18,060 - DEBUG - Warmup complete
+2026-03-16 12:55:22,320 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:55:22,321 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:55:22,321 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:55:22,782 - DEBUG -     Environment closed
+2026-03-16 12:55:22,783 - INFO - 
+  Rollout 9/10 (Episode 79/100)
+2026-03-16 12:55:22,784 - DEBUG -     Creating environment...
+2026-03-16 12:55:25,835 - DEBUG -     Environment created, seed=8
+2026-03-16 12:55:25,835 - DEBUG -     Using initial state 8
+2026-03-16 12:55:25,836 - DEBUG - Starting episode with task: 'The stove needs to be turned on'
+2026-03-16 12:55:25,836 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:55:29,098 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:55:29,111 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:55:29,314 - DEBUG - Starting main rollout loop...
+2026-03-16 12:55:29,363 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:56:19,483 - DEBUG - Warmup complete
+2026-03-16 12:56:24,470 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:56:24,470 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:56:24,471 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:56:25,230 - DEBUG -     Environment closed
+2026-03-16 12:56:25,231 - INFO - 
+  Rollout 10/10 (Episode 80/100)
+2026-03-16 12:56:25,231 - DEBUG -     Creating environment...
+2026-03-16 12:56:27,810 - DEBUG -     Environment created, seed=9
+2026-03-16 12:56:27,810 - DEBUG -     Using initial state 9
+2026-03-16 12:56:27,811 - DEBUG - Starting episode with task: 'The stove needs to be turned on'
+2026-03-16 12:56:27,811 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:56:31,100 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:56:31,109 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:56:31,316 - DEBUG - Starting main rollout loop...
+2026-03-16 12:56:31,445 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:57:21,425 - DEBUG - Warmup complete
+2026-03-16 12:57:26,425 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:57:26,425 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:57:26,426 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:57:27,215 - DEBUG -     Environment closed
+2026-03-16 12:57:27,216 - INFO -   Summary: 10 embeddings, shape: (2048,)
+2026-03-16 12:57:27,221 - INFO - 
+2026-03-16 12:57:27,222 - INFO - ================================================================================
+2026-03-16 12:57:27,222 - INFO - TASK 9/10: put_the_bowl_on_the_plate
+2026-03-16 12:57:27,223 - INFO - Initial states available: 50
+2026-03-16 12:57:27,223 - INFO - ================================================================================
+2026-03-16 12:57:27,226 - INFO - 
+  COMMAND LEVEL: L2
+2026-03-16 12:57:27,226 - INFO -   Command text: 'The plate needs to have the bowl on it'
+2026-03-16 12:57:27,227 - INFO -   Running 10 rollouts...
+2026-03-16 12:57:27,227 - INFO - 
+  Rollout 1/10 (Episode 81/100)
+2026-03-16 12:57:27,227 - DEBUG -     Creating environment...
+2026-03-16 12:57:29,788 - DEBUG -     Environment created, seed=0
+2026-03-16 12:57:29,789 - DEBUG -     Using initial state 0
+2026-03-16 12:57:29,789 - DEBUG - Starting episode with task: 'The plate needs to have the bowl on it'
+2026-03-16 12:57:29,789 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:57:33,104 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:57:33,114 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:57:33,319 - DEBUG - Starting main rollout loop...
+2026-03-16 12:57:33,436 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:58:23,512 - DEBUG - Warmup complete
+2026-03-16 12:58:28,573 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:58:28,573 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:58:28,573 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:58:29,397 - DEBUG -     Environment closed
+2026-03-16 12:58:29,398 - INFO - 
+  Rollout 2/10 (Episode 82/100)
+2026-03-16 12:58:29,399 - DEBUG -     Creating environment...
+2026-03-16 12:58:32,131 - DEBUG -     Environment created, seed=1
+2026-03-16 12:58:32,132 - DEBUG -     Using initial state 1
+2026-03-16 12:58:32,132 - DEBUG - Starting episode with task: 'The plate needs to have the bowl on it'
+2026-03-16 12:58:32,132 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:58:35,334 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:58:35,356 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:58:35,563 - DEBUG - Starting main rollout loop...
+2026-03-16 12:58:35,616 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 12:59:25,760 - DEBUG - Warmup complete
+2026-03-16 12:59:30,726 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 12:59:30,726 - DEBUG - First step extraction complete, returning early
+2026-03-16 12:59:30,727 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 12:59:31,427 - DEBUG -     Environment closed
+2026-03-16 12:59:31,428 - INFO - 
+  Rollout 3/10 (Episode 83/100)
+2026-03-16 12:59:31,429 - DEBUG -     Creating environment...
+2026-03-16 12:59:34,020 - DEBUG -     Environment created, seed=2
+2026-03-16 12:59:34,021 - DEBUG -     Using initial state 2
+2026-03-16 12:59:34,021 - DEBUG - Starting episode with task: 'The plate needs to have the bowl on it'
+2026-03-16 12:59:34,021 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 12:59:37,154 - DEBUG - Set initial state from checkpoint
+2026-03-16 12:59:37,165 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 12:59:37,375 - DEBUG - Starting main rollout loop...
+2026-03-16 12:59:37,490 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:00:27,632 - DEBUG - Warmup complete
+2026-03-16 13:00:32,488 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:00:32,489 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:00:32,489 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:00:33,139 - DEBUG -     Environment closed
+2026-03-16 13:00:33,140 - INFO - 
+  Rollout 4/10 (Episode 84/100)
+2026-03-16 13:00:33,140 - DEBUG -     Creating environment...
+2026-03-16 13:00:35,764 - DEBUG -     Environment created, seed=3
+2026-03-16 13:00:35,768 - DEBUG -     Using initial state 3
+2026-03-16 13:00:35,768 - DEBUG - Starting episode with task: 'The plate needs to have the bowl on it'
+2026-03-16 13:00:35,768 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:00:39,009 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:00:39,025 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:00:39,231 - DEBUG - Starting main rollout loop...
+2026-03-16 13:00:39,291 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:01:30,135 - DEBUG - Warmup complete
+2026-03-16 13:01:35,019 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:01:35,020 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:01:35,020 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:01:35,824 - DEBUG -     Environment closed
+2026-03-16 13:01:35,825 - INFO - 
+  Rollout 5/10 (Episode 85/100)
+2026-03-16 13:01:35,826 - DEBUG -     Creating environment...
+2026-03-16 13:01:38,523 - DEBUG -     Environment created, seed=4
+2026-03-16 13:01:38,524 - DEBUG -     Using initial state 4
+2026-03-16 13:01:38,524 - DEBUG - Starting episode with task: 'The plate needs to have the bowl on it'
+2026-03-16 13:01:38,524 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:01:42,045 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:01:42,057 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:01:42,258 - DEBUG - Starting main rollout loop...
+2026-03-16 13:01:42,307 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:02:32,180 - DEBUG - Warmup complete
+2026-03-16 13:02:37,192 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:02:37,192 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:02:37,192 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:02:37,891 - DEBUG -     Environment closed
+2026-03-16 13:02:37,891 - INFO - 
+  Rollout 6/10 (Episode 86/100)
+2026-03-16 13:02:37,893 - DEBUG -     Creating environment...
+2026-03-16 13:02:40,457 - DEBUG -     Environment created, seed=5
+2026-03-16 13:02:40,458 - DEBUG -     Using initial state 5
+2026-03-16 13:02:40,458 - DEBUG - Starting episode with task: 'The plate needs to have the bowl on it'
+2026-03-16 13:02:40,458 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:02:43,641 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:02:43,650 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:02:43,851 - DEBUG - Starting main rollout loop...
+2026-03-16 13:02:43,905 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:03:33,955 - DEBUG - Warmup complete
+2026-03-16 13:03:38,985 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:03:38,986 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:03:38,986 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:03:39,773 - DEBUG -     Environment closed
+2026-03-16 13:03:39,774 - INFO - 
+  Rollout 7/10 (Episode 87/100)
+2026-03-16 13:03:39,775 - DEBUG -     Creating environment...
+2026-03-16 13:03:42,349 - DEBUG -     Environment created, seed=6
+2026-03-16 13:03:42,350 - DEBUG -     Using initial state 6
+2026-03-16 13:03:42,350 - DEBUG - Starting episode with task: 'The plate needs to have the bowl on it'
+2026-03-16 13:03:42,350 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:03:46,518 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:03:46,527 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:03:46,739 - DEBUG - Starting main rollout loop...
+2026-03-16 13:03:46,775 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:04:36,850 - DEBUG - Warmup complete
+2026-03-16 13:04:41,868 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:04:41,868 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:04:41,869 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:04:42,556 - DEBUG -     Environment closed
+2026-03-16 13:04:42,556 - INFO - 
+  Rollout 8/10 (Episode 88/100)
+2026-03-16 13:04:42,557 - DEBUG -     Creating environment...
+2026-03-16 13:04:45,960 - DEBUG -     Environment created, seed=7
+2026-03-16 13:04:45,965 - DEBUG -     Using initial state 7
+2026-03-16 13:04:45,965 - DEBUG - Starting episode with task: 'The plate needs to have the bowl on it'
+2026-03-16 13:04:45,965 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:04:49,829 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:04:49,838 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:04:50,053 - DEBUG - Starting main rollout loop...
+2026-03-16 13:04:50,186 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:05:37,811 - DEBUG - Warmup complete
+2026-03-16 13:05:42,934 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:05:42,941 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:05:42,941 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:05:43,683 - DEBUG -     Environment closed
+2026-03-16 13:05:43,688 - INFO - 
+  Rollout 9/10 (Episode 89/100)
+2026-03-16 13:05:43,688 - DEBUG -     Creating environment...
+2026-03-16 13:05:46,752 - DEBUG -     Environment created, seed=8
+2026-03-16 13:05:46,753 - DEBUG -     Using initial state 8
+2026-03-16 13:05:46,753 - DEBUG - Starting episode with task: 'The plate needs to have the bowl on it'
+2026-03-16 13:05:46,753 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:05:50,143 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:05:50,159 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:05:50,366 - DEBUG - Starting main rollout loop...
+2026-03-16 13:05:50,488 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:06:38,746 - DEBUG - Warmup complete
+2026-03-16 13:06:43,132 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:06:43,137 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:06:43,137 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:06:43,943 - DEBUG -     Environment closed
+2026-03-16 13:06:43,945 - INFO - 
+  Rollout 10/10 (Episode 90/100)
+2026-03-16 13:06:43,945 - DEBUG -     Creating environment...
+2026-03-16 13:06:46,754 - DEBUG -     Environment created, seed=9
+2026-03-16 13:06:46,755 - DEBUG -     Using initial state 9
+2026-03-16 13:06:46,755 - DEBUG - Starting episode with task: 'The plate needs to have the bowl on it'
+2026-03-16 13:06:46,755 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:06:50,270 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:06:50,279 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:06:50,486 - DEBUG - Starting main rollout loop...
+2026-03-16 13:06:50,560 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:07:37,369 - DEBUG - Warmup complete
+2026-03-16 13:07:42,377 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:07:42,381 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:07:42,381 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:07:43,157 - DEBUG -     Environment closed
+2026-03-16 13:07:43,162 - INFO -   Summary: 10 embeddings, shape: (2048,)
+2026-03-16 13:07:43,167 - INFO - 
+2026-03-16 13:07:43,167 - INFO - ================================================================================
+2026-03-16 13:07:43,168 - INFO - TASK 10/10: put_the_wine_bottle_on_the_rack
+2026-03-16 13:07:43,168 - INFO - Initial states available: 50
+2026-03-16 13:07:43,169 - INFO - ================================================================================
+2026-03-16 13:07:43,172 - INFO - 
+  COMMAND LEVEL: L2
+2026-03-16 13:07:43,172 - INFO -   Command text: 'The rack needs to be filled with the wine bottle in it'
+2026-03-16 13:07:43,172 - INFO -   Running 10 rollouts...
+2026-03-16 13:07:43,173 - INFO - 
+  Rollout 1/10 (Episode 91/100)
+2026-03-16 13:07:43,173 - DEBUG -     Creating environment...
+2026-03-16 13:07:46,543 - DEBUG -     Environment created, seed=0
+2026-03-16 13:07:46,547 - DEBUG -     Using initial state 0
+2026-03-16 13:07:46,547 - DEBUG - Starting episode with task: 'The rack needs to be filled with the wine bottle in it'
+2026-03-16 13:07:46,547 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:07:49,960 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:07:49,978 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:07:50,184 - DEBUG - Starting main rollout loop...
+2026-03-16 13:07:50,257 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:08:37,718 - DEBUG - Warmup complete
+2026-03-16 13:08:42,701 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:08:42,701 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:08:42,702 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:08:43,472 - DEBUG -     Environment closed
+2026-03-16 13:08:43,473 - INFO - 
+  Rollout 2/10 (Episode 92/100)
+2026-03-16 13:08:43,477 - DEBUG -     Creating environment...
+2026-03-16 13:08:46,707 - DEBUG -     Environment created, seed=1
+2026-03-16 13:08:46,707 - DEBUG -     Using initial state 1
+2026-03-16 13:08:46,708 - DEBUG - Starting episode with task: 'The rack needs to be filled with the wine bottle in it'
+2026-03-16 13:08:46,708 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:08:50,148 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:08:50,166 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:08:50,378 - DEBUG - Starting main rollout loop...
+2026-03-16 13:08:50,436 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:09:36,259 - DEBUG - Warmup complete
+2026-03-16 13:09:41,233 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:09:41,234 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:09:41,234 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:09:41,914 - DEBUG -     Environment closed
+2026-03-16 13:09:41,915 - INFO - 
+  Rollout 3/10 (Episode 93/100)
+2026-03-16 13:09:41,915 - DEBUG -     Creating environment...
+2026-03-16 13:09:45,445 - DEBUG -     Environment created, seed=2
+2026-03-16 13:09:45,445 - DEBUG -     Using initial state 2
+2026-03-16 13:09:45,445 - DEBUG - Starting episode with task: 'The rack needs to be filled with the wine bottle in it'
+2026-03-16 13:09:45,445 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:09:49,012 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:09:49,022 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:09:49,233 - DEBUG - Starting main rollout loop...
+2026-03-16 13:09:49,356 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:10:36,811 - DEBUG - Warmup complete
+2026-03-16 13:10:41,792 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:10:41,792 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:10:41,793 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:10:42,517 - DEBUG -     Environment closed
+2026-03-16 13:10:42,518 - INFO - 
+  Rollout 4/10 (Episode 94/100)
+2026-03-16 13:10:42,519 - DEBUG -     Creating environment...
+2026-03-16 13:10:46,002 - DEBUG -     Environment created, seed=3
+2026-03-16 13:10:46,003 - DEBUG -     Using initial state 3
+2026-03-16 13:10:46,003 - DEBUG - Starting episode with task: 'The rack needs to be filled with the wine bottle in it'
+2026-03-16 13:10:46,004 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:10:50,402 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:10:50,419 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:10:50,638 - DEBUG - Starting main rollout loop...
+2026-03-16 13:10:50,733 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:11:38,098 - DEBUG - Warmup complete
+2026-03-16 13:11:42,710 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:11:42,714 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:11:42,714 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:11:43,423 - DEBUG -     Environment closed
+2026-03-16 13:11:43,428 - INFO - 
+  Rollout 5/10 (Episode 95/100)
+2026-03-16 13:11:43,428 - DEBUG -     Creating environment...
+2026-03-16 13:11:46,639 - DEBUG -     Environment created, seed=4
+2026-03-16 13:11:46,639 - DEBUG -     Using initial state 4
+2026-03-16 13:11:46,639 - DEBUG - Starting episode with task: 'The rack needs to be filled with the wine bottle in it'
+2026-03-16 13:11:46,640 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:11:50,361 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:11:50,371 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:11:50,569 - DEBUG - Starting main rollout loop...
+2026-03-16 13:11:50,671 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:12:35,847 - DEBUG - Warmup complete
+2026-03-16 13:12:40,840 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:12:40,840 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:12:40,841 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:12:41,605 - DEBUG -     Environment closed
+2026-03-16 13:12:41,605 - INFO - 
+  Rollout 6/10 (Episode 96/100)
+2026-03-16 13:12:41,607 - DEBUG -     Creating environment...
+2026-03-16 13:12:44,402 - DEBUG -     Environment created, seed=5
+2026-03-16 13:12:44,403 - DEBUG -     Using initial state 5
+2026-03-16 13:12:44,403 - DEBUG - Starting episode with task: 'The rack needs to be filled with the wine bottle in it'
+2026-03-16 13:12:44,403 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:12:47,799 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:12:47,826 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:12:48,041 - DEBUG - Starting main rollout loop...
+2026-03-16 13:12:48,172 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:13:33,447 - DEBUG - Warmup complete
+2026-03-16 13:13:37,661 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:13:37,662 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:13:37,662 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:13:38,326 - DEBUG -     Environment closed
+2026-03-16 13:13:38,331 - INFO - 
+  Rollout 7/10 (Episode 97/100)
+2026-03-16 13:13:38,332 - DEBUG -     Creating environment...
+2026-03-16 13:13:41,177 - DEBUG -     Environment created, seed=6
+2026-03-16 13:13:41,177 - DEBUG -     Using initial state 6
+2026-03-16 13:13:41,177 - DEBUG - Starting episode with task: 'The rack needs to be filled with the wine bottle in it'
+2026-03-16 13:13:41,178 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:13:44,528 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:13:44,538 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:13:44,749 - DEBUG - Starting main rollout loop...
+2026-03-16 13:13:44,867 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:14:33,334 - DEBUG - Warmup complete
+2026-03-16 13:14:38,300 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:14:38,301 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:14:38,301 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:14:39,055 - DEBUG -     Environment closed
+2026-03-16 13:14:39,057 - INFO - 
+  Rollout 8/10 (Episode 98/100)
+2026-03-16 13:14:39,057 - DEBUG -     Creating environment...
+2026-03-16 13:14:41,847 - DEBUG -     Environment created, seed=7
+2026-03-16 13:14:41,848 - DEBUG -     Using initial state 7
+2026-03-16 13:14:41,848 - DEBUG - Starting episode with task: 'The rack needs to be filled with the wine bottle in it'
+2026-03-16 13:14:41,848 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:14:45,870 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:14:45,906 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:14:46,114 - DEBUG - Starting main rollout loop...
+2026-03-16 13:14:46,222 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:15:33,465 - DEBUG - Warmup complete
+2026-03-16 13:15:38,605 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:15:38,605 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:15:38,606 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:15:39,356 - DEBUG -     Environment closed
+2026-03-16 13:15:39,357 - INFO - 
+  Rollout 9/10 (Episode 99/100)
+2026-03-16 13:15:39,358 - DEBUG -     Creating environment...
+2026-03-16 13:15:42,168 - DEBUG -     Environment created, seed=8
+2026-03-16 13:15:42,168 - DEBUG -     Using initial state 8
+2026-03-16 13:15:42,168 - DEBUG - Starting episode with task: 'The rack needs to be filled with the wine bottle in it'
+2026-03-16 13:15:42,169 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:15:46,382 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:15:46,402 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:15:46,615 - DEBUG - Starting main rollout loop...
+2026-03-16 13:15:46,692 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:16:35,817 - DEBUG - Warmup complete
+2026-03-16 13:16:40,335 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:16:40,336 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:16:40,336 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:16:41,055 - DEBUG -     Environment closed
+2026-03-16 13:16:41,061 - INFO - 
+  Rollout 10/10 (Episode 100/100)
+2026-03-16 13:16:41,061 - DEBUG -     Creating environment...
+2026-03-16 13:16:43,736 - DEBUG -     Environment created, seed=9
+2026-03-16 13:16:43,736 - DEBUG -     Using initial state 9
+2026-03-16 13:16:43,736 - DEBUG - Starting episode with task: 'The rack needs to be filled with the wine bottle in it'
+2026-03-16 13:16:43,737 - DEBUG - Max steps: 300, First step only: True
+2026-03-16 13:16:47,047 - DEBUG - Set initial state from checkpoint
+2026-03-16 13:16:47,054 - DEBUG - Waiting 10 steps for environment stabilization...
+2026-03-16 13:16:47,284 - DEBUG - Starting main rollout loop...
+2026-03-16 13:16:47,396 - DEBUG - Running warmup inference (10 iterations)...
+2026-03-16 13:17:38,043 - DEBUG - Warmup complete
+2026-03-16 13:17:43,066 - DEBUG - First embedding captured, shape: (2048,)
+2026-03-16 13:17:43,066 - DEBUG - First step extraction complete, returning early
+2026-03-16 13:17:43,069 - INFO -     ✓ Embedding extracted (1 step)
+2026-03-16 13:17:43,896 - DEBUG -     Environment closed
+2026-03-16 13:17:43,898 - INFO -   Summary: 10 embeddings, shape: (2048,)
+2026-03-16 13:17:43,899 - DEBUG - Forward hook removed
+2026-03-16 13:17:43,899 - INFO - 
+Embedding capture hook removed
+2026-03-16 13:17:43,899 - INFO - 
+Saving results to: /mnt/beegfs/a.cardamone7/outputs/embeddings/tinyvla/10_rollouts_first_step_only
+2026-03-16 13:17:43,900 - INFO - Writing to file: /mnt/beegfs/a.cardamone7/outputs/embeddings/tinyvla/10_rollouts_first_step_only/rollout_embeddings_tinyvla_libero_goal_l2_first_step_r10.pkl
+2026-03-16 13:17:43,909 - INFO - Results saved successfully
+2026-03-16 13:17:43,909 - INFO - 
+================================================================================
+2026-03-16 13:17:43,910 - INFO - EXTRACTION COMPLETE
+2026-03-16 13:17:43,910 - INFO - ================================================================================
+2026-03-16 13:17:43,910 - INFO - Total entries: 10
+2026-03-16 13:17:43,911 - INFO - Mean embedding shape: (2048,)
+2026-03-16 13:17:43,911 - INFO - Mode: First step only
+2026-03-16 13:17:43,911 - INFO - 
+Output file: /mnt/beegfs/a.cardamone7/outputs/embeddings/tinyvla/10_rollouts_first_step_only/rollout_embeddings_tinyvla_libero_goal_l2_first_step_r10.pkl
+2026-03-16 13:17:43,912 - INFO - Log file: /mnt/beegfs/a.cardamone7/outputs/embeddings/tinyvla/10_rollouts_first_step_only/extraction_log_libero_goal_20260316_113627.log
+2026-03-16 13:17:43,912 - INFO - End time: 2026-03-16 13:17:43
+2026-03-16 13:17:43,912 - INFO - ================================================================================

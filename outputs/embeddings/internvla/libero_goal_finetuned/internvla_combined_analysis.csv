@@ -1,0 +1,31 @@
+task_id,task_name,level,default_command,variation_command,default_rollouts,variation_rollouts,default_success_rate,variation_success_rate,cosine_similarity,euclidean_distance,levenshtein_distance
+0,open_the_middle_drawer_of_the_cabinet,l1,Open the middle layer of the drawer,Pull the middle layer of the drawer,10,10,,,0.9851022720748547,6.214726544904841,0.11428571428571428
+0,open_the_middle_drawer_of_the_cabinet,l2,Open the middle layer of the drawer,The middle layer of the drawer needs to be opened,10,10,,,0.9646235559776127,9.877636557802656,0.5102040816326531
+0,open_the_middle_drawer_of_the_cabinet,l3,Open the middle layer of the drawer,Open the layer of the drawer located between the top and bottom drawers,10,10,,,0.9432664220780598,13.10318375727712,0.6197183098591549
+1,put_the_bowl_on_the_stove,l1,Put the bowl on the stove,Set the bowl on the stove,10,10,,,0.9968419334243648,2.8558442105890447,0.08
+1,put_the_bowl_on_the_stove,l2,Put the bowl on the stove,The stove needs to have the bowl on it,10,10,,,0.9487773102983951,11.765510048187757,0.6842105263157895
+1,put_the_bowl_on_the_stove,l3,Put the bowl on the stove,Put the object between the wine bottle and the cream cheese on the stove,10,10,,,0.8654522421309556,19.1434365094245,0.6666666666666666
+2,put_the_wine_bottle_on_top_of_the_cabinet,l1,Put the wine bottle on the top of the cabinet,Place the wine bottle on the top of the cabinet,10,10,,,0.9985523789346786,2.029173890927088,0.0851063829787234
+2,put_the_wine_bottle_on_top_of_the_cabinet,l2,Put the wine bottle on the top of the cabinet,Top of the cabinet needs to have the wine bottle on it,10,10,,,0.8893837139491704,17.39531919114659,0.6481481481481481
+2,put_the_wine_bottle_on_top_of_the_cabinet,l3,Put the wine bottle on the top of the cabinet,Put the object behind the bowl on the top of the cabinet,10,10,,,0.4440214316068279,39.56879727064314,0.30357142857142855
+3,open_the_top_drawer_and_put_the_bowl_inside,l1,Open the top layer of the drawer and put the bowl inside,Pull the top layer of the drawer and put the bowl inside,10,10,,,0.9868510763847196,6.873008747826347,0.07142857142857142
+3,open_the_top_drawer_and_put_the_bowl_inside,l2,Open the top layer of the drawer and put the bowl inside,The top layer of the drawer needs to be opened and the bowl needs to be put inside,10,10,,,0.9279686967340711,16.245949609069648,0.5
+3,open_the_top_drawer_and_put_the_bowl_inside,l3,Open the top layer of the drawer and put the bowl inside,Open the top layer of the drawer and put the object between the plate and the cream cheese inside,10,10,,,0.9459718843333911,14.950081286493939,0.4329896907216495
+4,put_the_bowl_on_top_of_the_cabinet,l1,Put the bowl on the top of the cabinet,Place the bowl on the top of the cabinet,10,10,,,0.9981135613371694,2.2557432852692516,0.1
+4,put_the_bowl_on_top_of_the_cabinet,l2,Put the bowl on the top of the cabinet,The top of the cabinet needs to have the bowl on it,10,10,,,0.868320734141992,18.553191605902693,0.6470588235294118
+4,put_the_bowl_on_top_of_the_cabinet,l3,Put the bowl on the top of the cabinet,Put the object between the wine bottle and the cream cheese on the top of the cabinet,10,10,,,0.8019895571195492,23.4676008858359,0.5647058823529412
+5,push_the_plate_to_the_front_of_the_stove,l1,Push the plate to the front of the stove,Move the plate to the front of the stove,10,10,,,0.9791996071778423,7.742118196767984,0.1
+5,push_the_plate_to_the_front_of_the_stove,l2,Push the plate to the front of the stove,The space in front of the stove needs to have the plate in it,10,10,,,0.8540312544895347,20.55589512751574,0.6885245901639344
+5,push_the_plate_to_the_front_of_the_stove,l3,Push the plate to the front of the stove,Push the object in front of the drawer to the front of the stove,10,10,,,0.8659112436266502,19.68928596233821,0.421875
+6,put_the_cream_cheese_in_the_bowl,l1,Put the cream cheese on the bowl,Place the cream cheese on the bowl,10,10,,,0.9982247758589727,2.48458250353266,0.11764705882352941
+6,put_the_cream_cheese_in_the_bowl,l2,Put the cream cheese on the bowl,The cream cheese needs to be put on the bowl,10,10,,,0.9783404438213014,8.742462612326962,0.4772727272727273
+6,put_the_cream_cheese_in_the_bowl,l3,Put the cream cheese on the bowl,Put the object in front of the stove on the bowl,10,10,,,0.7749865891306216,26.720831781987464,0.4375
+7,turn_on_the_stove,l1,Turn on the stove,Switch on the stove,10,10,,,0.9960375668906286,3.9718021598384796,0.3157894736842105
+7,turn_on_the_stove,l2,Turn on the stove,The stove needs to be turned on,10,10,,,0.9651616500839117,11.479124785477607,0.7419354838709677
+7,turn_on_the_stove,l3,Turn on the stove,Turn on the object behind the cream cheese,10,10,,,0.6704237964409928,33.544141491814145,0.6666666666666666
+8,put_the_bowl_on_the_plate,l1,Put the bowl on the plate,Place the bowl on the plate,10,10,,,0.9980745895989804,2.2696451017902954,0.14814814814814814
+8,put_the_bowl_on_the_plate,l2,Put the bowl on the plate,The plate needs to have the bowl on it,10,10,,,0.9441025236820929,12.726853678401952,0.7105263157894737
+8,put_the_bowl_on_the_plate,l3,Put the bowl on the plate,Put the object between the wine bottle and the cream cheese on the plate,10,10,,,0.8902917543826477,18.215666169170213,0.6666666666666666
+9,put_the_wine_bottle_on_the_rack,l1,Put the wine bottle on the rack,Place the wine bottle on the rack,10,10,,,0.9985469206888601,2.031352174194051,0.12121212121212122
+9,put_the_wine_bottle_on_the_rack,l2,Put the wine bottle on the rack,The rack needs to be filled with the wine bottle in it,10,10,,,0.9045476102011268,16.614691683396384,0.7037037037037037
+9,put_the_wine_bottle_on_the_rack,l3,Put the wine bottle on the rack,Put the object behind the bowl on the rack,10,10,,,0.5721560255256805,33.941309936237836,0.40476190476190477

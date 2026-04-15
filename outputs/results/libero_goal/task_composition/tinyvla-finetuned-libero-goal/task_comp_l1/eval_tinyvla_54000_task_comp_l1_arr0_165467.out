@@ -1,0 +1,41 @@
+==========================================
+TinyVLA Task Composition L1 Evaluation
+==========================================
+Job ID: 165467
+Array Task ID: 0
+Seed: 0
+Part: 0 (tasks 0 to 2)
+Model: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/tinyvla/post_processed_tiny_vla_llava_pythia_lora_libero_goal_no_noops_lora_r_64_processed/checkpoint-54000
+Model Base: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/tinyvla/parte2_llava_pythia_libero_goal_no_noops_64/1.3B
+Start time: Thu Feb 12 12:08:06 PM CET 2026
+
+Working directory: /home/A.CARDAMONE7/repo/VLA-Bench/robosuite_test/TinyVLA/test/libero_test
+Python: /home/A.CARDAMONE7/anaconda3/envs/tinyvla_libero/bin/python
+Conda env: tinyvla_libero
+
+Warning: The cache directory for DeepSpeed Triton autotune, /home/A.CARDAMONE7/.triton/autotune, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+Loading LLaVA-Pythia from base model...
+number of parameters: 9.880116e+07
+Loading additional LLaVA-Pythia weights...
+Loading LoRA weights...
+Merging LoRA weights...
+Model is loaded...
+{'device_map': 'cuda', 'torch_dtype': torch.float32}
+
+====================================================================================================
+TASK COMPOSITION L1 (TinyVLA) - RESULTS TABLE
+====================================================================================================
+Task                                                         |         Success Rate | Episodes
+----------------------------------------------------------------------------------------------------
+Put the plate on the top of the cabinet                      |        0.0% ( 0/50) |       50
+Put the plate on the stove                                   |        0.0% ( 0/50) |       50
+Put the cream cheese on the top of the cabinet               |        0.0% ( 0/50) |       50
+----------------------------------------------------------------------------------------------------
+OVERALL                                                      |        0.0% (  0/150) |      150
+====================================================================================================
+
+==========================================
+Task Composition L1 evaluation completed successfully!
+Seed: 0 | Part: 0 (tasks 0-2)
+Finish time: Thu Feb 12 05:02:47 PM CET 2026
+==========================================

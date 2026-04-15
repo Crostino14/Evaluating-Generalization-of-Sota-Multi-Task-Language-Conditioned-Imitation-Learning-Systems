@@ -1,0 +1,470 @@
+=== LEVEL: L2 ===
+Found base syn file: /home/A.CARDAMONE7/repo/VLA-Bench/robosuite_test/LIBERO/libero/bddl_files/libero_goal/put_the_bowl_on_the_plate_syn_l2.bddl
+================================================================================
+TASK 9/10
+Versions to test: [-1, 1, 2, 3]
+================================================================================
+================================================================================
+Testing VERSION: syn_base
+Original Command:  Put the bowl on the plate
+Variation Command: The plate needs to have the bowl on it
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=1--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 1 | success=False | running: 0/1 (0.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=2--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 2 | success=True | running: 1/2 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=3--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 3 | success=False | running: 1/3 (33.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=4--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 4 | success=True | running: 2/4 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=5--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 5 | success=False | running: 2/5 (40.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=6--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 6 | success=True | running: 3/6 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=7--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 7 | success=True | running: 4/7 (57.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=8--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 8 | success=True | running: 5/8 (62.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=9--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 9 | success=False | running: 5/9 (55.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=10--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 10 | success=True | running: 6/10 (60.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=11--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 11 | success=False | running: 6/11 (54.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=12--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 12 | success=True | running: 7/12 (58.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=13--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 13 | success=False | running: 7/13 (53.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=14--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 14 | success=True | running: 8/14 (57.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=15--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 15 | success=False | running: 8/15 (53.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=16--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 16 | success=False | running: 8/16 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=17--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 17 | success=False | running: 8/17 (47.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=18--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 18 | success=True | running: 9/18 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=19--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 19 | success=False | running: 9/19 (47.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=20--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 20 | success=True | running: 10/20 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=21--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 21 | success=True | running: 11/21 (52.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=22--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 22 | success=True | running: 12/22 (54.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=23--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 23 | success=True | running: 13/23 (56.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=24--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 24 | success=True | running: 14/24 (58.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=25--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 25 | success=True | running: 15/25 (60.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=26--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 26 | success=True | running: 16/26 (61.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=27--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 27 | success=True | running: 17/27 (63.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=28--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 28 | success=False | running: 17/28 (60.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=29--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 29 | success=False | running: 17/29 (58.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=30--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 30 | success=True | running: 18/30 (60.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=31--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 31 | success=True | running: 19/31 (61.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=32--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 32 | success=False | running: 19/32 (59.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=33--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 33 | success=False | running: 19/33 (57.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=34--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 34 | success=False | running: 19/34 (55.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=35--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 35 | success=False | running: 19/35 (54.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=36--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 36 | success=True | running: 20/36 (55.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=37--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 37 | success=True | running: 21/37 (56.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=38--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 38 | success=False | running: 21/38 (55.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=39--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 39 | success=False | running: 21/39 (53.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=40--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 40 | success=True | running: 22/40 (55.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=41--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 41 | success=False | running: 22/41 (53.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=42--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 42 | success=True | running: 23/42 (54.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=43--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 43 | success=True | running: 24/43 (55.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=44--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 44 | success=True | running: 25/44 (56.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=45--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 45 | success=False | running: 25/45 (55.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=46--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 46 | success=False | running: 25/46 (54.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=47--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 47 | success=True | running: 26/47 (55.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=48--success=False--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 48 | success=False | running: 26/48 (54.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=49--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 49 | success=True | running: 27/49 (55.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=50--success=True--task=the_plate_needs_to_have_the_bowl_on_it.mp4
+[syn_base] ep 50 | success=True | running: 28/50 (56.0%)
+
+================================================================================
+VERSION syn_base RESULTS:
+  Episodes:     50
+  Successes:    28
+  Success Rate: 56.0%
+================================================================================
+
+================================================================================
+Testing VERSION: v1
+Original Command:  Put the bowl on the plate
+Variation Command: The bowl should be put on the plate
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=51--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 1 | success=True | running: 29/51 (56.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=52--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 2 | success=True | running: 30/52 (57.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=53--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 3 | success=True | running: 31/53 (58.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=54--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 4 | success=True | running: 32/54 (59.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=55--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 5 | success=True | running: 33/55 (60.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=56--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 6 | success=True | running: 34/56 (60.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=57--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 7 | success=True | running: 35/57 (61.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=58--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 8 | success=True | running: 36/58 (62.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=59--success=False--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 9 | success=False | running: 36/59 (61.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=60--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 10 | success=True | running: 37/60 (61.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=61--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 11 | success=True | running: 38/61 (62.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=62--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 12 | success=True | running: 39/62 (62.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=63--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 13 | success=True | running: 40/63 (63.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=64--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 14 | success=True | running: 41/64 (64.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=65--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 15 | success=True | running: 42/65 (64.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=66--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 16 | success=True | running: 43/66 (65.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=67--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 17 | success=True | running: 44/67 (65.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=68--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 18 | success=True | running: 45/68 (66.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=69--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 19 | success=True | running: 46/69 (66.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=70--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 20 | success=True | running: 47/70 (67.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=71--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 21 | success=True | running: 48/71 (67.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=72--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 22 | success=True | running: 49/72 (68.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=73--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 23 | success=True | running: 50/73 (68.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=74--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 24 | success=True | running: 51/74 (68.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=75--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 25 | success=True | running: 52/75 (69.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=76--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 26 | success=True | running: 53/76 (69.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=77--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 27 | success=True | running: 54/77 (70.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=78--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 28 | success=True | running: 55/78 (70.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=79--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 29 | success=True | running: 56/79 (70.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=80--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 30 | success=True | running: 57/80 (71.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=81--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 31 | success=True | running: 58/81 (71.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=82--success=False--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 32 | success=False | running: 58/82 (70.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=83--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 33 | success=True | running: 59/83 (71.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=84--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 34 | success=True | running: 60/84 (71.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=85--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 35 | success=True | running: 61/85 (71.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=86--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 36 | success=True | running: 62/86 (72.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=87--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 37 | success=True | running: 63/87 (72.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=88--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 38 | success=True | running: 64/88 (72.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=89--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 39 | success=True | running: 65/89 (73.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=90--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 40 | success=True | running: 66/90 (73.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=91--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 41 | success=True | running: 67/91 (73.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=92--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 42 | success=True | running: 68/92 (73.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=93--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 43 | success=True | running: 69/93 (74.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=94--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 44 | success=True | running: 70/94 (74.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=95--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 45 | success=True | running: 71/95 (74.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=96--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 46 | success=True | running: 72/96 (75.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=97--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 47 | success=True | running: 73/97 (75.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=98--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 48 | success=True | running: 74/98 (75.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=99--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 49 | success=True | running: 75/99 (75.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=100--success=True--task=the_bowl_should_be_put_on_the_plate.mp4
+[v1] ep 50 | success=True | running: 76/100 (76.0%)
+
+================================================================================
+VERSION v1 RESULTS:
+  Episodes:     50
+  Successes:    48
+  Success Rate: 96.0%
+================================================================================
+
+================================================================================
+Testing VERSION: v2
+Original Command:  Put the bowl on the plate
+Variation Command: Let the bowl be put on the plate
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=101--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 1 | success=True | running: 77/101 (76.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=102--success=False--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 2 | success=False | running: 77/102 (75.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=103--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 3 | success=True | running: 78/103 (75.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=104--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 4 | success=True | running: 79/104 (76.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=105--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 5 | success=True | running: 80/105 (76.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=106--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 6 | success=True | running: 81/106 (76.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=107--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 7 | success=True | running: 82/107 (76.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=108--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 8 | success=True | running: 83/108 (76.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=109--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 9 | success=True | running: 84/109 (77.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=110--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 10 | success=True | running: 85/110 (77.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=111--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 11 | success=True | running: 86/111 (77.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=112--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 12 | success=True | running: 87/112 (77.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=113--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 13 | success=True | running: 88/113 (77.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=114--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 14 | success=True | running: 89/114 (78.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=115--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 15 | success=True | running: 90/115 (78.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=116--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 16 | success=True | running: 91/116 (78.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=117--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 17 | success=True | running: 92/117 (78.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=118--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 18 | success=True | running: 93/118 (78.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=119--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 19 | success=True | running: 94/119 (79.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=120--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 20 | success=True | running: 95/120 (79.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=121--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 21 | success=True | running: 96/121 (79.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=122--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 22 | success=True | running: 97/122 (79.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=123--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 23 | success=True | running: 98/123 (79.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=124--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 24 | success=True | running: 99/124 (79.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=125--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 25 | success=True | running: 100/125 (80.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=126--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 26 | success=True | running: 101/126 (80.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=127--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 27 | success=True | running: 102/127 (80.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=128--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 28 | success=True | running: 103/128 (80.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=129--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 29 | success=True | running: 104/129 (80.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=130--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 30 | success=True | running: 105/130 (80.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=131--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 31 | success=True | running: 106/131 (80.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=132--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 32 | success=True | running: 107/132 (81.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=133--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 33 | success=True | running: 108/133 (81.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=134--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 34 | success=True | running: 109/134 (81.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=135--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 35 | success=True | running: 110/135 (81.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=136--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 36 | success=True | running: 111/136 (81.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=137--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 37 | success=True | running: 112/137 (81.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=138--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 38 | success=True | running: 113/138 (81.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=139--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 39 | success=True | running: 114/139 (82.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=140--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 40 | success=True | running: 115/140 (82.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=141--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 41 | success=True | running: 116/141 (82.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=142--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 42 | success=True | running: 117/142 (82.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=143--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 43 | success=True | running: 118/143 (82.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=144--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 44 | success=True | running: 119/144 (82.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=145--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 45 | success=True | running: 120/145 (82.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=146--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 46 | success=True | running: 121/146 (82.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=147--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 47 | success=True | running: 122/147 (83.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=148--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 48 | success=True | running: 123/148 (83.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=149--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 49 | success=True | running: 124/149 (83.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=150--success=True--task=let_the_bowl_be_put_on_the_plate.mp4
+[v2] ep 50 | success=True | running: 125/150 (83.3%)
+
+================================================================================
+VERSION v2 RESULTS:
+  Episodes:     50
+  Successes:    49
+  Success Rate: 98.0%
+================================================================================
+
+================================================================================
+Testing VERSION: v3
+Original Command:  Put the bowl on the plate
+Variation Command: The bowl must be put on the plate
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=151--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 1 | success=True | running: 126/151 (83.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=152--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 2 | success=True | running: 127/152 (83.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=153--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 3 | success=True | running: 128/153 (83.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=154--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 4 | success=True | running: 129/154 (83.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=155--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 5 | success=True | running: 130/155 (83.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=156--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 6 | success=True | running: 131/156 (84.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=157--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 7 | success=True | running: 132/157 (84.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=158--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 8 | success=True | running: 133/158 (84.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=159--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 9 | success=True | running: 134/159 (84.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=160--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 10 | success=True | running: 135/160 (84.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=161--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 11 | success=True | running: 136/161 (84.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=162--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 12 | success=True | running: 137/162 (84.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=163--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 13 | success=True | running: 138/163 (84.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=164--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 14 | success=True | running: 139/164 (84.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=165--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 15 | success=True | running: 140/165 (84.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=166--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 16 | success=True | running: 141/166 (84.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=167--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 17 | success=True | running: 142/167 (85.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=168--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 18 | success=True | running: 143/168 (85.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=169--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 19 | success=True | running: 144/169 (85.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=170--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 20 | success=True | running: 145/170 (85.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=171--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 21 | success=True | running: 146/171 (85.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=172--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 22 | success=True | running: 147/172 (85.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=173--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 23 | success=True | running: 148/173 (85.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=174--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 24 | success=True | running: 149/174 (85.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=175--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 25 | success=True | running: 150/175 (85.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=176--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 26 | success=True | running: 151/176 (85.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=177--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 27 | success=True | running: 152/177 (85.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=178--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 28 | success=True | running: 153/178 (86.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=179--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 29 | success=True | running: 154/179 (86.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=180--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 30 | success=True | running: 155/180 (86.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=181--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 31 | success=True | running: 156/181 (86.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=182--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 32 | success=True | running: 157/182 (86.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=183--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 33 | success=True | running: 158/183 (86.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=184--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 34 | success=True | running: 159/184 (86.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=185--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 35 | success=True | running: 160/185 (86.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=186--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 36 | success=True | running: 161/186 (86.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=187--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 37 | success=True | running: 162/187 (86.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=188--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 38 | success=True | running: 163/188 (86.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=189--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 39 | success=True | running: 164/189 (86.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=190--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 40 | success=True | running: 165/190 (86.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=191--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 41 | success=True | running: 166/191 (86.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=192--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 42 | success=True | running: 167/192 (87.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=193--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 43 | success=True | running: 168/193 (87.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=194--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 44 | success=True | running: 169/194 (87.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=195--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 45 | success=True | running: 170/195 (87.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=196--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 46 | success=True | running: 171/196 (87.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=197--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 47 | success=True | running: 172/197 (87.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=198--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 48 | success=True | running: 173/198 (87.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=199--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 49 | success=True | running: 174/199 (87.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-10_09_39--episode=200--success=True--task=the_bowl_must_be_put_on_the_plate.mp4
+[v3] ep 50 | success=True | running: 175/200 (87.5%)
+
+================================================================================
+VERSION v3 RESULTS:
+  Episodes:     50
+  Successes:    50
+  Success Rate: 100.0%
+================================================================================
+
+================================================================================
+SUMMARY BY VERSION:
+--------------------------------------------------------------------------------
+    syn_base: 56.0% (28/50 episodes)
+          v1: 96.0% (48/50 episodes)
+          v2: 98.0% (49/50 episodes)
+          v3: 100.0% (50/50 episodes)
+--------------------------------------------------------------------------------
+     OVERALL: 87.5% (175/200 episodes)
+================================================================================
+Task SR: 0.8750
+LEVEL L2 SR: 0.8750

@@ -1,0 +1,470 @@
+=== LEVEL: L2 ===
+Found base syn file: /home/A.CARDAMONE7/repo/VLA-Bench/robosuite_test/LIBERO/libero/bddl_files/libero_goal/put_the_wine_bottle_on_the_rack_syn_l2.bddl
+================================================================================
+TASK 10/10
+Versions to test: [-1, 1, 2, 3]
+================================================================================
+================================================================================
+Testing VERSION: syn_base
+Original Command:  Put the wine bottle on the rack
+Variation Command: The rack needs to be filled with the wine bottle in it
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=1--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 1 | success=True | running: 1/1 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=2--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 2 | success=True | running: 2/2 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=3--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 3 | success=True | running: 3/3 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=4--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 4 | success=True | running: 4/4 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=5--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 5 | success=True | running: 5/5 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=6--success=False--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 6 | success=False | running: 5/6 (83.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=7--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 7 | success=True | running: 6/7 (85.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=8--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 8 | success=True | running: 7/8 (87.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=9--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 9 | success=True | running: 8/9 (88.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=10--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 10 | success=True | running: 9/10 (90.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=11--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 11 | success=True | running: 10/11 (90.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=12--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 12 | success=True | running: 11/12 (91.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=13--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 13 | success=True | running: 12/13 (92.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=14--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 14 | success=True | running: 13/14 (92.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=15--success=False--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 15 | success=False | running: 13/15 (86.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=16--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 16 | success=True | running: 14/16 (87.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=17--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 17 | success=True | running: 15/17 (88.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=18--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 18 | success=True | running: 16/18 (88.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=19--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 19 | success=True | running: 17/19 (89.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=20--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 20 | success=True | running: 18/20 (90.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=21--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 21 | success=True | running: 19/21 (90.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=22--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 22 | success=True | running: 20/22 (90.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=23--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 23 | success=True | running: 21/23 (91.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=24--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 24 | success=True | running: 22/24 (91.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=25--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 25 | success=True | running: 23/25 (92.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=26--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 26 | success=True | running: 24/26 (92.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=27--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 27 | success=True | running: 25/27 (92.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=28--success=False--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 28 | success=False | running: 25/28 (89.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=29--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 29 | success=True | running: 26/29 (89.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=30--success=False--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 30 | success=False | running: 26/30 (86.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=31--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 31 | success=True | running: 27/31 (87.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=32--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 32 | success=True | running: 28/32 (87.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=33--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 33 | success=True | running: 29/33 (87.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=34--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 34 | success=True | running: 30/34 (88.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=35--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 35 | success=True | running: 31/35 (88.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=36--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 36 | success=True | running: 32/36 (88.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=37--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 37 | success=True | running: 33/37 (89.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=38--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 38 | success=True | running: 34/38 (89.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=39--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 39 | success=True | running: 35/39 (89.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=40--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 40 | success=True | running: 36/40 (90.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=41--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 41 | success=True | running: 37/41 (90.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=42--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 42 | success=True | running: 38/42 (90.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=43--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 43 | success=True | running: 39/43 (90.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=44--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 44 | success=True | running: 40/44 (90.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=45--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 45 | success=True | running: 41/45 (91.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=46--success=False--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 46 | success=False | running: 41/46 (89.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=47--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 47 | success=True | running: 42/47 (89.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=48--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 48 | success=True | running: 43/48 (89.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=49--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 49 | success=True | running: 44/49 (89.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=50--success=True--task=the_rack_needs_to_be_filled_with_the_wine_bottle_i.mp4
+[syn_base] ep 50 | success=True | running: 45/50 (90.0%)
+
+================================================================================
+VERSION syn_base RESULTS:
+  Episodes:     50
+  Successes:    45
+  Success Rate: 90.0%
+================================================================================
+
+================================================================================
+Testing VERSION: v1
+Original Command:  Put the wine bottle on the rack
+Variation Command: The wine bottle should be put on the rack
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=51--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 1 | success=True | running: 46/51 (90.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=52--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 2 | success=True | running: 47/52 (90.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=53--success=False--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 3 | success=False | running: 47/53 (88.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=54--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 4 | success=True | running: 48/54 (88.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=55--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 5 | success=True | running: 49/55 (89.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=56--success=False--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 6 | success=False | running: 49/56 (87.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=57--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 7 | success=True | running: 50/57 (87.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=58--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 8 | success=True | running: 51/58 (87.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=59--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 9 | success=True | running: 52/59 (88.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=60--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 10 | success=True | running: 53/60 (88.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=61--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 11 | success=True | running: 54/61 (88.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=62--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 12 | success=True | running: 55/62 (88.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=63--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 13 | success=True | running: 56/63 (88.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=64--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 14 | success=True | running: 57/64 (89.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=65--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 15 | success=True | running: 58/65 (89.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=66--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 16 | success=True | running: 59/66 (89.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=67--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 17 | success=True | running: 60/67 (89.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=68--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 18 | success=True | running: 61/68 (89.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=69--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 19 | success=True | running: 62/69 (89.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=70--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 20 | success=True | running: 63/70 (90.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=71--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 21 | success=True | running: 64/71 (90.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=72--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 22 | success=True | running: 65/72 (90.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=73--success=False--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 23 | success=False | running: 65/73 (89.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=74--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 24 | success=True | running: 66/74 (89.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=75--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 25 | success=True | running: 67/75 (89.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=76--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 26 | success=True | running: 68/76 (89.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=77--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 27 | success=True | running: 69/77 (89.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=78--success=False--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 28 | success=False | running: 69/78 (88.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=79--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 29 | success=True | running: 70/79 (88.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=80--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 30 | success=True | running: 71/80 (88.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=81--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 31 | success=True | running: 72/81 (88.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=82--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 32 | success=True | running: 73/82 (89.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=83--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 33 | success=True | running: 74/83 (89.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=84--success=False--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 34 | success=False | running: 74/84 (88.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=85--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 35 | success=True | running: 75/85 (88.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=86--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 36 | success=True | running: 76/86 (88.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=87--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 37 | success=True | running: 77/87 (88.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=88--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 38 | success=True | running: 78/88 (88.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=89--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 39 | success=True | running: 79/89 (88.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=90--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 40 | success=True | running: 80/90 (88.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=91--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 41 | success=True | running: 81/91 (89.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=92--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 42 | success=True | running: 82/92 (89.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=93--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 43 | success=True | running: 83/93 (89.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=94--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 44 | success=True | running: 84/94 (89.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=95--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 45 | success=True | running: 85/95 (89.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=96--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 46 | success=True | running: 86/96 (89.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=97--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 47 | success=True | running: 87/97 (89.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=98--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 48 | success=True | running: 88/98 (89.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=99--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 49 | success=True | running: 89/99 (89.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=100--success=True--task=the_wine_bottle_should_be_put_on_the_rack.mp4
+[v1] ep 50 | success=True | running: 90/100 (90.0%)
+
+================================================================================
+VERSION v1 RESULTS:
+  Episodes:     50
+  Successes:    45
+  Success Rate: 90.0%
+================================================================================
+
+================================================================================
+Testing VERSION: v2
+Original Command:  Put the wine bottle on the rack
+Variation Command: Let the wine bottle be put on the rack
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=101--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 1 | success=True | running: 91/101 (90.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=102--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 2 | success=True | running: 92/102 (90.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=103--success=False--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 3 | success=False | running: 92/103 (89.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=104--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 4 | success=True | running: 93/104 (89.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=105--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 5 | success=True | running: 94/105 (89.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=106--success=False--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 6 | success=False | running: 94/106 (88.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=107--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 7 | success=True | running: 95/107 (88.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=108--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 8 | success=True | running: 96/108 (88.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=109--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 9 | success=True | running: 97/109 (89.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=110--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 10 | success=True | running: 98/110 (89.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=111--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 11 | success=True | running: 99/111 (89.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=112--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 12 | success=True | running: 100/112 (89.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=113--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 13 | success=True | running: 101/113 (89.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=114--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 14 | success=True | running: 102/114 (89.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=115--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 15 | success=True | running: 103/115 (89.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=116--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 16 | success=True | running: 104/116 (89.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=117--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 17 | success=True | running: 105/117 (89.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=118--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 18 | success=True | running: 106/118 (89.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=119--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 19 | success=True | running: 107/119 (89.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=120--success=False--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 20 | success=False | running: 107/120 (89.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=121--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 21 | success=True | running: 108/121 (89.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=122--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 22 | success=True | running: 109/122 (89.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=123--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 23 | success=True | running: 110/123 (89.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=124--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 24 | success=True | running: 111/124 (89.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=125--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 25 | success=True | running: 112/125 (89.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=126--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 26 | success=True | running: 113/126 (89.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=127--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 27 | success=True | running: 114/127 (89.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=128--success=False--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 28 | success=False | running: 114/128 (89.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=129--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 29 | success=True | running: 115/129 (89.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=130--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 30 | success=True | running: 116/130 (89.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=131--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 31 | success=True | running: 117/131 (89.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=132--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 32 | success=True | running: 118/132 (89.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=133--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 33 | success=True | running: 119/133 (89.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=134--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 34 | success=True | running: 120/134 (89.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=135--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 35 | success=True | running: 121/135 (89.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=136--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 36 | success=True | running: 122/136 (89.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=137--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 37 | success=True | running: 123/137 (89.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=138--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 38 | success=True | running: 124/138 (89.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=139--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 39 | success=True | running: 125/139 (89.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=140--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 40 | success=True | running: 126/140 (90.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=141--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 41 | success=True | running: 127/141 (90.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=142--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 42 | success=True | running: 128/142 (90.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=143--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 43 | success=True | running: 129/143 (90.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=144--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 44 | success=True | running: 130/144 (90.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=145--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 45 | success=True | running: 131/145 (90.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=146--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 46 | success=True | running: 132/146 (90.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=147--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 47 | success=True | running: 133/147 (90.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=148--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 48 | success=True | running: 134/148 (90.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=149--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 49 | success=True | running: 135/149 (90.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=150--success=True--task=let_the_wine_bottle_be_put_on_the_rack.mp4
+[v2] ep 50 | success=True | running: 136/150 (90.7%)
+
+================================================================================
+VERSION v2 RESULTS:
+  Episodes:     50
+  Successes:    46
+  Success Rate: 92.0%
+================================================================================
+
+================================================================================
+Testing VERSION: v3
+Original Command:  Put the wine bottle on the rack
+Variation Command: The wine bottle must be put on the rack
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=151--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 1 | success=True | running: 137/151 (90.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=152--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 2 | success=True | running: 138/152 (90.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=153--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 3 | success=True | running: 139/153 (90.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=154--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 4 | success=True | running: 140/154 (90.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=155--success=False--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 5 | success=False | running: 140/155 (90.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=156--success=False--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 6 | success=False | running: 140/156 (89.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=157--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 7 | success=True | running: 141/157 (89.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=158--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 8 | success=True | running: 142/158 (89.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=159--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 9 | success=True | running: 143/159 (89.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=160--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 10 | success=True | running: 144/160 (90.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=161--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 11 | success=True | running: 145/161 (90.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=162--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 12 | success=True | running: 146/162 (90.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=163--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 13 | success=True | running: 147/163 (90.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=164--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 14 | success=True | running: 148/164 (90.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=165--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 15 | success=True | running: 149/165 (90.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=166--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 16 | success=True | running: 150/166 (90.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=167--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 17 | success=True | running: 151/167 (90.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=168--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 18 | success=True | running: 152/168 (90.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=169--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 19 | success=True | running: 153/169 (90.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=170--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 20 | success=True | running: 154/170 (90.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=171--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 21 | success=True | running: 155/171 (90.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=172--success=False--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 22 | success=False | running: 155/172 (90.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=173--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 23 | success=True | running: 156/173 (90.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=174--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 24 | success=True | running: 157/174 (90.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=175--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 25 | success=True | running: 158/175 (90.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=176--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 26 | success=True | running: 159/176 (90.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=177--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 27 | success=True | running: 160/177 (90.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=178--success=False--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 28 | success=False | running: 160/178 (89.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=179--success=False--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 29 | success=False | running: 160/179 (89.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=180--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 30 | success=True | running: 161/180 (89.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=181--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 31 | success=True | running: 162/181 (89.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=182--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 32 | success=True | running: 163/182 (89.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=183--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 33 | success=True | running: 164/183 (89.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=184--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 34 | success=True | running: 165/184 (89.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=185--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 35 | success=True | running: 166/185 (89.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=186--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 36 | success=True | running: 167/186 (89.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=187--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 37 | success=True | running: 168/187 (89.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=188--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 38 | success=True | running: 169/188 (89.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=189--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 39 | success=True | running: 170/189 (89.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=190--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 40 | success=True | running: 171/190 (90.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=191--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 41 | success=True | running: 172/191 (90.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=192--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 42 | success=True | running: 173/192 (90.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=193--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 43 | success=True | running: 174/193 (90.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=194--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 44 | success=True | running: 175/194 (90.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=195--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 45 | success=True | running: 176/195 (90.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=196--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 46 | success=True | running: 177/196 (90.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=197--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 47 | success=True | running: 178/197 (90.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=198--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 48 | success=True | running: 179/198 (90.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=199--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 49 | success=True | running: 180/199 (90.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l2/run_2/2026_04_04-01_33_45--episode=200--success=True--task=the_wine_bottle_must_be_put_on_the_rack.mp4
+[v3] ep 50 | success=True | running: 181/200 (90.5%)
+
+================================================================================
+VERSION v3 RESULTS:
+  Episodes:     50
+  Successes:    45
+  Success Rate: 90.0%
+================================================================================
+
+================================================================================
+SUMMARY BY VERSION:
+--------------------------------------------------------------------------------
+    syn_base: 90.0% (45/50 episodes)
+          v1: 90.0% (45/50 episodes)
+          v2: 92.0% (46/50 episodes)
+          v3: 90.0% (45/50 episodes)
+--------------------------------------------------------------------------------
+     OVERALL: 90.5% (181/200 episodes)
+================================================================================
+Task SR: 0.9050
+LEVEL L2 SR: 0.9050

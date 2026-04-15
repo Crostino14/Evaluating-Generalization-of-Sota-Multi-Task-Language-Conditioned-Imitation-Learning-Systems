@@ -1,0 +1,356 @@
+=== LEVEL: L3 ===
+Found base syn file: /home/A.CARDAMONE7/repo/VLA-Bench/robosuite_test/LIBERO/libero/bddl_files/libero_goal/put_the_cream_cheese_in_the_bowl_syn_l3.bddl
+================================================================================
+TASK 7/10
+Versions to test: [-1, 1, 2]
+================================================================================
+================================================================================
+Testing VERSION: syn_base
+Original Command:  Put the cream cheese on the bowl
+Variation Command: Put the object in front of the stove on the bowl
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=1--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 1 | success=True | running: 1/1 (100.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=2--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 2 | success=False | running: 1/2 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=3--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 3 | success=False | running: 1/3 (33.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=4--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 4 | success=True | running: 2/4 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=5--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 5 | success=False | running: 2/5 (40.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=6--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 6 | success=False | running: 2/6 (33.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=7--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 7 | success=False | running: 2/7 (28.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=8--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 8 | success=False | running: 2/8 (25.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=9--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 9 | success=True | running: 3/9 (33.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=10--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 10 | success=True | running: 4/10 (40.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=11--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 11 | success=True | running: 5/11 (45.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=12--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 12 | success=False | running: 5/12 (41.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=13--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 13 | success=True | running: 6/13 (46.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=14--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 14 | success=True | running: 7/14 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=15--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 15 | success=False | running: 7/15 (46.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=16--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 16 | success=False | running: 7/16 (43.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=17--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 17 | success=True | running: 8/17 (47.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=18--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 18 | success=False | running: 8/18 (44.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=19--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 19 | success=True | running: 9/19 (47.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=20--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 20 | success=False | running: 9/20 (45.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=21--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 21 | success=True | running: 10/21 (47.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=22--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 22 | success=False | running: 10/22 (45.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=23--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 23 | success=True | running: 11/23 (47.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=24--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 24 | success=True | running: 12/24 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=25--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 25 | success=True | running: 13/25 (52.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=26--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 26 | success=False | running: 13/26 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=27--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 27 | success=True | running: 14/27 (51.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=28--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 28 | success=False | running: 14/28 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=29--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 29 | success=False | running: 14/29 (48.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=30--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 30 | success=True | running: 15/30 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=31--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 31 | success=True | running: 16/31 (51.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=32--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 32 | success=False | running: 16/32 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=33--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 33 | success=True | running: 17/33 (51.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=34--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 34 | success=True | running: 18/34 (52.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=35--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 35 | success=True | running: 19/35 (54.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=36--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 36 | success=True | running: 20/36 (55.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=37--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 37 | success=True | running: 21/37 (56.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=38--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 38 | success=False | running: 21/38 (55.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=39--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 39 | success=True | running: 22/39 (56.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=40--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 40 | success=False | running: 22/40 (55.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=41--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 41 | success=True | running: 23/41 (56.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=42--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 42 | success=False | running: 23/42 (54.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=43--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 43 | success=False | running: 23/43 (53.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=44--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 44 | success=False | running: 23/44 (52.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=45--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 45 | success=False | running: 23/45 (51.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=46--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 46 | success=False | running: 23/46 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=47--success=False--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 47 | success=False | running: 23/47 (48.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=48--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 48 | success=True | running: 24/48 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=49--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 49 | success=True | running: 25/49 (51.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=50--success=True--task=put_the_object_in_front_of_the_stove_on_the_bowl.mp4
+[syn_base] ep 50 | success=True | running: 26/50 (52.0%)
+
+================================================================================
+VERSION syn_base RESULTS:
+  Episodes:     50
+  Successes:    26
+  Success Rate: 52.0%
+================================================================================
+
+================================================================================
+Testing VERSION: v1
+Original Command:  Put the cream cheese on the bowl
+Variation Command: Put the object to the left of the plate on the bowl
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=51--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 1 | success=True | running: 27/51 (52.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=52--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 2 | success=False | running: 27/52 (51.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=53--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 3 | success=False | running: 27/53 (50.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=54--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 4 | success=True | running: 28/54 (51.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=55--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 5 | success=False | running: 28/55 (50.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=56--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 6 | success=False | running: 28/56 (50.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=57--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 7 | success=True | running: 29/57 (50.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=58--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 8 | success=True | running: 30/58 (51.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=59--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 9 | success=True | running: 31/59 (52.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=60--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 10 | success=True | running: 32/60 (53.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=61--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 11 | success=True | running: 33/61 (54.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=62--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 12 | success=True | running: 34/62 (54.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=63--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 13 | success=False | running: 34/63 (54.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=64--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 14 | success=True | running: 35/64 (54.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=65--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 15 | success=False | running: 35/65 (53.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=66--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 16 | success=True | running: 36/66 (54.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=67--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 17 | success=True | running: 37/67 (55.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=68--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 18 | success=False | running: 37/68 (54.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=69--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 19 | success=True | running: 38/69 (55.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=70--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 20 | success=False | running: 38/70 (54.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=71--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 21 | success=True | running: 39/71 (54.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=72--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 22 | success=False | running: 39/72 (54.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=73--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 23 | success=True | running: 40/73 (54.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=74--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 24 | success=True | running: 41/74 (55.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=75--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 25 | success=True | running: 42/75 (56.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=76--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 26 | success=False | running: 42/76 (55.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=77--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 27 | success=True | running: 43/77 (55.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=78--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 28 | success=False | running: 43/78 (55.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=79--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 29 | success=False | running: 43/79 (54.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=80--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 30 | success=True | running: 44/80 (55.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=81--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 31 | success=True | running: 45/81 (55.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=82--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 32 | success=True | running: 46/82 (56.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=83--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 33 | success=False | running: 46/83 (55.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=84--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 34 | success=True | running: 47/84 (56.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=85--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 35 | success=True | running: 48/85 (56.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=86--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 36 | success=True | running: 49/86 (57.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=87--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 37 | success=True | running: 50/87 (57.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=88--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 38 | success=False | running: 50/88 (56.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=89--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 39 | success=True | running: 51/89 (57.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=90--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 40 | success=False | running: 51/90 (56.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=91--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 41 | success=True | running: 52/91 (57.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=92--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 42 | success=False | running: 52/92 (56.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=93--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 43 | success=True | running: 53/93 (57.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=94--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 44 | success=False | running: 53/94 (56.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=95--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 45 | success=False | running: 53/95 (55.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=96--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 46 | success=False | running: 53/96 (55.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=97--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 47 | success=False | running: 53/97 (54.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=98--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 48 | success=False | running: 53/98 (54.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=99--success=True--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 49 | success=True | running: 54/99 (54.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=100--success=False--task=put_the_object_to_the_left_of_the_plate_on_the_bow.mp4
+[v1] ep 50 | success=False | running: 54/100 (54.0%)
+
+================================================================================
+VERSION v1 RESULTS:
+  Episodes:     50
+  Successes:    28
+  Success Rate: 56.0%
+================================================================================
+
+================================================================================
+Testing VERSION: v2
+Original Command:  Put the cream cheese on the bowl
+Variation Command: Put the object next to the stove on the bowl
+================================================================================
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=101--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 1 | success=True | running: 55/101 (54.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=102--success=False--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 2 | success=False | running: 55/102 (53.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=103--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 3 | success=True | running: 56/103 (54.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=104--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 4 | success=True | running: 57/104 (54.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=105--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 5 | success=True | running: 58/105 (55.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=106--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 6 | success=True | running: 59/106 (55.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=107--success=False--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 7 | success=False | running: 59/107 (55.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=108--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 8 | success=True | running: 60/108 (55.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=109--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 9 | success=True | running: 61/109 (56.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=110--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 10 | success=True | running: 62/110 (56.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=111--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 11 | success=True | running: 63/111 (56.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=112--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 12 | success=True | running: 64/112 (57.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=113--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 13 | success=True | running: 65/113 (57.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=114--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 14 | success=True | running: 66/114 (57.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=115--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 15 | success=True | running: 67/115 (58.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=116--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 16 | success=True | running: 68/116 (58.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=117--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 17 | success=True | running: 69/117 (59.0%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=118--success=False--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 18 | success=False | running: 69/118 (58.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=119--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 19 | success=True | running: 70/119 (58.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=120--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 20 | success=True | running: 71/120 (59.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=121--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 21 | success=True | running: 72/121 (59.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=122--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 22 | success=True | running: 73/122 (59.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=123--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 23 | success=True | running: 74/123 (60.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=124--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 24 | success=True | running: 75/124 (60.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=125--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 25 | success=True | running: 76/125 (60.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=126--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 26 | success=True | running: 77/126 (61.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=127--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 27 | success=True | running: 78/127 (61.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=128--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 28 | success=True | running: 79/128 (61.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=129--success=False--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 29 | success=False | running: 79/129 (61.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=130--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 30 | success=True | running: 80/130 (61.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=131--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 31 | success=True | running: 81/131 (61.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=132--success=False--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 32 | success=False | running: 81/132 (61.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=133--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 33 | success=True | running: 82/133 (61.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=134--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 34 | success=True | running: 83/134 (61.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=135--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 35 | success=True | running: 84/135 (62.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=136--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 36 | success=True | running: 85/136 (62.5%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=137--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 37 | success=True | running: 86/137 (62.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=138--success=False--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 38 | success=False | running: 86/138 (62.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=139--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 39 | success=True | running: 87/139 (62.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=140--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 40 | success=True | running: 88/140 (62.9%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=141--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 41 | success=True | running: 89/141 (63.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=142--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 42 | success=True | running: 90/142 (63.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=143--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 43 | success=True | running: 91/143 (63.6%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=144--success=False--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 44 | success=False | running: 91/144 (63.2%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=145--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 45 | success=True | running: 92/145 (63.4%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=146--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 46 | success=True | running: 93/146 (63.7%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=147--success=False--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 47 | success=False | running: 93/147 (63.3%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=148--success=False--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 48 | success=False | running: 93/148 (62.8%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=149--success=True--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 49 | success=True | running: 94/149 (63.1%)
+Saved rollout MP4 at path /home/A.CARDAMONE7/outputs/rollouts/libero_goal/syntactic_variation/InternVLA/Variations_l3/run_2/2026_04_03-21_59_12--episode=150--success=False--task=put_the_object_next_to_the_stove_on_the_bowl.mp4
+[v2] ep 50 | success=False | running: 94/150 (62.7%)
+
+================================================================================
+VERSION v2 RESULTS:
+  Episodes:     50
+  Successes:    40
+  Success Rate: 80.0%
+================================================================================
+
+================================================================================
+SUMMARY BY VERSION:
+--------------------------------------------------------------------------------
+    syn_base: 52.0% (26/50 episodes)
+          v1: 56.0% (28/50 episodes)
+          v2: 80.0% (40/50 episodes)
+--------------------------------------------------------------------------------
+     OVERALL: 62.7% (94/150 episodes)
+================================================================================
+Task SR: 0.6267
+LEVEL L3 SR: 0.6267

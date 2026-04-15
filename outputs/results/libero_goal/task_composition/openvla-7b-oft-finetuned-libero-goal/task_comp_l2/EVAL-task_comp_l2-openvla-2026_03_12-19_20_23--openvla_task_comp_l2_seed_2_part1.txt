@@ -1,0 +1,531 @@
+================================================================================
+TASK COMPOSITION L2 EVALUATION
+Model: /home/A.CARDAMONE7/checkpoints/openvla-7b-oft-libero-goal-seed2
+Seed: 2
+Num trials per task: 50
+Num tasks: 2
+================================================================================
+================================================================================
+TASK 1/2 (Task Composition L1)
+BDDL: push_the_plate_to_the_front_of_the_stove_task_comp_l2.bddl
+Command: Push the plate to the front of the stove and put the bowl on the plate
+Init states from: push_the_plate_to_the_front_of_the_stove.pruned_init
+================================================================================
+Starting episode 1...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=1--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 1
+# successes: 0 (0.0%)
+Starting episode 2...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=2--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 2
+# successes: 0 (0.0%)
+Starting episode 3...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=3--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 3
+# successes: 0 (0.0%)
+Starting episode 4...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=4--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 4
+# successes: 0 (0.0%)
+Starting episode 5...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=5--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 5
+# successes: 0 (0.0%)
+Starting episode 6...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=6--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 6
+# successes: 0 (0.0%)
+Starting episode 7...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=7--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 7
+# successes: 0 (0.0%)
+Starting episode 8...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=8--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 8
+# successes: 0 (0.0%)
+Starting episode 9...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=9--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 9
+# successes: 0 (0.0%)
+Starting episode 10...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=10--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 10
+# successes: 0 (0.0%)
+Starting episode 11...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=11--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 11
+# successes: 0 (0.0%)
+Starting episode 12...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=12--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 12
+# successes: 0 (0.0%)
+Starting episode 13...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=13--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 13
+# successes: 0 (0.0%)
+Starting episode 14...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=14--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 14
+# successes: 0 (0.0%)
+Starting episode 15...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=15--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 15
+# successes: 0 (0.0%)
+Starting episode 16...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=16--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 16
+# successes: 0 (0.0%)
+Starting episode 17...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=17--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 17
+# successes: 0 (0.0%)
+Starting episode 18...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=18--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 18
+# successes: 0 (0.0%)
+Starting episode 19...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=19--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 19
+# successes: 0 (0.0%)
+Starting episode 20...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=20--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 20
+# successes: 0 (0.0%)
+Starting episode 21...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=21--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 21
+# successes: 0 (0.0%)
+Starting episode 22...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=22--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 22
+# successes: 0 (0.0%)
+Starting episode 23...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=23--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 23
+# successes: 0 (0.0%)
+Starting episode 24...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=24--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 24
+# successes: 0 (0.0%)
+Starting episode 25...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=25--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 25
+# successes: 0 (0.0%)
+Starting episode 26...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=26--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 26
+# successes: 0 (0.0%)
+Starting episode 27...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=27--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 27
+# successes: 0 (0.0%)
+Starting episode 28...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=28--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 28
+# successes: 0 (0.0%)
+Starting episode 29...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=29--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 29
+# successes: 0 (0.0%)
+Starting episode 30...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=30--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 30
+# successes: 0 (0.0%)
+Starting episode 31...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=31--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 31
+# successes: 0 (0.0%)
+Starting episode 32...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=32--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 32
+# successes: 0 (0.0%)
+Starting episode 33...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=33--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 33
+# successes: 0 (0.0%)
+Starting episode 34...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=34--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 34
+# successes: 0 (0.0%)
+Starting episode 35...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=35--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 35
+# successes: 0 (0.0%)
+Starting episode 36...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=36--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 36
+# successes: 0 (0.0%)
+Starting episode 37...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=37--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 37
+# successes: 0 (0.0%)
+Starting episode 38...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=38--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 38
+# successes: 0 (0.0%)
+Starting episode 39...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=39--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 39
+# successes: 0 (0.0%)
+Starting episode 40...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=40--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 40
+# successes: 0 (0.0%)
+Starting episode 41...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=41--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 41
+# successes: 0 (0.0%)
+Starting episode 42...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=42--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 42
+# successes: 0 (0.0%)
+Starting episode 43...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=43--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 43
+# successes: 0 (0.0%)
+Starting episode 44...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=44--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 44
+# successes: 0 (0.0%)
+Starting episode 45...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=45--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 45
+# successes: 0 (0.0%)
+Starting episode 46...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=46--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 46
+# successes: 0 (0.0%)
+Starting episode 47...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=47--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 47
+# successes: 0 (0.0%)
+Starting episode 48...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=48--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 48
+# successes: 0 (0.0%)
+Starting episode 49...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=49--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 49
+# successes: 0 (0.0%)
+Starting episode 50...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=50--success=False--task=push_the_plate_to_the_front_of_the_stove_and_put_t.mp4
+Success: False
+# episodes completed: 50
+# successes: 0 (0.0%)
+Task success rate: 0.0000 (0.0%)
+Running total success rate: 0.0000
+Environment closed successfully
+================================================================================
+TASK 2/2 (Task Composition L1)
+BDDL: put_the_bowl_on_top_of_the_cabinet_task_comp_l2.bddl
+Command: Put the cream cheese on the bowl and put the bowl on the top of the cabinet
+Init states from: put_the_cream_cheese_in_the_bowl.pruned_init
+================================================================================
+Starting episode 1...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=51--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 51
+# successes: 0 (0.0%)
+Starting episode 2...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=52--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 52
+# successes: 0 (0.0%)
+Starting episode 3...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=53--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 53
+# successes: 0 (0.0%)
+Starting episode 4...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=54--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 54
+# successes: 0 (0.0%)
+Starting episode 5...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=55--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 55
+# successes: 0 (0.0%)
+Starting episode 6...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=56--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 56
+# successes: 0 (0.0%)
+Starting episode 7...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=57--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 57
+# successes: 0 (0.0%)
+Starting episode 8...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=58--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 58
+# successes: 0 (0.0%)
+Starting episode 9...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=59--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 59
+# successes: 0 (0.0%)
+Starting episode 10...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=60--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 60
+# successes: 0 (0.0%)
+Starting episode 11...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=61--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 61
+# successes: 0 (0.0%)
+Starting episode 12...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=62--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 62
+# successes: 0 (0.0%)
+Starting episode 13...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=63--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 63
+# successes: 0 (0.0%)
+Starting episode 14...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=64--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 64
+# successes: 0 (0.0%)
+Starting episode 15...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=65--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 65
+# successes: 0 (0.0%)
+Starting episode 16...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=66--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 66
+# successes: 0 (0.0%)
+Starting episode 17...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=67--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 67
+# successes: 0 (0.0%)
+Starting episode 18...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=68--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 68
+# successes: 0 (0.0%)
+Starting episode 19...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=69--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 69
+# successes: 0 (0.0%)
+Starting episode 20...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=70--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 70
+# successes: 0 (0.0%)
+Starting episode 21...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=71--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 71
+# successes: 0 (0.0%)
+Starting episode 22...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=72--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 72
+# successes: 0 (0.0%)
+Starting episode 23...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=73--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 73
+# successes: 0 (0.0%)
+Starting episode 24...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=74--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 74
+# successes: 0 (0.0%)
+Starting episode 25...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=75--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 75
+# successes: 0 (0.0%)
+Starting episode 26...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=76--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 76
+# successes: 0 (0.0%)
+Starting episode 27...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=77--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 77
+# successes: 0 (0.0%)
+Starting episode 28...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=78--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 78
+# successes: 0 (0.0%)
+Starting episode 29...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=79--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 79
+# successes: 0 (0.0%)
+Starting episode 30...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=80--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 80
+# successes: 0 (0.0%)
+Starting episode 31...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=81--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 81
+# successes: 0 (0.0%)
+Starting episode 32...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=82--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 82
+# successes: 0 (0.0%)
+Starting episode 33...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=83--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 83
+# successes: 0 (0.0%)
+Starting episode 34...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=84--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 84
+# successes: 0 (0.0%)
+Starting episode 35...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=85--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 85
+# successes: 0 (0.0%)
+Starting episode 36...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=86--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 86
+# successes: 0 (0.0%)
+Starting episode 37...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=87--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 87
+# successes: 0 (0.0%)
+Starting episode 38...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=88--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 88
+# successes: 0 (0.0%)
+Starting episode 39...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=89--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 89
+# successes: 0 (0.0%)
+Starting episode 40...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=90--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 90
+# successes: 0 (0.0%)
+Starting episode 41...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=91--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 91
+# successes: 0 (0.0%)
+Starting episode 42...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=92--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 92
+# successes: 0 (0.0%)
+Starting episode 43...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=93--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 93
+# successes: 0 (0.0%)
+Starting episode 44...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=94--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 94
+# successes: 0 (0.0%)
+Starting episode 45...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=95--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 95
+# successes: 0 (0.0%)
+Starting episode 46...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=96--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 96
+# successes: 0 (0.0%)
+Starting episode 47...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=97--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 97
+# successes: 0 (0.0%)
+Starting episode 48...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=98--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 98
+# successes: 0 (0.0%)
+Starting episode 49...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=99--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 99
+# successes: 0 (0.0%)
+Starting episode 50...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/openvla-oft/task_comp_l2/run_openvla_task_comp_l2_seed_2_part1/2026_03_12-19_19_56--episode=100--success=False--task=put_the_cream_cheese_on_the_bowl_and_put_the_bowl_.mp4
+Success: False
+# episodes completed: 100
+# successes: 0 (0.0%)
+Task success rate: 0.0000 (0.0%)
+Running total success rate: 0.0000
+Environment closed successfully
+================================================================================
+FINAL RESULTS - TASK COMPOSITION L1:
+Total episodes: 100
+Total successes: 0
+Overall success rate: 0.0000 (0.0%)
+================================================================================

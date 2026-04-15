@@ -1,0 +1,1122 @@
+2026-02-12 12:09:35.874230: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2026-02-12 12:09:35.874312: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2026-02-12 12:09:35.875777: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2026-02-12 12:09:35.882790: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-02-12 12:09:46.436422: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/A.CARDAMONE7/anaconda3/envs/tinyvla_libero/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Some weights of the model checkpoint at /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/tinyvla/parte2_llava_pythia_libero_goal_no_noops_64/1.3B were not used when initializing LlavaPythiaForCausalLM: ['embed_out.weight']
+- This IS expected if you are initializing LlavaPythiaForCausalLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing LlavaPythiaForCausalLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of LlavaPythiaForCausalLM were not initialized from the model checkpoint at /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/tinyvla/parte2_llava_pythia_libero_goal_no_noops_64/1.3B and are newly initialized: ['embed_out.combine.bias', 'embed_out.combine.weight', 'embed_out.diffusion_step_encoder.1.bias', 'embed_out.diffusion_step_encoder.1.weight', 'embed_out.diffusion_step_encoder.3.bias', 'embed_out.diffusion_step_encoder.3.weight', 'embed_out.down_modules.0.0.blocks.0.block.0.bias', 'embed_out.down_modules.0.0.blocks.0.block.0.weight', 'embed_out.down_modules.0.0.blocks.0.block.1.bias', 'embed_out.down_modules.0.0.blocks.0.block.1.weight', 'embed_out.down_modules.0.0.blocks.1.block.0.bias', 'embed_out.down_modules.0.0.blocks.1.block.0.weight', 'embed_out.down_modules.0.0.blocks.1.block.1.bias', 'embed_out.down_modules.0.0.blocks.1.block.1.weight', 'embed_out.down_modules.0.0.cond_encoder.1.bias', 'embed_out.down_modules.0.0.cond_encoder.1.weight', 'embed_out.down_modules.0.0.residual_conv.bias', 'embed_out.down_modules.0.0.residual_conv.weight', 'embed_out.down_modules.0.1.blocks.0.block.0.bias', 'embed_out.down_modules.0.1.blocks.0.block.0.weight', 'embed_out.down_modules.0.1.blocks.0.block.1.bias', 'embed_out.down_modules.0.1.blocks.0.block.1.weight', 'embed_out.down_modules.0.1.blocks.1.block.0.bias', 'embed_out.down_modules.0.1.blocks.1.block.0.weight', 'embed_out.down_modules.0.1.blocks.1.block.1.bias', 'embed_out.down_modules.0.1.blocks.1.block.1.weight', 'embed_out.down_modules.0.1.cond_encoder.1.bias', 'embed_out.down_modules.0.1.cond_encoder.1.weight', 'embed_out.down_modules.0.2.conv.bias', 'embed_out.down_modules.0.2.conv.weight', 'embed_out.down_modules.1.0.blocks.0.block.0.bias', 'embed_out.down_modules.1.0.blocks.0.block.0.weight', 'embed_out.down_modules.1.0.blocks.0.block.1.bias', 'embed_out.down_modules.1.0.blocks.0.block.1.weight', 'embed_out.down_modules.1.0.blocks.1.block.0.bias', 'embed_out.down_modules.1.0.blocks.1.block.0.weight', 'embed_out.down_modules.1.0.blocks.1.block.1.bias', 'embed_out.down_modules.1.0.blocks.1.block.1.weight', 'embed_out.down_modules.1.0.cond_encoder.1.bias', 'embed_out.down_modules.1.0.cond_encoder.1.weight', 'embed_out.down_modules.1.0.residual_conv.bias', 'embed_out.down_modules.1.0.residual_conv.weight', 'embed_out.down_modules.1.1.blocks.0.block.0.bias', 'embed_out.down_modules.1.1.blocks.0.block.0.weight', 'embed_out.down_modules.1.1.blocks.0.block.1.bias', 'embed_out.down_modules.1.1.blocks.0.block.1.weight', 'embed_out.down_modules.1.1.blocks.1.block.0.bias', 'embed_out.down_modules.1.1.blocks.1.block.0.weight', 'embed_out.down_modules.1.1.blocks.1.block.1.bias', 'embed_out.down_modules.1.1.blocks.1.block.1.weight', 'embed_out.down_modules.1.1.cond_encoder.1.bias', 'embed_out.down_modules.1.1.cond_encoder.1.weight', 'embed_out.down_modules.1.2.conv.bias', 'embed_out.down_modules.1.2.conv.weight', 'embed_out.down_modules.2.0.blocks.0.block.0.bias', 'embed_out.down_modules.2.0.blocks.0.block.0.weight', 'embed_out.down_modules.2.0.blocks.0.block.1.bias', 'embed_out.down_modules.2.0.blocks.0.block.1.weight', 'embed_out.down_modules.2.0.blocks.1.block.0.bias', 'embed_out.down_modules.2.0.blocks.1.block.0.weight', 'embed_out.down_modules.2.0.blocks.1.block.1.bias', 'embed_out.down_modules.2.0.blocks.1.block.1.weight', 'embed_out.down_modules.2.0.cond_encoder.1.bias', 'embed_out.down_modules.2.0.cond_encoder.1.weight', 'embed_out.down_modules.2.0.residual_conv.bias', 'embed_out.down_modules.2.0.residual_conv.weight', 'embed_out.down_modules.2.1.blocks.0.block.0.bias', 'embed_out.down_modules.2.1.blocks.0.block.0.weight', 'embed_out.down_modules.2.1.blocks.0.block.1.bias', 'embed_out.down_modules.2.1.blocks.0.block.1.weight', 'embed_out.down_modules.2.1.blocks.1.block.0.bias', 'embed_out.down_modules.2.1.blocks.1.block.0.weight', 'embed_out.down_modules.2.1.blocks.1.block.1.bias', 'embed_out.down_modules.2.1.blocks.1.block.1.weight', 'embed_out.down_modules.2.1.cond_encoder.1.bias', 'embed_out.down_modules.2.1.cond_encoder.1.weight', 'embed_out.final_conv.0.block.0.bias', 'embed_out.final_conv.0.block.0.weight', 'embed_out.final_conv.0.block.1.bias', 'embed_out.final_conv.0.block.1.weight', 'embed_out.final_conv.1.bias', 'embed_out.final_conv.1.weight', 'embed_out.mid_modules.0.blocks.0.block.0.bias', 'embed_out.mid_modules.0.blocks.0.block.0.weight', 'embed_out.mid_modules.0.blocks.0.block.1.bias', 'embed_out.mid_modules.0.blocks.0.block.1.weight', 'embed_out.mid_modules.0.blocks.1.block.0.bias', 'embed_out.mid_modules.0.blocks.1.block.0.weight', 'embed_out.mid_modules.0.blocks.1.block.1.bias', 'embed_out.mid_modules.0.blocks.1.block.1.weight', 'embed_out.mid_modules.0.cond_encoder.1.bias', 'embed_out.mid_modules.0.cond_encoder.1.weight', 'embed_out.mid_modules.1.blocks.0.block.0.bias', 'embed_out.mid_modules.1.blocks.0.block.0.weight', 'embed_out.mid_modules.1.blocks.0.block.1.bias', 'embed_out.mid_modules.1.blocks.0.block.1.weight', 'embed_out.mid_modules.1.blocks.1.block.0.bias', 'embed_out.mid_modules.1.blocks.1.block.0.weight', 'embed_out.mid_modules.1.blocks.1.block.1.bias', 'embed_out.mid_modules.1.blocks.1.block.1.weight', 'embed_out.mid_modules.1.cond_encoder.1.bias', 'embed_out.mid_modules.1.cond_encoder.1.weight', 'embed_out.norm_after_pool.bias', 'embed_out.norm_after_pool.weight', 'embed_out.up_modules.0.0.blocks.0.block.0.bias', 'embed_out.up_modules.0.0.blocks.0.block.0.weight', 'embed_out.up_modules.0.0.blocks.0.block.1.bias', 'embed_out.up_modules.0.0.blocks.0.block.1.weight', 'embed_out.up_modules.0.0.blocks.1.block.0.bias', 'embed_out.up_modules.0.0.blocks.1.block.0.weight', 'embed_out.up_modules.0.0.blocks.1.block.1.bias', 'embed_out.up_modules.0.0.blocks.1.block.1.weight', 'embed_out.up_modules.0.0.cond_encoder.1.bias', 'embed_out.up_modules.0.0.cond_encoder.1.weight', 'embed_out.up_modules.0.0.residual_conv.bias', 'embed_out.up_modules.0.0.residual_conv.weight', 'embed_out.up_modules.0.1.blocks.0.block.0.bias', 'embed_out.up_modules.0.1.blocks.0.block.0.weight', 'embed_out.up_modules.0.1.blocks.0.block.1.bias', 'embed_out.up_modules.0.1.blocks.0.block.1.weight', 'embed_out.up_modules.0.1.blocks.1.block.0.bias', 'embed_out.up_modules.0.1.blocks.1.block.0.weight', 'embed_out.up_modules.0.1.blocks.1.block.1.bias', 'embed_out.up_modules.0.1.blocks.1.block.1.weight', 'embed_out.up_modules.0.1.cond_encoder.1.bias', 'embed_out.up_modules.0.1.cond_encoder.1.weight', 'embed_out.up_modules.0.2.conv.bias', 'embed_out.up_modules.0.2.conv.weight', 'embed_out.up_modules.1.0.blocks.0.block.0.bias', 'embed_out.up_modules.1.0.blocks.0.block.0.weight', 'embed_out.up_modules.1.0.blocks.0.block.1.bias', 'embed_out.up_modules.1.0.blocks.0.block.1.weight', 'embed_out.up_modules.1.0.blocks.1.block.0.bias', 'embed_out.up_modules.1.0.blocks.1.block.0.weight', 'embed_out.up_modules.1.0.blocks.1.block.1.bias', 'embed_out.up_modules.1.0.blocks.1.block.1.weight', 'embed_out.up_modules.1.0.cond_encoder.1.bias', 'embed_out.up_modules.1.0.cond_encoder.1.weight', 'embed_out.up_modules.1.0.residual_conv.bias', 'embed_out.up_modules.1.0.residual_conv.weight', 'embed_out.up_modules.1.1.blocks.0.block.0.bias', 'embed_out.up_modules.1.1.blocks.0.block.0.weight', 'embed_out.up_modules.1.1.blocks.0.block.1.bias', 'embed_out.up_modules.1.1.blocks.0.block.1.weight', 'embed_out.up_modules.1.1.blocks.1.block.0.bias', 'embed_out.up_modules.1.1.blocks.1.block.0.weight', 'embed_out.up_modules.1.1.blocks.1.block.1.bias', 'embed_out.up_modules.1.1.blocks.1.block.1.weight', 'embed_out.up_modules.1.1.cond_encoder.1.bias', 'embed_out.up_modules.1.1.cond_encoder.1.weight', 'embed_out.up_modules.1.2.conv.bias', 'embed_out.up_modules.1.2.conv.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+2026-02-12 12:10:51,576 [INFO] Loaded 5 total task composition L1 tasks
+2026-02-12 12:10:51,576 [INFO] Running task subset [0:3] (3 tasks)
+2026-02-12 12:10:51,576 [INFO]   [0] Put the plate on the top of the cabinet (put_the_plate_on_top_of_the_cabinet_task_comp_l1.bddl)
+2026-02-12 12:10:51,576 [INFO]   [1] Put the plate on the stove (put_the_plate_on_the_stove_task_comp_l1.bddl)
+2026-02-12 12:10:51,576 [INFO]   [2] Put the cream cheese on the top of the cabinet (put_the_cream_cheese_on_top_of_the_cabinet_task_comp_l1.bddl)
+2026-02-12 12:10:51,583 [INFO] Logging to local log file: /mnt/beegfs/a.cardamone7/outputs/logs/EVAL-task_comp_l1-tiny_vla-2026_02_12-12_10_23--tinyvla_54000_task_comp_l1_seed_0_part0--ckpt20000.txt
+2026-02-12 12:10:51,583 [INFO] ================================================================================
+2026-02-12 12:10:51,583 [INFO] TASK COMPOSITION L1 EVALUATION (TinyVLA)
+2026-02-12 12:10:51,583 [INFO] Model: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/tinyvla/post_processed_tiny_vla_llava_pythia_lora_libero_goal_no_noops_lora_r_64_processed/checkpoint-54000
+2026-02-12 12:10:51,583 [INFO] Model base: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/tinyvla/parte2_llava_pythia_libero_goal_no_noops_64/1.3B
+2026-02-12 12:10:51,583 [INFO] Seed: 0
+2026-02-12 12:10:51,583 [INFO] Num trials per task: 50
+2026-02-12 12:10:51,583 [INFO] Num tasks: 3 (subset [0:3] of 5)
+2026-02-12 12:10:51,583 [INFO] ================================================================================
+Task Comp L1:   0%|          | 0/3 [00:00<?, ?it/s]2026-02-12 12:10:57,683 [INFO] ================================================================================
+2026-02-12 12:10:57,683 [INFO] TASK 1/3 (Task Composition L1)
+2026-02-12 12:10:57,683 [INFO] BDDL: put_the_plate_on_top_of_the_cabinet_task_comp_l1.bddl
+2026-02-12 12:10:57,683 [INFO] Command: Put the plate on the top of the cabinet
+2026-02-12 12:10:57,683 [INFO] Init states from: push_the_plate_to_the_front_of_the_stove.pruned_init
+2026-02-12 12:10:57,683 [INFO] ================================================================================
+
+  0%|          | 0/50 [00:00<?, ?it/s][A2026-02-12 12:10:57,684 [INFO] Starting episode 1...
+/home/A.CARDAMONE7/anaconda3/envs/tinyvla_libero/lib/python3.10/site-packages/imageio_ffmpeg/_utils.py:7: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import resource_filename
+/home/A.CARDAMONE7/anaconda3/envs/tinyvla_libero/lib/python3.10/site-packages/pkg_resources/__init__.py:2825: DeprecationWarning: Deprecated call to `pkg_resources.declare_namespace('mpl_toolkits')`.
+Implementing implicit namespace packages (as specified in PEP 420) is preferred to `pkg_resources.declare_namespace`. See https://setuptools.pypa.io/en/latest/references/keywords.html#keyword-namespace-packages
+  declare_namespace(pkg)
+2026-02-12 12:12:55,383 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=1--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:12:55,441 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=1--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:12:55,441 [INFO] Success: False
+2026-02-12 12:12:55,441 [INFO] # episodes: 1
+2026-02-12 12:12:55,441 [INFO] # successes: 0 (0.0%)
+
+  2%|▏         | 1/50 [01:57<1:36:10, 117.76s/it][A2026-02-12 12:12:55,442 [INFO] Starting episode 2...
+2026-02-12 12:14:49,953 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=2--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:14:50,035 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=2--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:14:50,036 [INFO] Success: False
+2026-02-12 12:14:50,036 [INFO] # episodes: 2
+2026-02-12 12:14:50,036 [INFO] # successes: 0 (0.0%)
+
+  4%|▍         | 2/50 [03:52<1:32:43, 115.90s/it][A2026-02-12 12:14:50,036 [INFO] Starting episode 3...
+2026-02-12 12:16:44,970 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=3--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:16:45,054 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=3--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:16:45,054 [INFO] Success: False
+2026-02-12 12:16:45,054 [INFO] # episodes: 3
+2026-02-12 12:16:45,054 [INFO] # successes: 0 (0.0%)
+
+  6%|▌         | 3/50 [05:47<1:30:28, 115.50s/it][A2026-02-12 12:16:45,054 [INFO] Starting episode 4...
+2026-02-12 12:18:38,070 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=4--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:18:38,129 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=4--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:18:38,129 [INFO] Success: False
+2026-02-12 12:18:38,129 [INFO] # episodes: 4
+2026-02-12 12:18:38,129 [INFO] # successes: 0 (0.0%)
+
+  8%|▊         | 4/50 [07:40<1:27:48, 114.54s/it][A2026-02-12 12:18:38,130 [INFO] Starting episode 5...
+2026-02-12 12:20:31,466 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=5--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:20:31,525 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=5--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:20:31,525 [INFO] Success: False
+2026-02-12 12:20:31,525 [INFO] # episodes: 5
+2026-02-12 12:20:31,525 [INFO] # successes: 0 (0.0%)
+
+ 10%|█         | 5/50 [09:33<1:25:35, 114.13s/it][A2026-02-12 12:20:31,526 [INFO] Starting episode 6...
+2026-02-12 12:22:26,263 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=6--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:22:26,321 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=6--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:22:26,321 [INFO] Success: False
+2026-02-12 12:22:26,321 [INFO] # episodes: 6
+2026-02-12 12:22:26,321 [INFO] # successes: 0 (0.0%)
+
+ 12%|█▏        | 6/50 [11:28<1:23:51, 114.35s/it][A2026-02-12 12:22:26,322 [INFO] Starting episode 7...
+2026-02-12 12:24:20,571 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=7--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:24:20,630 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=7--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:24:20,630 [INFO] Success: False
+2026-02-12 12:24:20,630 [INFO] # episodes: 7
+2026-02-12 12:24:20,630 [INFO] # successes: 0 (0.0%)
+
+ 14%|█▍        | 7/50 [13:22<1:21:56, 114.34s/it][A2026-02-12 12:24:20,630 [INFO] Starting episode 8...
+2026-02-12 12:26:15,353 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=8--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:26:15,414 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=8--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:26:15,414 [INFO] Success: False
+2026-02-12 12:26:15,414 [INFO] # episodes: 8
+2026-02-12 12:26:15,414 [INFO] # successes: 0 (0.0%)
+
+ 16%|█▌        | 8/50 [15:17<1:20:08, 114.48s/it][A2026-02-12 12:26:15,414 [INFO] Starting episode 9...
+2026-02-12 12:28:10,523 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=9--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:28:10,583 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=9--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:28:10,583 [INFO] Success: False
+2026-02-12 12:28:10,583 [INFO] # episodes: 9
+2026-02-12 12:28:10,583 [INFO] # successes: 0 (0.0%)
+
+ 18%|█▊        | 9/50 [17:12<1:18:22, 114.70s/it][A2026-02-12 12:28:10,583 [INFO] Starting episode 10...
+2026-02-12 12:30:03,990 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=10--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:30:04,050 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=10--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:30:04,050 [INFO] Success: False
+2026-02-12 12:30:04,051 [INFO] # episodes: 10
+2026-02-12 12:30:04,051 [INFO] # successes: 0 (0.0%)
+
+ 20%|██        | 10/50 [19:06<1:16:12, 114.32s/it][A2026-02-12 12:30:04,051 [INFO] Starting episode 11...
+2026-02-12 12:32:00,040 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=11--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:32:00,095 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=11--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:32:00,095 [INFO] Success: False
+2026-02-12 12:32:00,095 [INFO] # episodes: 11
+2026-02-12 12:32:00,095 [INFO] # successes: 0 (0.0%)
+
+ 22%|██▏       | 11/50 [21:02<1:14:38, 114.85s/it][A2026-02-12 12:32:00,096 [INFO] Starting episode 12...
+2026-02-12 12:33:58,881 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=12--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:33:58,950 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=12--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:33:58,950 [INFO] Success: False
+2026-02-12 12:33:58,950 [INFO] # episodes: 12
+2026-02-12 12:33:58,950 [INFO] # successes: 0 (0.0%)
+
+ 24%|██▍       | 12/50 [23:01<1:13:30, 116.07s/it][A2026-02-12 12:33:58,950 [INFO] Starting episode 13...
+2026-02-12 12:35:58,878 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=13--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:35:58,938 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=13--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:35:58,939 [INFO] Success: False
+2026-02-12 12:35:58,939 [INFO] # episodes: 13
+2026-02-12 12:35:58,939 [INFO] # successes: 0 (0.0%)
+
+ 26%|██▌       | 13/50 [25:01<1:12:18, 117.25s/it][A2026-02-12 12:35:58,939 [INFO] Starting episode 14...
+2026-02-12 12:37:58,336 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=14--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:37:58,395 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=14--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:37:58,395 [INFO] Success: False
+2026-02-12 12:37:58,395 [INFO] # episodes: 14
+2026-02-12 12:37:58,395 [INFO] # successes: 0 (0.0%)
+
+ 28%|██▊       | 14/50 [27:00<1:10:45, 117.92s/it][A2026-02-12 12:37:58,396 [INFO] Starting episode 15...
+2026-02-12 12:39:59,884 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=15--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:39:59,944 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=15--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:39:59,944 [INFO] Success: False
+2026-02-12 12:39:59,944 [INFO] # episodes: 15
+2026-02-12 12:39:59,944 [INFO] # successes: 0 (0.0%)
+
+ 30%|███       | 15/50 [29:02<1:09:25, 119.01s/it][A2026-02-12 12:39:59,945 [INFO] Starting episode 16...
+2026-02-12 12:42:02,437 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=16--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:42:02,495 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=16--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:42:02,496 [INFO] Success: False
+2026-02-12 12:42:02,496 [INFO] # episodes: 16
+2026-02-12 12:42:02,496 [INFO] # successes: 0 (0.0%)
+
+ 32%|███▏      | 16/50 [31:04<1:08:02, 120.08s/it][A2026-02-12 12:42:02,496 [INFO] Starting episode 17...
+2026-02-12 12:44:02,151 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=17--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:44:02,210 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=17--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:44:02,210 [INFO] Success: False
+2026-02-12 12:44:02,211 [INFO] # episodes: 17
+2026-02-12 12:44:02,211 [INFO] # successes: 0 (0.0%)
+
+ 34%|███▍      | 17/50 [33:04<1:05:58, 119.97s/it][A2026-02-12 12:44:02,211 [INFO] Starting episode 18...
+2026-02-12 12:46:03,324 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=18--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:46:03,384 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=18--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:46:03,384 [INFO] Success: False
+2026-02-12 12:46:03,384 [INFO] # episodes: 18
+2026-02-12 12:46:03,384 [INFO] # successes: 0 (0.0%)
+
+ 36%|███▌      | 18/50 [35:05<1:04:10, 120.33s/it][A2026-02-12 12:46:03,384 [INFO] Starting episode 19...
+2026-02-12 12:48:08,363 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=19--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:48:08,428 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=19--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:48:08,428 [INFO] Success: False
+2026-02-12 12:48:08,428 [INFO] # episodes: 19
+2026-02-12 12:48:08,428 [INFO] # successes: 0 (0.0%)
+
+ 38%|███▊      | 19/50 [37:10<1:02:54, 121.75s/it][A2026-02-12 12:48:08,428 [INFO] Starting episode 20...
+2026-02-12 12:50:14,129 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=20--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:50:14,237 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=20--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:50:14,237 [INFO] Success: False
+2026-02-12 12:50:14,237 [INFO] # episodes: 20
+2026-02-12 12:50:14,237 [INFO] # successes: 0 (0.0%)
+
+ 40%|████      | 20/50 [39:16<1:01:28, 122.97s/it][A2026-02-12 12:50:14,238 [INFO] Starting episode 21...
+2026-02-12 12:52:16,499 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=21--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:52:16,564 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=21--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:52:16,565 [INFO] Success: False
+2026-02-12 12:52:16,565 [INFO] # episodes: 21
+2026-02-12 12:52:16,565 [INFO] # successes: 0 (0.0%)
+
+ 42%|████▏     | 21/50 [41:18<59:20, 122.77s/it]  [A2026-02-12 12:52:16,565 [INFO] Starting episode 22...
+2026-02-12 12:54:20,006 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=22--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:54:20,084 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=22--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:54:20,084 [INFO] Success: False
+2026-02-12 12:54:20,084 [INFO] # episodes: 22
+2026-02-12 12:54:20,084 [INFO] # successes: 0 (0.0%)
+
+ 44%|████▍     | 22/50 [43:22<57:23, 123.00s/it][A2026-02-12 12:54:20,085 [INFO] Starting episode 23...
+2026-02-12 12:56:23,747 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=23--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:56:23,817 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=23--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:56:23,817 [INFO] Success: False
+2026-02-12 12:56:23,817 [INFO] # episodes: 23
+2026-02-12 12:56:23,817 [INFO] # successes: 0 (0.0%)
+
+ 46%|████▌     | 23/50 [45:26<55:26, 123.22s/it][A2026-02-12 12:56:23,818 [INFO] Starting episode 24...
+2026-02-12 12:58:27,957 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=24--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 12:58:28,036 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=24--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 12:58:28,036 [INFO] Success: False
+2026-02-12 12:58:28,036 [INFO] # episodes: 24
+2026-02-12 12:58:28,036 [INFO] # successes: 0 (0.0%)
+
+ 48%|████▊     | 24/50 [47:30<53:31, 123.52s/it][A2026-02-12 12:58:28,036 [INFO] Starting episode 25...
+2026-02-12 13:00:32,801 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=25--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:00:32,862 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=25--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:00:32,862 [INFO] Success: False
+2026-02-12 13:00:32,862 [INFO] # episodes: 25
+2026-02-12 13:00:32,862 [INFO] # successes: 0 (0.0%)
+
+ 50%|█████     | 25/50 [49:35<51:37, 123.91s/it][A2026-02-12 13:00:32,863 [INFO] Starting episode 26...
+2026-02-12 13:02:31,974 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=26--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:02:32,037 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=26--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:02:32,037 [INFO] Success: False
+2026-02-12 13:02:32,037 [INFO] # episodes: 26
+2026-02-12 13:02:32,037 [INFO] # successes: 0 (0.0%)
+
+ 52%|█████▏    | 26/50 [51:34<48:59, 122.49s/it][A2026-02-12 13:02:32,038 [INFO] Starting episode 27...
+2026-02-12 13:04:32,897 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=27--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:04:32,956 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=27--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:04:32,956 [INFO] Success: False
+2026-02-12 13:04:32,956 [INFO] # episodes: 27
+2026-02-12 13:04:32,956 [INFO] # successes: 0 (0.0%)
+
+ 54%|█████▍    | 27/50 [53:35<46:46, 122.02s/it][A2026-02-12 13:04:32,957 [INFO] Starting episode 28...
+2026-02-12 13:06:31,584 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=28--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:06:31,645 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=28--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:06:31,645 [INFO] Success: False
+2026-02-12 13:06:31,645 [INFO] # episodes: 28
+2026-02-12 13:06:31,645 [INFO] # successes: 0 (0.0%)
+
+ 56%|█████▌    | 28/50 [55:33<44:22, 121.02s/it][A2026-02-12 13:06:31,645 [INFO] Starting episode 29...
+2026-02-12 13:08:30,025 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=29--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:08:30,085 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=29--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:08:30,085 [INFO] Success: False
+2026-02-12 13:08:30,085 [INFO] # episodes: 29
+2026-02-12 13:08:30,085 [INFO] # successes: 0 (0.0%)
+
+ 58%|█████▊    | 29/50 [57:32<42:05, 120.25s/it][A2026-02-12 13:08:30,085 [INFO] Starting episode 30...
+2026-02-12 13:10:29,129 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=30--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:10:29,186 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=30--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:10:29,186 [INFO] Success: False
+2026-02-12 13:10:29,186 [INFO] # episodes: 30
+2026-02-12 13:10:29,186 [INFO] # successes: 0 (0.0%)
+
+ 60%|██████    | 30/50 [59:31<39:58, 119.90s/it][A2026-02-12 13:10:29,187 [INFO] Starting episode 31...
+2026-02-12 13:12:27,876 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=31--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:12:27,938 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=31--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:12:27,938 [INFO] Success: False
+2026-02-12 13:12:27,938 [INFO] # episodes: 31
+2026-02-12 13:12:27,938 [INFO] # successes: 0 (0.0%)
+
+ 62%|██████▏   | 31/50 [1:01:30<37:51, 119.56s/it][A2026-02-12 13:12:27,938 [INFO] Starting episode 32...
+2026-02-12 13:14:28,079 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=32--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:14:28,145 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=32--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:14:28,146 [INFO] Success: False
+2026-02-12 13:14:28,146 [INFO] # episodes: 32
+2026-02-12 13:14:28,146 [INFO] # successes: 0 (0.0%)
+
+ 64%|██████▍   | 32/50 [1:03:30<35:55, 119.75s/it][A2026-02-12 13:14:28,146 [INFO] Starting episode 33...
+2026-02-12 13:16:27,873 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=33--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:16:27,933 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=33--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:16:27,933 [INFO] Success: False
+2026-02-12 13:16:27,933 [INFO] # episodes: 33
+2026-02-12 13:16:27,933 [INFO] # successes: 0 (0.0%)
+
+ 66%|██████▌   | 33/50 [1:05:30<33:55, 119.76s/it][A2026-02-12 13:16:27,934 [INFO] Starting episode 34...
+2026-02-12 13:18:25,462 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=34--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:18:25,518 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=34--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:18:25,518 [INFO] Success: False
+2026-02-12 13:18:25,518 [INFO] # episodes: 34
+2026-02-12 13:18:25,518 [INFO] # successes: 0 (0.0%)
+
+ 68%|██████▊   | 34/50 [1:07:27<31:45, 119.11s/it][A2026-02-12 13:18:25,519 [INFO] Starting episode 35...
+2026-02-12 13:20:23,748 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=35--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:20:23,860 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=35--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:20:23,860 [INFO] Success: False
+2026-02-12 13:20:23,860 [INFO] # episodes: 35
+2026-02-12 13:20:23,860 [INFO] # successes: 0 (0.0%)
+
+ 70%|███████   | 35/50 [1:09:26<29:43, 118.88s/it][A2026-02-12 13:20:23,861 [INFO] Starting episode 36...
+2026-02-12 13:22:23,941 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=36--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:22:24,008 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=36--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:22:24,008 [INFO] Success: False
+2026-02-12 13:22:24,008 [INFO] # episodes: 36
+2026-02-12 13:22:24,008 [INFO] # successes: 0 (0.0%)
+
+ 72%|███████▏  | 36/50 [1:11:26<27:49, 119.26s/it][A2026-02-12 13:22:24,009 [INFO] Starting episode 37...
+2026-02-12 13:24:23,226 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=37--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:24:23,293 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=37--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:24:23,293 [INFO] Success: False
+2026-02-12 13:24:23,293 [INFO] # episodes: 37
+2026-02-12 13:24:23,293 [INFO] # successes: 0 (0.0%)
+
+ 74%|███████▍  | 37/50 [1:13:25<25:50, 119.27s/it][A2026-02-12 13:24:23,294 [INFO] Starting episode 38...
+2026-02-12 13:26:23,544 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=38--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:26:23,600 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=38--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:26:23,601 [INFO] Success: False
+2026-02-12 13:26:23,601 [INFO] # episodes: 38
+2026-02-12 13:26:23,601 [INFO] # successes: 0 (0.0%)
+
+ 76%|███████▌  | 38/50 [1:15:25<23:54, 119.58s/it][A2026-02-12 13:26:23,601 [INFO] Starting episode 39...
+2026-02-12 13:28:23,067 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=39--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:28:23,123 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=39--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:28:23,123 [INFO] Success: False
+2026-02-12 13:28:23,123 [INFO] # episodes: 39
+2026-02-12 13:28:23,123 [INFO] # successes: 0 (0.0%)
+
+ 78%|███████▊  | 39/50 [1:17:25<21:55, 119.56s/it][A2026-02-12 13:28:23,124 [INFO] Starting episode 40...
+2026-02-12 13:30:23,036 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=40--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:30:23,097 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=40--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:30:23,097 [INFO] Success: False
+2026-02-12 13:30:23,097 [INFO] # episodes: 40
+2026-02-12 13:30:23,098 [INFO] # successes: 0 (0.0%)
+
+ 80%|████████  | 40/50 [1:19:25<19:56, 119.69s/it][A2026-02-12 13:30:23,098 [INFO] Starting episode 41...
+2026-02-12 13:32:21,579 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=41--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:32:21,635 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=41--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:32:21,635 [INFO] Success: False
+2026-02-12 13:32:21,635 [INFO] # episodes: 41
+2026-02-12 13:32:21,635 [INFO] # successes: 0 (0.0%)
+
+ 82%|████████▏ | 41/50 [1:21:23<17:54, 119.34s/it][A2026-02-12 13:32:21,636 [INFO] Starting episode 42...
+2026-02-12 13:34:20,245 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=42--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:34:20,352 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=42--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:34:20,352 [INFO] Success: False
+2026-02-12 13:34:20,352 [INFO] # episodes: 42
+2026-02-12 13:34:20,352 [INFO] # successes: 0 (0.0%)
+
+ 84%|████████▍ | 42/50 [1:23:22<15:53, 119.15s/it][A2026-02-12 13:34:20,353 [INFO] Starting episode 43...
+2026-02-12 13:36:19,797 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=43--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:36:19,853 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=43--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:36:19,854 [INFO] Success: False
+2026-02-12 13:36:19,854 [INFO] # episodes: 43
+2026-02-12 13:36:19,854 [INFO] # successes: 0 (0.0%)
+
+ 86%|████████▌ | 43/50 [1:25:22<13:54, 119.26s/it][A2026-02-12 13:36:19,854 [INFO] Starting episode 44...
+2026-02-12 13:38:18,931 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=44--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:38:18,986 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=44--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:38:18,986 [INFO] Success: False
+2026-02-12 13:38:18,986 [INFO] # episodes: 44
+2026-02-12 13:38:18,986 [INFO] # successes: 0 (0.0%)
+
+ 88%|████████▊ | 44/50 [1:27:21<11:55, 119.22s/it][A2026-02-12 13:38:18,986 [INFO] Starting episode 45...
+2026-02-12 13:40:18,159 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=45--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:40:18,213 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=45--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:40:18,213 [INFO] Success: False
+2026-02-12 13:40:18,213 [INFO] # episodes: 45
+2026-02-12 13:40:18,213 [INFO] # successes: 0 (0.0%)
+
+ 90%|█████████ | 45/50 [1:29:20<09:56, 119.22s/it][A2026-02-12 13:40:18,213 [INFO] Starting episode 46...
+2026-02-12 13:42:17,902 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=46--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:42:17,964 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=46--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:42:17,964 [INFO] Success: False
+2026-02-12 13:42:17,964 [INFO] # episodes: 46
+2026-02-12 13:42:17,964 [INFO] # successes: 0 (0.0%)
+
+ 92%|█████████▏| 46/50 [1:31:20<07:57, 119.38s/it][A2026-02-12 13:42:17,965 [INFO] Starting episode 47...
+2026-02-12 13:44:18,957 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=47--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:44:19,028 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=47--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:44:19,028 [INFO] Success: False
+2026-02-12 13:44:19,028 [INFO] # episodes: 47
+2026-02-12 13:44:19,028 [INFO] # successes: 0 (0.0%)
+
+ 94%|█████████▍| 47/50 [1:33:21<05:59, 119.89s/it][A2026-02-12 13:44:19,028 [INFO] Starting episode 48...
+2026-02-12 13:46:19,071 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=48--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:46:19,149 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=48--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:46:19,149 [INFO] Success: False
+2026-02-12 13:46:19,149 [INFO] # episodes: 48
+2026-02-12 13:46:19,149 [INFO] # successes: 0 (0.0%)
+
+ 96%|█████████▌| 48/50 [1:35:21<03:59, 119.96s/it][A2026-02-12 13:46:19,150 [INFO] Starting episode 49...
+2026-02-12 13:48:18,770 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=49--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:48:18,828 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=49--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:48:18,828 [INFO] Success: False
+2026-02-12 13:48:18,828 [INFO] # episodes: 49
+2026-02-12 13:48:18,828 [INFO] # successes: 0 (0.0%)
+
+ 98%|█████████▊| 49/50 [1:37:21<01:59, 119.87s/it][A2026-02-12 13:48:18,829 [INFO] Starting episode 50...
+2026-02-12 13:50:20,005 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=50--success=False--task=put_the_plate_on_the_top_of_the_cabinet.mp4
+2026-02-12 13:50:20,060 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=50--success=False--task=put_the_plate_on_the_top_of_the_cabinet.npy
+2026-02-12 13:50:20,061 [INFO] Success: False
+2026-02-12 13:50:20,061 [INFO] # episodes: 50
+2026-02-12 13:50:20,061 [INFO] # successes: 0 (0.0%)
+
+100%|██████████| 50/50 [1:39:22<00:00, 120.28s/it][A100%|██████████| 50/50 [1:39:22<00:00, 119.25s/it]
+2026-02-12 13:50:20,061 [INFO] Task success rate: 0.0000 (0.0%)
+2026-02-12 13:50:20,921 [INFO] Environment closed successfully
+Task Comp L1:  33%|███▎      | 1/3 [1:39:30<3:19:00, 5970.08s/it]2026-02-12 13:50:24,828 [INFO] ================================================================================
+2026-02-12 13:50:24,828 [INFO] TASK 2/3 (Task Composition L1)
+2026-02-12 13:50:24,828 [INFO] BDDL: put_the_plate_on_the_stove_task_comp_l1.bddl
+2026-02-12 13:50:24,829 [INFO] Command: Put the plate on the stove
+2026-02-12 13:50:24,829 [INFO] Init states from: push_the_plate_to_the_front_of_the_stove.pruned_init
+2026-02-12 13:50:24,829 [INFO] ================================================================================
+
+  0%|          | 0/50 [00:00<?, ?it/s][A2026-02-12 13:50:24,829 [INFO] Starting episode 1...
+2026-02-12 13:52:29,589 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=51--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 13:52:29,645 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=51--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 13:52:29,645 [INFO] Success: False
+2026-02-12 13:52:29,645 [INFO] # episodes: 51
+2026-02-12 13:52:29,645 [INFO] # successes: 0 (0.0%)
+
+  2%|▏         | 1/50 [02:04<1:41:55, 124.82s/it][A2026-02-12 13:52:29,646 [INFO] Starting episode 2...
+2026-02-12 13:54:36,377 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=52--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 13:54:36,434 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=52--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 13:54:36,434 [INFO] Success: False
+2026-02-12 13:54:36,434 [INFO] # episodes: 52
+2026-02-12 13:54:36,434 [INFO] # successes: 0 (0.0%)
+
+  4%|▍         | 2/50 [04:11<1:40:46, 125.98s/it][A2026-02-12 13:54:36,435 [INFO] Starting episode 3...
+2026-02-12 13:56:43,338 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=53--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 13:56:43,452 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=53--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 13:56:43,452 [INFO] Success: False
+2026-02-12 13:56:43,452 [INFO] # episodes: 53
+2026-02-12 13:56:43,452 [INFO] # successes: 0 (0.0%)
+
+  6%|▌         | 3/50 [06:18<1:39:03, 126.45s/it][A2026-02-12 13:56:43,453 [INFO] Starting episode 4...
+2026-02-12 13:58:42,490 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=54--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 13:58:42,550 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=54--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 13:58:42,550 [INFO] Success: False
+2026-02-12 13:58:42,550 [INFO] # episodes: 54
+2026-02-12 13:58:42,550 [INFO] # successes: 0 (0.0%)
+
+  8%|▊         | 4/50 [08:17<1:34:43, 123.55s/it][A2026-02-12 13:58:42,551 [INFO] Starting episode 5...
+2026-02-12 14:00:41,351 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=55--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:00:41,440 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=55--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:00:41,440 [INFO] Success: False
+2026-02-12 14:00:41,440 [INFO] # episodes: 55
+2026-02-12 14:00:41,440 [INFO] # successes: 0 (0.0%)
+
+ 10%|█         | 5/50 [10:16<1:31:24, 121.87s/it][A2026-02-12 14:00:41,441 [INFO] Starting episode 6...
+2026-02-12 14:02:38,977 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=56--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:02:39,070 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=56--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:02:39,070 [INFO] Success: False
+2026-02-12 14:02:39,070 [INFO] # episodes: 56
+2026-02-12 14:02:39,070 [INFO] # successes: 0 (0.0%)
+
+ 12%|█▏        | 6/50 [12:14<1:28:18, 120.43s/it][A2026-02-12 14:02:39,071 [INFO] Starting episode 7...
+2026-02-12 14:04:37,284 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=57--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:04:37,353 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=57--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:04:37,353 [INFO] Success: False
+2026-02-12 14:04:37,353 [INFO] # episodes: 57
+2026-02-12 14:04:37,353 [INFO] # successes: 0 (0.0%)
+
+ 14%|█▍        | 7/50 [14:12<1:25:48, 119.73s/it][A2026-02-12 14:04:37,354 [INFO] Starting episode 8...
+2026-02-12 14:06:34,747 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=58--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:06:34,805 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=58--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:06:34,806 [INFO] Success: False
+2026-02-12 14:06:34,806 [INFO] # episodes: 58
+2026-02-12 14:06:34,806 [INFO] # successes: 0 (0.0%)
+
+ 16%|█▌        | 8/50 [16:09<1:23:18, 119.00s/it][A2026-02-12 14:06:34,806 [INFO] Starting episode 9...
+2026-02-12 14:08:34,655 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=59--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:08:34,723 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=59--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:08:34,724 [INFO] Success: False
+2026-02-12 14:08:34,724 [INFO] # episodes: 59
+2026-02-12 14:08:34,724 [INFO] # successes: 0 (0.0%)
+
+ 18%|█▊        | 9/50 [18:09<1:21:30, 119.29s/it][A2026-02-12 14:08:34,724 [INFO] Starting episode 10...
+2026-02-12 14:10:32,984 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=60--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:10:33,052 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=60--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:10:33,052 [INFO] Success: False
+2026-02-12 14:10:33,052 [INFO] # episodes: 60
+2026-02-12 14:10:33,052 [INFO] # successes: 0 (0.0%)
+
+ 20%|██        | 10/50 [20:08<1:19:19, 118.99s/it][A2026-02-12 14:10:33,052 [INFO] Starting episode 11...
+2026-02-12 14:12:32,584 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=61--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:12:32,655 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=61--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:12:32,655 [INFO] Success: False
+2026-02-12 14:12:32,656 [INFO] # episodes: 61
+2026-02-12 14:12:32,656 [INFO] # successes: 0 (0.0%)
+
+ 22%|██▏       | 11/50 [22:07<1:17:27, 119.18s/it][A2026-02-12 14:12:32,656 [INFO] Starting episode 12...
+2026-02-12 14:14:30,515 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=62--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:14:30,573 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=62--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:14:30,573 [INFO] Success: False
+2026-02-12 14:14:30,573 [INFO] # episodes: 62
+2026-02-12 14:14:30,573 [INFO] # successes: 0 (0.0%)
+
+ 24%|██▍       | 12/50 [24:05<1:15:14, 118.80s/it][A2026-02-12 14:14:30,574 [INFO] Starting episode 13...
+2026-02-12 14:16:29,673 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=63--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:16:29,772 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=63--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:16:29,772 [INFO] Success: False
+2026-02-12 14:16:29,772 [INFO] # episodes: 63
+2026-02-12 14:16:29,772 [INFO] # successes: 0 (0.0%)
+
+ 26%|██▌       | 13/50 [26:04<1:13:19, 118.92s/it][A2026-02-12 14:16:29,773 [INFO] Starting episode 14...
+2026-02-12 14:18:27,074 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=64--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:18:27,145 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=64--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:18:27,145 [INFO] Success: False
+2026-02-12 14:18:27,145 [INFO] # episodes: 64
+2026-02-12 14:18:27,145 [INFO] # successes: 0 (0.0%)
+
+ 28%|██▊       | 14/50 [28:02<1:11:04, 118.45s/it][A2026-02-12 14:18:27,146 [INFO] Starting episode 15...
+2026-02-12 14:20:25,717 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=65--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:20:25,818 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=65--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:20:25,818 [INFO] Success: False
+2026-02-12 14:20:25,818 [INFO] # episodes: 65
+2026-02-12 14:20:25,818 [INFO] # successes: 0 (0.0%)
+
+ 30%|███       | 15/50 [30:00<1:09:08, 118.52s/it][A2026-02-12 14:20:25,819 [INFO] Starting episode 16...
+2026-02-12 14:22:23,593 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=66--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:22:23,674 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=66--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:22:23,674 [INFO] Success: False
+2026-02-12 14:22:23,674 [INFO] # episodes: 66
+2026-02-12 14:22:23,674 [INFO] # successes: 0 (0.0%)
+
+ 32%|███▏      | 16/50 [31:58<1:07:02, 118.32s/it][A2026-02-12 14:22:23,675 [INFO] Starting episode 17...
+2026-02-12 14:24:20,443 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=67--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:24:20,529 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=67--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:24:20,530 [INFO] Success: False
+2026-02-12 14:24:20,530 [INFO] # episodes: 67
+2026-02-12 14:24:20,530 [INFO] # successes: 0 (0.0%)
+
+ 34%|███▍      | 17/50 [33:55<1:04:49, 117.88s/it][A2026-02-12 14:24:20,530 [INFO] Starting episode 18...
+2026-02-12 14:26:19,634 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=68--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:26:19,698 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=68--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:26:19,698 [INFO] Success: False
+2026-02-12 14:26:19,698 [INFO] # episodes: 68
+2026-02-12 14:26:19,698 [INFO] # successes: 0 (0.0%)
+
+ 36%|███▌      | 18/50 [35:54<1:03:04, 118.27s/it][A2026-02-12 14:26:19,699 [INFO] Starting episode 19...
+2026-02-12 14:28:18,798 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=69--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:28:18,865 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=69--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:28:18,865 [INFO] Success: False
+2026-02-12 14:28:18,865 [INFO] # episodes: 69
+2026-02-12 14:28:18,865 [INFO] # successes: 0 (0.0%)
+
+ 38%|███▊      | 19/50 [37:54<1:01:14, 118.54s/it][A2026-02-12 14:28:18,866 [INFO] Starting episode 20...
+2026-02-12 14:30:17,126 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=70--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:30:17,188 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=70--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:30:17,189 [INFO] Success: False
+2026-02-12 14:30:17,189 [INFO] # episodes: 70
+2026-02-12 14:30:17,189 [INFO] # successes: 0 (0.0%)
+
+ 40%|████      | 20/50 [39:52<59:14, 118.47s/it]  [A2026-02-12 14:30:17,189 [INFO] Starting episode 21...
+2026-02-12 14:32:15,518 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=71--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:32:15,581 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=71--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:32:15,581 [INFO] Success: False
+2026-02-12 14:32:15,581 [INFO] # episodes: 71
+2026-02-12 14:32:15,581 [INFO] # successes: 0 (0.0%)
+
+ 42%|████▏     | 21/50 [41:50<57:15, 118.45s/it][A2026-02-12 14:32:15,582 [INFO] Starting episode 22...
+2026-02-12 14:34:15,155 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=72--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:34:15,211 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=72--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:34:15,211 [INFO] Success: False
+2026-02-12 14:34:15,211 [INFO] # episodes: 72
+2026-02-12 14:34:15,211 [INFO] # successes: 0 (0.0%)
+
+ 44%|████▍     | 22/50 [43:50<55:26, 118.80s/it][A2026-02-12 14:34:15,211 [INFO] Starting episode 23...
+2026-02-12 14:36:13,626 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=73--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:36:13,683 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=73--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:36:13,684 [INFO] Success: False
+2026-02-12 14:36:13,684 [INFO] # episodes: 73
+2026-02-12 14:36:13,684 [INFO] # successes: 0 (0.0%)
+
+ 46%|████▌     | 23/50 [45:48<53:25, 118.70s/it][A2026-02-12 14:36:13,684 [INFO] Starting episode 24...
+2026-02-12 14:38:12,217 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=74--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:38:12,276 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=74--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:38:12,276 [INFO] Success: False
+2026-02-12 14:38:12,276 [INFO] # episodes: 74
+2026-02-12 14:38:12,276 [INFO] # successes: 0 (0.0%)
+
+ 48%|████▊     | 24/50 [47:47<51:25, 118.67s/it][A2026-02-12 14:38:12,277 [INFO] Starting episode 25...
+2026-02-12 14:40:11,149 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=75--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:40:11,211 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=75--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:40:11,211 [INFO] Success: False
+2026-02-12 14:40:11,211 [INFO] # episodes: 75
+2026-02-12 14:40:11,211 [INFO] # successes: 0 (0.0%)
+
+ 50%|█████     | 25/50 [49:46<49:28, 118.75s/it][A2026-02-12 14:40:11,212 [INFO] Starting episode 26...
+2026-02-12 14:42:10,382 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=76--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:42:10,437 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=76--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:42:10,437 [INFO] Success: False
+2026-02-12 14:42:10,437 [INFO] # episodes: 76
+2026-02-12 14:42:10,437 [INFO] # successes: 0 (0.0%)
+
+ 52%|█████▏    | 26/50 [51:45<47:33, 118.89s/it][A2026-02-12 14:42:10,438 [INFO] Starting episode 27...
+2026-02-12 14:44:09,923 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=77--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:44:09,979 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=77--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:44:09,980 [INFO] Success: False
+2026-02-12 14:44:09,980 [INFO] # episodes: 77
+2026-02-12 14:44:09,980 [INFO] # successes: 0 (0.0%)
+
+ 54%|█████▍    | 27/50 [53:45<45:39, 119.09s/it][A2026-02-12 14:44:09,980 [INFO] Starting episode 28...
+2026-02-12 14:46:07,994 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=78--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:46:08,082 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=78--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:46:08,083 [INFO] Success: False
+2026-02-12 14:46:08,083 [INFO] # episodes: 78
+2026-02-12 14:46:08,083 [INFO] # successes: 0 (0.0%)
+
+ 56%|█████▌    | 28/50 [55:43<43:33, 118.79s/it][A2026-02-12 14:46:08,083 [INFO] Starting episode 29...
+2026-02-12 14:48:07,530 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=79--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:48:07,626 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=79--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:48:07,626 [INFO] Success: False
+2026-02-12 14:48:07,626 [INFO] # episodes: 79
+2026-02-12 14:48:07,627 [INFO] # successes: 0 (0.0%)
+
+ 58%|█████▊    | 29/50 [57:42<41:39, 119.02s/it][A2026-02-12 14:48:07,627 [INFO] Starting episode 30...
+2026-02-12 14:50:06,196 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=80--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:50:06,256 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=80--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:50:06,256 [INFO] Success: False
+2026-02-12 14:50:06,256 [INFO] # episodes: 80
+2026-02-12 14:50:06,256 [INFO] # successes: 0 (0.0%)
+
+ 60%|██████    | 30/50 [59:41<39:38, 118.90s/it][A2026-02-12 14:50:06,257 [INFO] Starting episode 31...
+2026-02-12 14:52:07,083 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=81--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:52:07,145 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=81--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:52:07,145 [INFO] Success: False
+2026-02-12 14:52:07,145 [INFO] # episodes: 81
+2026-02-12 14:52:07,145 [INFO] # successes: 0 (0.0%)
+
+ 62%|██████▏   | 31/50 [1:01:42<37:50, 119.50s/it][A2026-02-12 14:52:07,146 [INFO] Starting episode 32...
+2026-02-12 14:54:04,204 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=82--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:54:04,285 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=82--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:54:04,285 [INFO] Success: False
+2026-02-12 14:54:04,285 [INFO] # episodes: 82
+2026-02-12 14:54:04,285 [INFO] # successes: 0 (0.0%)
+
+ 64%|██████▍   | 32/50 [1:03:39<35:38, 118.79s/it][A2026-02-12 14:54:04,285 [INFO] Starting episode 33...
+2026-02-12 14:56:01,977 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=83--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:56:02,037 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=83--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:56:02,038 [INFO] Success: False
+2026-02-12 14:56:02,038 [INFO] # episodes: 83
+2026-02-12 14:56:02,038 [INFO] # successes: 0 (0.0%)
+
+ 66%|██████▌   | 33/50 [1:05:37<33:34, 118.48s/it][A2026-02-12 14:56:02,038 [INFO] Starting episode 34...
+2026-02-12 14:57:59,987 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=84--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:58:00,048 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=84--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:58:00,048 [INFO] Success: False
+2026-02-12 14:58:00,048 [INFO] # episodes: 84
+2026-02-12 14:58:00,048 [INFO] # successes: 0 (0.0%)
+
+ 68%|██████▊   | 34/50 [1:07:35<31:33, 118.34s/it][A2026-02-12 14:58:00,049 [INFO] Starting episode 35...
+2026-02-12 14:59:58,165 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=85--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 14:59:58,224 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=85--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 14:59:58,225 [INFO] Success: False
+2026-02-12 14:59:58,225 [INFO] # episodes: 85
+2026-02-12 14:59:58,225 [INFO] # successes: 0 (0.0%)
+
+ 70%|███████   | 35/50 [1:09:33<29:34, 118.29s/it][A2026-02-12 14:59:58,225 [INFO] Starting episode 36...
+2026-02-12 15:01:55,844 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=86--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:01:55,904 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=86--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:01:55,904 [INFO] Success: False
+2026-02-12 15:01:55,904 [INFO] # episodes: 86
+2026-02-12 15:01:55,904 [INFO] # successes: 0 (0.0%)
+
+ 72%|███████▏  | 36/50 [1:11:31<27:33, 118.11s/it][A2026-02-12 15:01:55,905 [INFO] Starting episode 37...
+2026-02-12 15:03:51,903 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=87--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:03:51,983 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=87--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:03:51,983 [INFO] Success: False
+2026-02-12 15:03:51,983 [INFO] # episodes: 87
+2026-02-12 15:03:51,983 [INFO] # successes: 0 (0.0%)
+
+ 74%|███████▍  | 37/50 [1:13:27<25:27, 117.50s/it][A2026-02-12 15:03:51,984 [INFO] Starting episode 38...
+2026-02-12 15:05:48,252 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=88--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:05:48,346 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=88--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:05:48,347 [INFO] Success: False
+2026-02-12 15:05:48,347 [INFO] # episodes: 88
+2026-02-12 15:05:48,347 [INFO] # successes: 0 (0.0%)
+
+ 76%|███████▌  | 38/50 [1:15:23<23:25, 117.16s/it][A2026-02-12 15:05:48,347 [INFO] Starting episode 39...
+2026-02-12 15:07:45,162 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=89--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:07:45,223 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=89--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:07:45,223 [INFO] Success: False
+2026-02-12 15:07:45,223 [INFO] # episodes: 89
+2026-02-12 15:07:45,223 [INFO] # successes: 0 (0.0%)
+
+ 78%|███████▊  | 39/50 [1:17:20<21:27, 117.07s/it][A2026-02-12 15:07:45,224 [INFO] Starting episode 40...
+2026-02-12 15:09:42,771 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=90--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:09:42,870 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=90--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:09:42,871 [INFO] Success: False
+2026-02-12 15:09:42,871 [INFO] # episodes: 90
+2026-02-12 15:09:42,871 [INFO] # successes: 0 (0.0%)
+
+ 80%|████████  | 40/50 [1:19:18<19:32, 117.25s/it][A2026-02-12 15:09:42,871 [INFO] Starting episode 41...
+2026-02-12 15:11:44,587 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=91--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:11:44,658 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=91--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:11:44,658 [INFO] Success: False
+2026-02-12 15:11:44,658 [INFO] # episodes: 91
+2026-02-12 15:11:44,658 [INFO] # successes: 0 (0.0%)
+
+ 82%|████████▏ | 41/50 [1:21:19<17:47, 118.61s/it][A2026-02-12 15:11:44,659 [INFO] Starting episode 42...
+2026-02-12 15:13:48,759 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=92--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:13:48,831 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=92--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:13:48,831 [INFO] Success: False
+2026-02-12 15:13:48,831 [INFO] # episodes: 92
+2026-02-12 15:13:48,831 [INFO] # successes: 0 (0.0%)
+
+ 84%|████████▍ | 42/50 [1:23:24<16:02, 120.28s/it][A2026-02-12 15:13:48,831 [INFO] Starting episode 43...
+2026-02-12 15:15:54,278 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=93--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:15:54,361 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=93--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:15:54,361 [INFO] Success: False
+2026-02-12 15:15:54,361 [INFO] # episodes: 93
+2026-02-12 15:15:54,361 [INFO] # successes: 0 (0.0%)
+
+ 86%|████████▌ | 43/50 [1:25:29<14:12, 121.85s/it][A2026-02-12 15:15:54,361 [INFO] Starting episode 44...
+2026-02-12 15:17:48,490 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=94--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:17:48,566 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=94--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:17:48,566 [INFO] Success: False
+2026-02-12 15:17:48,566 [INFO] # episodes: 94
+2026-02-12 15:17:48,566 [INFO] # successes: 0 (0.0%)
+
+ 88%|████████▊ | 44/50 [1:27:23<11:57, 119.56s/it][A2026-02-12 15:17:48,567 [INFO] Starting episode 45...
+2026-02-12 15:19:42,325 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=95--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:19:42,400 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=95--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:19:42,401 [INFO] Success: False
+2026-02-12 15:19:42,401 [INFO] # episodes: 95
+2026-02-12 15:19:42,401 [INFO] # successes: 0 (0.0%)
+
+ 90%|█████████ | 45/50 [1:29:17<09:49, 117.84s/it][A2026-02-12 15:19:42,401 [INFO] Starting episode 46...
+2026-02-12 15:21:41,814 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=96--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:21:41,880 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=96--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:21:41,881 [INFO] Success: False
+2026-02-12 15:21:41,881 [INFO] # episodes: 96
+2026-02-12 15:21:41,881 [INFO] # successes: 0 (0.0%)
+
+ 92%|█████████▏| 46/50 [1:31:17<07:53, 118.33s/it][A2026-02-12 15:21:41,881 [INFO] Starting episode 47...
+2026-02-12 15:23:39,119 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=97--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:23:39,205 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=97--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:23:39,205 [INFO] Success: False
+2026-02-12 15:23:39,205 [INFO] # episodes: 97
+2026-02-12 15:23:39,205 [INFO] # successes: 0 (0.0%)
+
+ 94%|█████████▍| 47/50 [1:33:14<05:54, 118.03s/it][A2026-02-12 15:23:39,205 [INFO] Starting episode 48...
+2026-02-12 15:25:35,918 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=98--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:25:35,982 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=98--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:25:35,983 [INFO] Success: False
+2026-02-12 15:25:35,983 [INFO] # episodes: 98
+2026-02-12 15:25:35,983 [INFO] # successes: 0 (0.0%)
+
+ 96%|█████████▌| 48/50 [1:35:11<03:55, 117.65s/it][A2026-02-12 15:25:35,983 [INFO] Starting episode 49...
+2026-02-12 15:27:29,629 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=99--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:27:29,695 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=99--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:27:29,695 [INFO] Success: False
+2026-02-12 15:27:29,695 [INFO] # episodes: 99
+2026-02-12 15:27:29,695 [INFO] # successes: 0 (0.0%)
+
+ 98%|█████████▊| 49/50 [1:37:04<01:56, 116.47s/it][A2026-02-12 15:27:29,696 [INFO] Starting episode 50...
+2026-02-12 15:29:22,043 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=100--success=False--task=put_the_plate_on_the_stove.mp4
+2026-02-12 15:29:22,130 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=100--success=False--task=put_the_plate_on_the_stove.npy
+2026-02-12 15:29:22,130 [INFO] Success: False
+2026-02-12 15:29:22,130 [INFO] # episodes: 100
+2026-02-12 15:29:22,131 [INFO] # successes: 0 (0.0%)
+
+100%|██████████| 50/50 [1:38:57<00:00, 115.26s/it][A100%|██████████| 50/50 [1:38:57<00:00, 118.75s/it]
+2026-02-12 15:29:22,131 [INFO] Task success rate: 0.0000 (0.0%)
+2026-02-12 15:29:22,770 [INFO] Environment closed successfully
+Task Comp L1:  67%|██████▋   | 2/3 [3:18:31<1:39:13, 5953.24s/it]2026-02-12 15:29:25,926 [INFO] ================================================================================
+2026-02-12 15:29:25,926 [INFO] TASK 3/3 (Task Composition L1)
+2026-02-12 15:29:25,926 [INFO] BDDL: put_the_cream_cheese_on_top_of_the_cabinet_task_comp_l1.bddl
+2026-02-12 15:29:25,926 [INFO] Command: Put the cream cheese on the top of the cabinet
+2026-02-12 15:29:25,926 [INFO] Init states from: put_the_cream_cheese_in_the_bowl.pruned_init
+2026-02-12 15:29:25,926 [INFO] ================================================================================
+
+  0%|          | 0/50 [00:00<?, ?it/s][A2026-02-12 15:29:25,927 [INFO] Starting episode 1...
+2026-02-12 15:31:17,408 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=101--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:31:17,483 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=101--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:31:17,483 [INFO] Success: False
+2026-02-12 15:31:17,483 [INFO] # episodes: 101
+2026-02-12 15:31:17,483 [INFO] # successes: 0 (0.0%)
+
+  2%|▏         | 1/50 [01:51<1:31:06, 111.56s/it][A2026-02-12 15:31:17,483 [INFO] Starting episode 2...
+2026-02-12 15:33:10,293 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=102--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:33:10,380 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=102--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:33:10,380 [INFO] Success: False
+2026-02-12 15:33:10,380 [INFO] # episodes: 102
+2026-02-12 15:33:10,380 [INFO] # successes: 0 (0.0%)
+
+  4%|▍         | 2/50 [03:44<1:29:52, 112.35s/it][A2026-02-12 15:33:10,381 [INFO] Starting episode 3...
+2026-02-12 15:35:01,529 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=103--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:35:01,614 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=103--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:35:01,614 [INFO] Success: False
+2026-02-12 15:35:01,614 [INFO] # episodes: 103
+2026-02-12 15:35:01,614 [INFO] # successes: 0 (0.0%)
+
+  6%|▌         | 3/50 [05:35<1:27:36, 111.84s/it][A2026-02-12 15:35:01,615 [INFO] Starting episode 4...
+2026-02-12 15:36:54,204 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=104--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:36:54,287 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=104--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:36:54,287 [INFO] Success: False
+2026-02-12 15:36:54,287 [INFO] # episodes: 104
+2026-02-12 15:36:54,287 [INFO] # successes: 0 (0.0%)
+
+  8%|▊         | 4/50 [07:28<1:25:59, 112.17s/it][A2026-02-12 15:36:54,287 [INFO] Starting episode 5...
+2026-02-12 15:38:46,042 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=105--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:38:46,122 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=105--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:38:46,122 [INFO] Success: False
+2026-02-12 15:38:46,122 [INFO] # episodes: 105
+2026-02-12 15:38:46,123 [INFO] # successes: 0 (0.0%)
+
+ 10%|█         | 5/50 [09:20<1:24:02, 112.05s/it][A2026-02-12 15:38:46,123 [INFO] Starting episode 6...
+2026-02-12 15:40:38,681 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=106--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:40:38,775 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=106--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:40:38,775 [INFO] Success: False
+2026-02-12 15:40:38,775 [INFO] # episodes: 106
+2026-02-12 15:40:38,775 [INFO] # successes: 0 (0.0%)
+
+ 12%|█▏        | 6/50 [11:12<1:22:19, 112.25s/it][A2026-02-12 15:40:38,776 [INFO] Starting episode 7...
+2026-02-12 15:42:31,405 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=107--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:42:31,479 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=107--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:42:31,479 [INFO] Success: False
+2026-02-12 15:42:31,480 [INFO] # episodes: 107
+2026-02-12 15:42:31,480 [INFO] # successes: 0 (0.0%)
+
+ 14%|█▍        | 7/50 [13:05<1:20:33, 112.40s/it][A2026-02-12 15:42:31,480 [INFO] Starting episode 8...
+2026-02-12 15:44:20,636 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=108--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:44:20,717 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=108--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:44:20,717 [INFO] Success: False
+2026-02-12 15:44:20,717 [INFO] # episodes: 108
+2026-02-12 15:44:20,717 [INFO] # successes: 0 (0.0%)
+
+ 16%|█▌        | 8/50 [14:54<1:17:58, 111.39s/it][A2026-02-12 15:44:20,717 [INFO] Starting episode 9...
+2026-02-12 15:46:11,052 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=109--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:46:11,117 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=109--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:46:11,118 [INFO] Success: False
+2026-02-12 15:46:11,118 [INFO] # episodes: 109
+2026-02-12 15:46:11,118 [INFO] # successes: 0 (0.0%)
+
+ 18%|█▊        | 9/50 [16:45<1:15:54, 111.08s/it][A2026-02-12 15:46:11,118 [INFO] Starting episode 10...
+2026-02-12 15:48:04,183 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=110--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:48:04,246 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=110--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:48:04,246 [INFO] Success: False
+2026-02-12 15:48:04,246 [INFO] # episodes: 110
+2026-02-12 15:48:04,246 [INFO] # successes: 0 (0.0%)
+
+ 20%|██        | 10/50 [18:38<1:14:28, 111.71s/it][A2026-02-12 15:48:04,246 [INFO] Starting episode 11...
+2026-02-12 15:49:56,649 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=111--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:49:56,765 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=111--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:49:56,765 [INFO] Success: False
+2026-02-12 15:49:56,766 [INFO] # episodes: 111
+2026-02-12 15:49:56,766 [INFO] # successes: 0 (0.0%)
+
+ 22%|██▏       | 11/50 [20:30<1:12:46, 111.96s/it][A2026-02-12 15:49:56,766 [INFO] Starting episode 12...
+2026-02-12 15:51:50,038 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=112--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:51:50,115 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=112--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:51:50,115 [INFO] Success: False
+2026-02-12 15:51:50,115 [INFO] # episodes: 112
+2026-02-12 15:51:50,115 [INFO] # successes: 0 (0.0%)
+
+ 24%|██▍       | 12/50 [22:24<1:11:10, 112.38s/it][A2026-02-12 15:51:50,116 [INFO] Starting episode 13...
+2026-02-12 15:53:39,211 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=113--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:53:39,292 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=113--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:53:39,292 [INFO] Success: False
+2026-02-12 15:53:39,293 [INFO] # episodes: 113
+2026-02-12 15:53:39,293 [INFO] # successes: 0 (0.0%)
+
+ 26%|██▌       | 13/50 [24:13<1:08:42, 111.41s/it][A2026-02-12 15:53:39,293 [INFO] Starting episode 14...
+2026-02-12 15:55:29,497 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=114--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:55:29,566 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=114--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:55:29,567 [INFO] Success: False
+2026-02-12 15:55:29,567 [INFO] # episodes: 114
+2026-02-12 15:55:29,567 [INFO] # successes: 0 (0.0%)
+
+ 28%|██▊       | 14/50 [26:03<1:06:38, 111.07s/it][A2026-02-12 15:55:29,567 [INFO] Starting episode 15...
+2026-02-12 15:57:20,177 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=115--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:57:20,266 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=115--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:57:20,266 [INFO] Success: False
+2026-02-12 15:57:20,266 [INFO] # episodes: 115
+2026-02-12 15:57:20,266 [INFO] # successes: 0 (0.0%)
+
+ 30%|███       | 15/50 [27:54<1:04:43, 110.96s/it][A2026-02-12 15:57:20,266 [INFO] Starting episode 16...
+2026-02-12 15:59:13,398 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=116--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 15:59:13,485 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=116--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 15:59:13,485 [INFO] Success: False
+2026-02-12 15:59:13,485 [INFO] # episodes: 116
+2026-02-12 15:59:13,485 [INFO] # successes: 0 (0.0%)
+
+ 32%|███▏      | 16/50 [29:47<1:03:15, 111.64s/it][A2026-02-12 15:59:13,486 [INFO] Starting episode 17...
+2026-02-12 16:01:03,645 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=117--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:01:03,734 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=117--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:01:03,735 [INFO] Success: False
+2026-02-12 16:01:03,735 [INFO] # episodes: 117
+2026-02-12 16:01:03,735 [INFO] # successes: 0 (0.0%)
+
+ 34%|███▍      | 17/50 [31:37<1:01:10, 111.22s/it][A2026-02-12 16:01:03,736 [INFO] Starting episode 18...
+2026-02-12 16:02:56,091 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=118--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:02:56,172 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=118--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:02:56,172 [INFO] Success: False
+2026-02-12 16:02:56,172 [INFO] # episodes: 118
+2026-02-12 16:02:56,172 [INFO] # successes: 0 (0.0%)
+
+ 36%|███▌      | 18/50 [33:30<59:30, 111.59s/it]  [A2026-02-12 16:02:56,173 [INFO] Starting episode 19...
+2026-02-12 16:04:47,374 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=119--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:04:47,452 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=119--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:04:47,452 [INFO] Success: False
+2026-02-12 16:04:47,453 [INFO] # episodes: 119
+2026-02-12 16:04:47,453 [INFO] # successes: 0 (0.0%)
+
+ 38%|███▊      | 19/50 [35:21<57:36, 111.49s/it][A2026-02-12 16:04:47,453 [INFO] Starting episode 20...
+2026-02-12 16:06:38,828 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=120--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:06:38,893 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=120--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:06:38,893 [INFO] Success: False
+2026-02-12 16:06:38,893 [INFO] # episodes: 120
+2026-02-12 16:06:38,893 [INFO] # successes: 0 (0.0%)
+
+ 40%|████      | 20/50 [37:12<55:44, 111.48s/it][A2026-02-12 16:06:38,893 [INFO] Starting episode 21...
+2026-02-12 16:08:29,316 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=121--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:08:29,386 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=121--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:08:29,386 [INFO] Success: False
+2026-02-12 16:08:29,386 [INFO] # episodes: 121
+2026-02-12 16:08:29,386 [INFO] # successes: 0 (0.0%)
+
+ 42%|████▏     | 21/50 [39:03<53:44, 111.18s/it][A2026-02-12 16:08:29,386 [INFO] Starting episode 22...
+2026-02-12 16:10:21,575 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=122--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:10:21,651 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=122--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:10:21,652 [INFO] Success: False
+2026-02-12 16:10:21,652 [INFO] # episodes: 122
+2026-02-12 16:10:21,652 [INFO] # successes: 0 (0.0%)
+
+ 44%|████▍     | 22/50 [40:55<52:02, 111.51s/it][A2026-02-12 16:10:21,652 [INFO] Starting episode 23...
+2026-02-12 16:12:14,656 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=123--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:12:14,730 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=123--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:12:14,730 [INFO] Success: False
+2026-02-12 16:12:14,730 [INFO] # episodes: 123
+2026-02-12 16:12:14,730 [INFO] # successes: 0 (0.0%)
+
+ 46%|████▌     | 23/50 [42:48<50:23, 111.98s/it][A2026-02-12 16:12:14,730 [INFO] Starting episode 24...
+2026-02-12 16:14:05,709 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=124--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:14:05,783 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=124--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:14:05,783 [INFO] Success: False
+2026-02-12 16:14:05,783 [INFO] # episodes: 124
+2026-02-12 16:14:05,783 [INFO] # successes: 0 (0.0%)
+
+ 48%|████▊     | 24/50 [44:39<48:24, 111.70s/it][A2026-02-12 16:14:05,783 [INFO] Starting episode 25...
+2026-02-12 16:15:56,334 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=125--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:15:56,410 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=125--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:15:56,410 [INFO] Success: False
+2026-02-12 16:15:56,410 [INFO] # episodes: 125
+2026-02-12 16:15:56,410 [INFO] # successes: 0 (0.0%)
+
+ 50%|█████     | 25/50 [46:30<46:24, 111.38s/it][A2026-02-12 16:15:56,411 [INFO] Starting episode 26...
+2026-02-12 16:17:47,089 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=126--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:17:47,201 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=126--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:17:47,201 [INFO] Success: False
+2026-02-12 16:17:47,201 [INFO] # episodes: 126
+2026-02-12 16:17:47,201 [INFO] # successes: 0 (0.0%)
+
+ 52%|█████▏    | 26/50 [48:21<44:28, 111.20s/it][A2026-02-12 16:17:47,201 [INFO] Starting episode 27...
+2026-02-12 16:19:40,592 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=127--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:19:40,669 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=127--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:19:40,669 [INFO] Success: False
+2026-02-12 16:19:40,669 [INFO] # episodes: 127
+2026-02-12 16:19:40,669 [INFO] # successes: 0 (0.0%)
+
+ 54%|█████▍    | 27/50 [50:14<42:53, 111.88s/it][A2026-02-12 16:19:40,669 [INFO] Starting episode 28...
+2026-02-12 16:21:31,681 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=128--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:21:31,758 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=128--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:21:31,759 [INFO] Success: False
+2026-02-12 16:21:31,759 [INFO] # episodes: 128
+2026-02-12 16:21:31,759 [INFO] # successes: 0 (0.0%)
+
+ 56%|█████▌    | 28/50 [52:05<40:56, 111.64s/it][A2026-02-12 16:21:31,759 [INFO] Starting episode 29...
+2026-02-12 16:23:24,822 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=129--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:23:24,892 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=129--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:23:24,892 [INFO] Success: False
+2026-02-12 16:23:24,892 [INFO] # episodes: 129
+2026-02-12 16:23:24,892 [INFO] # successes: 0 (0.0%)
+
+ 58%|█████▊    | 29/50 [53:58<39:13, 112.09s/it][A2026-02-12 16:23:24,893 [INFO] Starting episode 30...
+2026-02-12 16:25:17,621 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=130--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:25:17,699 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=130--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:25:17,699 [INFO] Success: False
+2026-02-12 16:25:17,699 [INFO] # episodes: 130
+2026-02-12 16:25:17,699 [INFO] # successes: 0 (0.0%)
+
+ 60%|██████    | 30/50 [55:51<37:26, 112.31s/it][A2026-02-12 16:25:17,699 [INFO] Starting episode 31...
+2026-02-12 16:27:08,542 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=131--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:27:08,625 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=131--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:27:08,626 [INFO] Success: False
+2026-02-12 16:27:08,626 [INFO] # episodes: 131
+2026-02-12 16:27:08,626 [INFO] # successes: 0 (0.0%)
+
+ 62%|██████▏   | 31/50 [57:42<35:25, 111.89s/it][A2026-02-12 16:27:08,626 [INFO] Starting episode 32...
+2026-02-12 16:28:58,253 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=132--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:28:58,329 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=132--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:28:58,330 [INFO] Success: False
+2026-02-12 16:28:58,330 [INFO] # episodes: 132
+2026-02-12 16:28:58,330 [INFO] # successes: 0 (0.0%)
+
+ 64%|██████▍   | 32/50 [59:32<33:22, 111.24s/it][A2026-02-12 16:28:58,330 [INFO] Starting episode 33...
+2026-02-12 16:30:50,922 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=133--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:30:50,996 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=133--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:30:50,996 [INFO] Success: False
+2026-02-12 16:30:50,996 [INFO] # episodes: 133
+2026-02-12 16:30:50,996 [INFO] # successes: 0 (0.0%)
+
+ 66%|██████▌   | 33/50 [1:01:25<31:38, 111.66s/it][A2026-02-12 16:30:50,996 [INFO] Starting episode 34...
+2026-02-12 16:32:48,797 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=134--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:32:48,870 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=134--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:32:48,870 [INFO] Success: False
+2026-02-12 16:32:48,870 [INFO] # episodes: 134
+2026-02-12 16:32:48,870 [INFO] # successes: 0 (0.0%)
+
+ 68%|██████▊   | 34/50 [1:03:22<30:16, 113.53s/it][A2026-02-12 16:32:48,870 [INFO] Starting episode 35...
+2026-02-12 16:34:43,600 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=135--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:34:43,674 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=135--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:34:43,674 [INFO] Success: False
+2026-02-12 16:34:43,674 [INFO] # episodes: 135
+2026-02-12 16:34:43,674 [INFO] # successes: 0 (0.0%)
+
+ 70%|███████   | 35/50 [1:05:17<28:28, 113.91s/it][A2026-02-12 16:34:43,674 [INFO] Starting episode 36...
+2026-02-12 16:36:33,515 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=136--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:36:33,589 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=136--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:36:33,590 [INFO] Success: False
+2026-02-12 16:36:33,590 [INFO] # episodes: 136
+2026-02-12 16:36:33,590 [INFO] # successes: 0 (0.0%)
+
+ 72%|███████▏  | 36/50 [1:07:07<26:17, 112.71s/it][A2026-02-12 16:36:33,590 [INFO] Starting episode 37...
+2026-02-12 16:38:25,671 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=137--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:38:25,760 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=137--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:38:25,760 [INFO] Success: False
+2026-02-12 16:38:25,760 [INFO] # episodes: 137
+2026-02-12 16:38:25,760 [INFO] # successes: 0 (0.0%)
+
+ 74%|███████▍  | 37/50 [1:08:59<24:23, 112.55s/it][A2026-02-12 16:38:25,761 [INFO] Starting episode 38...
+2026-02-12 16:40:17,204 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=138--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:40:17,284 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=138--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:40:17,285 [INFO] Success: False
+2026-02-12 16:40:17,285 [INFO] # episodes: 138
+2026-02-12 16:40:17,285 [INFO] # successes: 0 (0.0%)
+
+ 76%|███████▌  | 38/50 [1:10:51<22:26, 112.24s/it][A2026-02-12 16:40:17,285 [INFO] Starting episode 39...
+2026-02-12 16:42:09,572 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=139--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:42:09,657 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=139--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:42:09,657 [INFO] Success: False
+2026-02-12 16:42:09,657 [INFO] # episodes: 139
+2026-02-12 16:42:09,657 [INFO] # successes: 0 (0.0%)
+
+ 78%|███████▊  | 39/50 [1:12:43<20:35, 112.28s/it][A2026-02-12 16:42:09,658 [INFO] Starting episode 40...
+2026-02-12 16:44:02,190 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=140--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:44:02,263 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=140--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:44:02,264 [INFO] Success: False
+2026-02-12 16:44:02,264 [INFO] # episodes: 140
+2026-02-12 16:44:02,264 [INFO] # successes: 0 (0.0%)
+
+ 80%|████████  | 40/50 [1:14:36<18:43, 112.38s/it][A2026-02-12 16:44:02,264 [INFO] Starting episode 41...
+2026-02-12 16:45:53,360 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=141--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:45:53,431 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=141--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:45:53,431 [INFO] Success: False
+2026-02-12 16:45:53,431 [INFO] # episodes: 141
+2026-02-12 16:45:53,431 [INFO] # successes: 0 (0.0%)
+
+ 82%|████████▏ | 41/50 [1:16:27<16:48, 112.02s/it][A2026-02-12 16:45:53,431 [INFO] Starting episode 42...
+2026-02-12 16:47:45,421 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=142--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:47:45,493 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=142--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:47:45,493 [INFO] Success: False
+2026-02-12 16:47:45,493 [INFO] # episodes: 142
+2026-02-12 16:47:45,493 [INFO] # successes: 0 (0.0%)
+
+ 84%|████████▍ | 42/50 [1:18:19<14:56, 112.03s/it][A2026-02-12 16:47:45,493 [INFO] Starting episode 43...
+2026-02-12 16:49:35,977 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=143--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:49:36,046 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=143--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:49:36,046 [INFO] Success: False
+2026-02-12 16:49:36,046 [INFO] # episodes: 143
+2026-02-12 16:49:36,046 [INFO] # successes: 0 (0.0%)
+
+ 86%|████████▌ | 43/50 [1:20:10<13:01, 111.59s/it][A2026-02-12 16:49:36,047 [INFO] Starting episode 44...
+2026-02-12 16:51:28,175 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=144--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:51:28,251 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=144--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:51:28,252 [INFO] Success: False
+2026-02-12 16:51:28,252 [INFO] # episodes: 144
+2026-02-12 16:51:28,252 [INFO] # successes: 0 (0.0%)
+
+ 88%|████████▊ | 44/50 [1:22:02<11:10, 111.77s/it][A2026-02-12 16:51:28,252 [INFO] Starting episode 45...
+2026-02-12 16:53:19,651 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=145--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:53:19,723 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=145--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:53:19,723 [INFO] Success: False
+2026-02-12 16:53:19,723 [INFO] # episodes: 145
+2026-02-12 16:53:19,723 [INFO] # successes: 0 (0.0%)
+
+ 90%|█████████ | 45/50 [1:23:53<09:18, 111.68s/it][A2026-02-12 16:53:19,724 [INFO] Starting episode 46...
+2026-02-12 16:55:10,787 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=146--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:55:10,860 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=146--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:55:10,860 [INFO] Success: False
+2026-02-12 16:55:10,860 [INFO] # episodes: 146
+2026-02-12 16:55:10,860 [INFO] # successes: 0 (0.0%)
+
+ 92%|█████████▏| 46/50 [1:25:44<07:26, 111.52s/it][A2026-02-12 16:55:10,861 [INFO] Starting episode 47...
+2026-02-12 16:57:02,835 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=147--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:57:02,910 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=147--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:57:02,910 [INFO] Success: False
+2026-02-12 16:57:02,910 [INFO] # episodes: 147
+2026-02-12 16:57:02,910 [INFO] # successes: 0 (0.0%)
+
+ 94%|█████████▍| 47/50 [1:27:36<05:35, 111.68s/it][A2026-02-12 16:57:02,911 [INFO] Starting episode 48...
+2026-02-12 16:58:57,409 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=148--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 16:58:57,486 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=148--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 16:58:57,486 [INFO] Success: False
+2026-02-12 16:58:57,486 [INFO] # episodes: 148
+2026-02-12 16:58:57,486 [INFO] # successes: 0 (0.0%)
+
+ 96%|█████████▌| 48/50 [1:29:31<03:45, 112.55s/it][A2026-02-12 16:58:57,487 [INFO] Starting episode 49...
+2026-02-12 17:00:50,750 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=149--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 17:00:50,832 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=149--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 17:00:50,832 [INFO] Success: False
+2026-02-12 17:00:50,833 [INFO] # episodes: 149
+2026-02-12 17:00:50,833 [INFO] # successes: 0 (0.0%)
+
+ 98%|█████████▊| 49/50 [1:31:24<01:52, 112.79s/it][A2026-02-12 17:00:50,833 [INFO] Starting episode 50...
+2026-02-12 17:02:43,272 [INFO] Saved rollout MP4 at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=150--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.mp4
+2026-02-12 17:02:43,350 [INFO] Saved trajectory at /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/task_composition/tinyvla/task_comp_l1/run_0/2026_02_12-12_10_23--episode=150--success=False--task=put_the_cream_cheese_on_the_top_of_the_cabinet.npy
+2026-02-12 17:02:43,351 [INFO] Success: False
+2026-02-12 17:02:43,351 [INFO] # episodes: 150
+2026-02-12 17:02:43,351 [INFO] # successes: 0 (0.0%)
+
+100%|██████████| 50/50 [1:33:17<00:00, 112.71s/it][A100%|██████████| 50/50 [1:33:17<00:00, 111.95s/it]
+2026-02-12 17:02:43,351 [INFO] Task success rate: 0.0000 (0.0%)
+2026-02-12 17:02:43,890 [INFO] Environment closed successfully
+Task Comp L1: 100%|██████████| 3/3 [4:51:52<00:00, 5792.45s/it]  Task Comp L1: 100%|██████████| 3/3 [4:51:52<00:00, 5837.54s/it]
+2026-02-12 17:02:44,218 [INFO] ================================================================================
+2026-02-12 17:02:44,218 [INFO] FINAL RESULTS - TASK COMPOSITION L1 (TinyVLA):
+2026-02-12 17:02:44,218 [INFO] Total episodes: 150
+2026-02-12 17:02:44,218 [INFO] Total successes: 0
+2026-02-12 17:02:44,218 [INFO] Overall success rate: 0.0000 (0.0%)
+2026-02-12 17:02:44,218 [INFO] ================================================================================

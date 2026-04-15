@@ -1,0 +1,963 @@
+==========================================
+Starting LIBERO Goal Evaluation
+Job ID: 175959
+Array Task ID (Seed): 2
+Seed: 2
+Model: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/openvla/openvla-7b+libero_goal_no_noops_20000_chkpt
+Start time: Mon Mar  9 10:57:36 PM CET 2026
+
+Using LIBERO constants:
+  NUM_ACTIONS_CHUNK = 8
+  ACTION_DIM = 7
+  PROPRIO_DIM = 8
+  ACTION_PROPRIO_NORMALIZATION_TYPE = bounds_q99
+If needed, manually set the correct constants in `prismatic/vla/constants.py`!
+Instantiating pretrained VLA policy...
+Created backup of original config at: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/openvla/openvla-7b+libero_goal_no_noops_20000_chkpt/config.json.back.20260309_225759
+Updated config.json at: /home/A.CARDAMONE7/checkpoints/checkpoints_saving_folder/checkpoints_saving_folder/openvla/openvla-7b+libero_goal_no_noops_20000_chkpt/config.json
+Changes made:
+  - Set AutoConfig to "configuration_prismatic.OpenVLAConfig"
+  - Set AutoModelForVision2Seq to "modeling_prismatic.OpenVLAForActionPrediction"
+03/09 [22:58:08] INFO     | >> Action head caricato       run_libero_eval.py:183
+                          separatamente                                         
+                 INFO     | >> Available norm_stats keys: run_libero_eval.py:206
+                          ['libero_goal_no_noops']                              
+                 INFO     | >> cfg.unnorm_key from        run_libero_eval.py:207
+                          config: 'libero_goal_noops'                           
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+                 INFO     | >> Logging to local log file: run_libero_eval.py:244
+                          /mnt/beegfs/a.cardamone7/output                       
+                          s/logs/EVAL-libero_goal-openvla                       
+                          -2026_03_09-22_57_58--libero_go                       
+                          al_eval_task2_l2_seed_2--l2.txt                       
+                 INFO     | >>                            run_libero_eval.py:259
+                          ===============================                       
+                          ===============================                       
+                          ==================                                    
+                 INFO     | >> EVALUATING: L2             run_libero_eval.py:259
+                 INFO     | >>                            run_libero_eval.py:259
+                          ===============================                       
+                          ===============================                       
+                          ==================                                    
+                 INFO     | >> Task suite: libero_goal    run_libero_eval.py:259
+                 INFO     | >> Testing command level: l2  run_libero_eval.py:259
+                 INFO     | >> Evaluating only task 2     run_libero_eval.py:259
+                 INFO     | >> Using default initial      run_libero_eval.py:259
+                          states                                                
+Using custom BDDL: /home/A.CARDAMONE7/repo/VLA-Bench/robosuite_test/LIBERO/libero/bddl_files/libero_goal/put_the_wine_bottle_on_top_of_the_cabinet_syn_l2.bddl
+03/09 [22:58:11] INFO     | >>                            run_libero_eval.py:259
+                          ===============================                       
+                          ===============================                       
+                          ==================                                    
+                 INFO     | >> TASK 3/10                  run_libero_eval.py:259
+                 INFO     | >> Original Command: Put the  run_libero_eval.py:259
+                          wine bottle on the top of the                         
+                          cabinet                                               
+                 INFO     | >> Command Level: L2          run_libero_eval.py:259
+                 INFO     | >> Variation Command: Top of  run_libero_eval.py:259
+                          the cabinet needs to have the                         
+                          wine bottle on it                                     
+                 INFO     | >>                            run_libero_eval.py:259
+                          ===============================                       
+                          ===============================                       
+                          ==================                                    
+                 INFO     | >> Starting episode 1...      run_libero_eval.py:259
+03/09 [22:58:14] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.231 -0.074 0.033 -0.000]...                        
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.547 -0.147 -0.311 0.012]...                        
+03/09 [22:58:15] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.244 -0.024 -0.754 0.045]...                       
+03/09 [22:58:16] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.527 -0.023 -0.641 0.011]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [0.189 0.091 0.076 -0.065]...                         
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=1--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=1--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [22:58:20] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 1                                                
+                 INFO     | >> # successes: 1 (100.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 2...      run_libero_eval.py:259
+03/09 [22:58:22] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.033 0.029 0.010 -0.001]...                         
+03/09 [22:58:23] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.482 -0.178 -0.018 0.030]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.157 -0.212 -0.379 0.063]...                        
+03/09 [22:58:24] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.316 0.018 -0.560 0.041]...                        
+03/09 [22:58:25] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.499 0.022 -0.568 0.005]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=2--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=2--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [22:58:29] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 2                                                
+                 INFO     | >> # successes: 2 (100.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 3...      run_libero_eval.py:259
+03/09 [22:58:31] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.191 0.010 0.001 0.007]...                          
+03/09 [22:58:32] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.526 -0.184 -0.107 0.044]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.054 -0.040 -0.557 0.028]...                        
+03/09 [22:58:33] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.425 0.032 -0.626 0.028]...                        
+03/09 [22:58:34] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.449 -0.009 -0.520 0.010]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=3--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=3--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [22:58:39] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 3                                                
+                 INFO     | >> # successes: 3 (100.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 4...      run_libero_eval.py:259
+03/09 [22:58:41] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.189 -0.011 0.032 0.002]...                         
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.682 -0.225 -0.079 -0.001]...                       
+03/09 [22:58:42] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.167 -0.142 -0.465 -0.001]...                       
+03/09 [22:58:43] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.439 -0.074 -0.641 0.009]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.464 -0.055 -0.516 0.017]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=4--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=4--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [22:58:49] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 4                                                
+                 INFO     | >> # successes: 4 (100.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 5...      run_libero_eval.py:259
+03/09 [22:58:50] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.105 -0.098 -0.031 0.011]...                        
+03/09 [22:58:51] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.363 -0.120 -0.051 0.011]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.256 -0.019 -0.432 0.011]...                        
+03/09 [22:58:52] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.464 0.014 -0.656 0.016]...                        
+03/09 [22:58:53] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.117 0.066 -0.344 -0.004]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=5--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=5--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [22:58:57] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 5                                                
+                 INFO     | >> # successes: 5 (100.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 6...      run_libero_eval.py:259
+03/09 [22:59:00] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.104 0.032 -0.006 0.005]...                         
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.615 -0.196 -0.155 0.012]...                        
+03/09 [22:59:01] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.049 -0.022 -0.623                                 
+                          -0.014]...                                            
+03/09 [22:59:02] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.659 -0.144 -0.626 0.010]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.377 0.020 -0.406 0.009]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=6--success=False--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=6--success=False--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [22:59:25] INFO     | >> Success: False             run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 6                                                
+                 INFO     | >> # successes: 5 (83.3%)     run_libero_eval.py:259
+                 INFO     | >> Starting episode 7...      run_libero_eval.py:259
+03/09 [22:59:27] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.134 0.036 0.013 0.005]...                          
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.501 -0.251 -0.022 0.010]...                        
+03/09 [22:59:28] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.160 -0.148 -0.388 -0.007]...                       
+03/09 [22:59:29] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.338 -0.009 -0.619 0.019]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.517 0.050 -0.553 0.011]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=7--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=7--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [22:59:34] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 7                                                
+                 INFO     | >> # successes: 6 (85.7%)     run_libero_eval.py:259
+                 INFO     | >> Starting episode 8...      run_libero_eval.py:259
+03/09 [22:59:36] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.103 0.041 -0.005 0.000]...                         
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.604 -0.196 0.004 0.014]...                         
+03/09 [22:59:37] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.193 -0.047 -0.546 0.007]...                        
+03/09 [22:59:38] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.435 -0.017 -0.670 0.020]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.588 -0.004 -0.586 0.012]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=8--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=8--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [22:59:43] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 8                                                
+                 INFO     | >> # successes: 7 (87.5%)     run_libero_eval.py:259
+                 INFO     | >> Starting episode 9...      run_libero_eval.py:259
+03/09 [22:59:45] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.111 0.016 0.007 -0.001]...                         
+03/09 [22:59:46] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.636 -0.186 -0.126 0.021]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.047 -0.034 -0.623 -0.006]...                       
+03/09 [22:59:47] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.488 -0.034 -0.663 0.019]...                       
+03/09 [22:59:48] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.542 0.002 -0.586 0.013]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=9--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=9--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [22:59:53] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 9                                                
+                 INFO     | >> # successes: 8 (88.9%)     run_libero_eval.py:259
+                 INFO     | >> Starting episode 10...     run_libero_eval.py:259
+03/09 [22:59:55] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.159 0.011 0.002 0.003]...                          
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.604 -0.261 -0.139 0.010]...                        
+03/09 [22:59:56] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.100 0.007 -0.670 0.016]...                        
+03/09 [22:59:57] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.666 -0.068 -0.721 0.035]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.276 0.085 -0.337 -0.003]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=10--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=10--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:00:03] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 10                                               
+                 INFO     | >> # successes: 9 (90.0%)     run_libero_eval.py:259
+                 INFO     | >> Starting episode 11...     run_libero_eval.py:259
+03/09 [23:00:04] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.153 0.037 -0.051 -0.004]...                        
+03/09 [23:00:05] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.593 -0.201 -0.233 0.023]...                        
+03/09 [23:00:06] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.103 -0.135 -0.670 0.006]...                       
+                 INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.648 0.017 -0.626 0.013]...                        
+03/09 [23:00:07] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.226 0.054 -0.353 0.000]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=11--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=11--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:00:12] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 11                                               
+                 INFO     | >> # successes: 10 (90.9%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 12...     run_libero_eval.py:259
+03/09 [23:00:13] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.118 -0.037 -0.017 0.005]...                        
+03/09 [23:00:14] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.382 -0.153 -0.203 0.017]...                        
+03/09 [23:00:15] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.129 -0.070 -0.608 0.017]...                       
+                 INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.609 -0.091 -0.667 0.005]...                       
+03/09 [23:00:16] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.152 0.030 -0.267 -0.024]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=12--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=12--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:00:20] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 12                                               
+                 INFO     | >> # successes: 11 (91.7%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 13...     run_libero_eval.py:259
+03/09 [23:00:22] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.120 -0.003 -0.010 0.003]...                        
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.476 -0.235 -0.111 0.039]...                        
+03/09 [23:00:23] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.104 -0.134 -0.441 0.049]...                        
+03/09 [23:00:24] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.559 0.019 -0.582 0.001]...                        
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.552 0.043 -0.513 0.001]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=13--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=13--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:00:29] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 13                                               
+                 INFO     | >> # successes: 12 (92.3%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 14...     run_libero_eval.py:259
+03/09 [23:00:31] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.137 0.063 0.011 -0.001]...                         
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.650 -0.161 -0.054 0.000]...                        
+03/09 [23:00:32] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.131 -0.153 -0.524 0.000]...                        
+                 INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.499 -0.009 -0.663 0.008]...                       
+03/09 [23:00:33] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.556 0.029 -0.604 0.015]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=14--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=14--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:00:38] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 14                                               
+                 INFO     | >> # successes: 13 (92.9%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 15...     run_libero_eval.py:259
+03/09 [23:00:39] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.095 0.020 -0.022 0.004]...                         
+03/09 [23:00:40] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.604 -0.253 -0.025 0.013]...                        
+03/09 [23:00:41] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.012 0.025 -0.619 -0.009]...                       
+                 INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.701 -0.094 -0.692 0.018]...                       
+03/09 [23:00:42] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.359 0.050 -0.472 0.007]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=15--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=15--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:00:47] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 15                                               
+                 INFO     | >> # successes: 14 (93.3%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 16...     run_libero_eval.py:259
+03/09 [23:00:49] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.067 0.027 0.006 0.003]...                          
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.498 -0.130 -0.005 0.006]...                        
+03/09 [23:00:50] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.324 -0.085 -0.450 0.009]...                        
+03/09 [23:00:51] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.300 -0.018 -0.674 0.018]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.559 -0.006 -0.586 0.012]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=16--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=16--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:00:57] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 16                                               
+                 INFO     | >> # successes: 15 (93.8%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 17...     run_libero_eval.py:259
+03/09 [23:00:58] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.194 0.031 0.008 -0.002]...                         
+03/09 [23:00:59] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.632 -0.207 -0.081 -0.009]...                       
+03/09 [23:01:00] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.155 -0.007 -0.374 -0.020]...                       
+                 INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.503 -0.057 -0.648 0.010]...                       
+03/09 [23:01:01] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.591 -0.094 -0.571 0.009]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=17--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=17--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:01:06] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 17                                               
+                 INFO     | >> # successes: 16 (94.1%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 18...     run_libero_eval.py:259
+03/09 [23:01:08] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.123 0.016 0.036 0.002]...                          
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.540 -0.251 0.031 0.015]...                         
+03/09 [23:01:09] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.310 -0.135 -0.494 0.016]...                        
+03/09 [23:01:10] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.414 -0.000 -0.670 0.012]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.669 0.070 -0.641 0.018]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=18--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=18--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:01:16] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 18                                               
+                 INFO     | >> # successes: 17 (94.4%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 19...     run_libero_eval.py:259
+03/09 [23:01:17] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.199 0.023 0.011 -0.006]...                         
+03/09 [23:01:18] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.554 -0.202 -0.094 0.008]...                        
+03/09 [23:01:19] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.019 -0.101 -0.652 0.014]...                        
+                 INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.566 -0.020 -0.656 0.017]...                       
+03/09 [23:01:20] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.524 -0.021 -0.590 0.017]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=19--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=19--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:01:25] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 19                                               
+                 INFO     | >> # successes: 18 (94.7%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 20...     run_libero_eval.py:259
+03/09 [23:01:27] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.102 -0.033 -0.019 0.008]...                        
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.402 -0.160 -0.201 0.024]...                        
+03/09 [23:01:28] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.012 -0.094 -0.553 0.031]...                       
+                 INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.499 0.002 -0.542 0.007]...                        
+03/09 [23:01:29] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.080 0.068 -0.201 -0.015]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=20--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=20--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:01:34] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 20                                               
+                 INFO     | >> # successes: 19 (95.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 21...     run_libero_eval.py:259
+03/09 [23:01:36] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.197 -0.020 0.009 0.001]...                         
+03/09 [23:01:37] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.647 -0.238 -0.147 0.015]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.028 -0.022 -0.590                                 
+                          -0.002]...                                            
+03/09 [23:01:38] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.506 -0.017 -0.615 0.009]...                       
+03/09 [23:01:39] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.292 -0.021 -0.436 0.004]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=21--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=21--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:01:43] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 21                                               
+                 INFO     | >> # successes: 20 (95.2%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 22...     run_libero_eval.py:259
+03/09 [23:01:45] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.206 0.046 -0.015 0.001]...                         
+03/09 [23:01:46] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.558 -0.178 -0.074 0.032]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.096 -0.103 -0.597 0.025]...                       
+03/09 [23:01:47] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.577 -0.040 -0.615 0.011]...                       
+03/09 [23:01:48] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.238 0.021 -0.372 -0.002]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=22--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=22--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:01:52] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 22                                               
+                 INFO     | >> # successes: 21 (95.5%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 23...     run_libero_eval.py:259
+03/09 [23:01:54] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.110 0.024 0.013 -0.005]...                         
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.508 -0.139 0.057 -0.006]...                        
+03/09 [23:01:55] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.389 -0.092 -0.282 0.001]...                        
+03/09 [23:01:56] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.253 -0.044 -0.670 0.022]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.680 0.032 -0.641 0.016]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=23--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=23--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:02:01] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 23                                               
+                 INFO     | >> # successes: 22 (95.7%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 24...     run_libero_eval.py:259
+03/09 [23:02:03] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.110 0.042 0.012 0.001]...                          
+03/09 [23:02:04] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.601 -0.161 -0.115 0.026]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.032 -0.009 -0.645 0.021]...                       
+03/09 [23:02:05] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.513 0.017 -0.707 0.036]...                        
+03/09 [23:02:06] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.292 0.047 -0.434 0.004]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=24--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=24--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:02:10] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 24                                               
+                 INFO     | >> # successes: 23 (95.8%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 25...     run_libero_eval.py:259
+03/09 [23:02:12] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.157 -0.006 -0.032 0.008]...                        
+03/09 [23:02:13] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.462 -0.267 -0.098 0.023]...                        
+03/09 [23:02:14] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.037 -0.102 -0.604 0.018]...                       
+                 INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.471 0.020 -0.463 0.001]...                        
+03/09 [23:02:15] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.055 0.050 -0.145 -0.006]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=25--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=25--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:02:20] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 25                                               
+                 INFO     | >> # successes: 24 (96.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 26...     run_libero_eval.py:259
+03/09 [23:02:21] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.059 0.040 -0.021 0.002]...                         
+03/09 [23:02:22] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.342 -0.191 -0.213 0.030]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.086 -0.092 -0.509 0.048]...                       
+03/09 [23:02:23] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.538 -0.087 -0.667 0.012]...                       
+03/09 [23:02:24] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.107 0.057 -0.209 -0.022]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=26--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=26--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:02:28] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 26                                               
+                 INFO     | >> # successes: 25 (96.2%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 27...     run_libero_eval.py:259
+03/09 [23:02:30] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.185 0.052 -0.015 -0.003]...                        
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.505 -0.160 -0.006 0.021]...                        
+03/09 [23:02:31] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.225 -0.218 -0.309 0.056]...                        
+03/09 [23:02:32] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.199 -0.004 -0.549 0.040]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.467 -0.039 -0.652 0.007]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=27--success=False--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=27--success=False--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:02:55] INFO     | >> Success: False             run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 27                                               
+                 INFO     | >> # successes: 25 (92.6%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 28...     run_libero_eval.py:259
+03/09 [23:02:57] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.090 0.038 -0.022 0.006]...                         
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.491 -0.266 -0.078 0.061]...                        
+03/09 [23:02:58] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.021 -0.050 -0.454 0.047]...                        
+03/09 [23:02:59] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.435 0.018 -0.626 0.033]...                        
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.277 0.047 -0.417 0.000]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=28--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=28--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:03:04] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 28                                               
+                 INFO     | >> # successes: 26 (92.9%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 29...     run_libero_eval.py:259
+03/09 [23:03:06] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.165 0.058 -0.010 0.003]...                         
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.636 -0.111 -0.008 0.032]...                        
+03/09 [23:03:07] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.322 -0.165 -0.309 0.040]...                        
+03/09 [23:03:08] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.332 -0.012 -0.564 0.009]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.535 -0.013 -0.604 0.007]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=29--success=False--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=29--success=False--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:03:31] INFO     | >> Success: False             run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 29                                               
+                 INFO     | >> # successes: 26 (89.7%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 30...     run_libero_eval.py:259
+03/09 [23:03:33] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.160 -0.053 -0.016 0.004]...                        
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.436 -0.334 -0.160 0.005]...                        
+03/09 [23:03:34] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.076 -0.057 -0.634 0.024]...                       
+03/09 [23:03:35] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.602 0.004 -0.586 0.005]...                        
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.106 0.107 -0.173 -0.028]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=30--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=30--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:03:40] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 30                                               
+                 INFO     | >> # successes: 27 (90.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 31...     run_libero_eval.py:259
+03/09 [23:03:42] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.078 0.069 0.010 0.002]...                          
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.601 -0.179 -0.053 0.028]...                        
+03/09 [23:03:43] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.141 -0.111 -0.546 0.012]...                        
+03/09 [23:03:44] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.464 -0.015 -0.677 0.038]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.609 0.028 -0.615 0.017]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=31--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=31--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:03:50] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 31                                               
+                 INFO     | >> # successes: 28 (90.3%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 32...     run_libero_eval.py:259
+03/09 [23:03:51] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.118 -0.013 0.017 0.010]...                         
+03/09 [23:03:52] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.459 -0.116 -0.100 0.029]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.172 -0.035 -0.538 0.024]...                        
+03/09 [23:03:53] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.506 -0.021 -0.615 0.010]...                       
+03/09 [23:03:54] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.425 -0.005 -0.527 0.007]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=32--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=32--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:03:58] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 32                                               
+                 INFO     | >> # successes: 29 (90.6%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 33...     run_libero_eval.py:259
+03/09 [23:04:00] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.085 0.020 -0.014 0.002]...                         
+03/09 [23:04:01] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.622 -0.241 -0.185 -0.009]...                       
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.217 -0.077 -0.454 -0.019]...                       
+03/09 [23:04:02] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.513 -0.089 -0.608 0.002]...                       
+03/09 [23:04:03] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.520 -0.010 -0.498                                 
+                          -0.003]...                                            
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=33--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=33--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:04:07] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 33                                               
+                 INFO     | >> # successes: 30 (90.9%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 34...     run_libero_eval.py:259
+03/09 [23:04:09] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.030 0.015 -0.035 0.003]...                         
+03/09 [23:04:10] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.476 -0.254 -0.050 0.042]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.125 -0.092 -0.480 0.054]...                        
+03/09 [23:04:11] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.510 0.002 -0.604 0.013]...                        
+03/09 [23:04:12] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.499 0.016 -0.472 -0.008]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=34--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=34--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:04:16] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 34                                               
+                 INFO     | >> # successes: 31 (91.2%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 35...     run_libero_eval.py:259
+03/09 [23:04:18] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.125 0.027 -0.018 0.003]...                         
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.583 -0.188 -0.018 0.012]...                        
+03/09 [23:04:19] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.181 -0.148 -0.438 0.009]...                        
+03/09 [23:04:20] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.389 -0.057 -0.626 0.011]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.613 0.001 -0.626 0.019]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=35--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=35--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:04:26] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 35                                               
+                 INFO     | >> # successes: 32 (91.4%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 36...     run_libero_eval.py:259
+03/09 [23:04:27] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.105 0.036 -0.043 0.002]...                         
+03/09 [23:04:28] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.569 -0.236 -0.082 0.016]...                        
+03/09 [23:04:29] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.121 -0.210 -0.480 0.011]...                        
+                 INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.566 -0.020 -0.630 0.007]...                       
+03/09 [23:04:30] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.577 -0.005 -0.571 0.008]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=36--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=36--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:04:35] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 36                                               
+                 INFO     | >> # successes: 33 (91.7%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 37...     run_libero_eval.py:259
+03/09 [23:04:37] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.102 0.041 -0.029 0.001]...                         
+03/09 [23:04:38] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.593 -0.205 -0.107 -0.006]...                       
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.160 -0.101 -0.480 -0.007]...                       
+03/09 [23:04:39] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.485 -0.079 -0.615 0.010]...                       
+03/09 [23:04:40] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.485 -0.015 -0.549 0.014]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=37--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=37--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:04:45] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 37                                               
+                 INFO     | >> # successes: 34 (91.9%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 38...     run_libero_eval.py:259
+03/09 [23:04:47] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.252 0.035 -0.036 0.000]...                         
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.643 -0.046 -0.100 0.008]...                        
+03/09 [23:04:48] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.124 -0.070 -0.564 0.012]...                        
+03/09 [23:04:49] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.268 -0.007 -0.754 0.010]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.520 -0.043 -0.681                                 
+                          -0.004]...                                            
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=38--success=False--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=38--success=False--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:05:12] INFO     | >> Success: False             run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 38                                               
+                 INFO     | >> # successes: 34 (89.5%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 39...     run_libero_eval.py:259
+03/09 [23:05:14] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.145 0.012 -0.021 0.002]...                         
+03/09 [23:05:15] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.618 -0.267 -0.112 -0.004]...                       
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.054 -0.001 -0.513 -0.006]...                       
+03/09 [23:05:16] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.613 -0.137 -0.604 0.009]...                       
+03/09 [23:05:17] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.449 -0.040 -0.476 0.009]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=39--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=39--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:05:22] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 39                                               
+                 INFO     | >> # successes: 35 (89.7%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 40...     run_libero_eval.py:259
+03/09 [23:05:24] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.131 0.053 0.012 0.001]...                          
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.625 -0.170 -0.031 -0.012]...                       
+03/09 [23:05:25] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.251 -0.128 -0.469 -0.010]...                       
+03/09 [23:05:26] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.467 -0.060 -0.656 0.009]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.524 -0.044 -0.579 0.015]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=40--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=40--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:05:32] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 40                                               
+                 INFO     | >> # successes: 36 (90.0%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 41...     run_libero_eval.py:259
+03/09 [23:05:33] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.097 -0.013 0.003 0.002]...                         
+03/09 [23:05:34] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.632 -0.253 -0.020 0.002]...                        
+03/09 [23:05:35] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.156 -0.031 -0.623 0.001]...                        
+                 INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.545 -0.100 -0.699 0.020]...                       
+03/09 [23:05:36] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.577 -0.036 -0.586 0.012]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=41--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=41--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:05:40] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 41                                               
+                 INFO     | >> # successes: 37 (90.2%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 42...     run_libero_eval.py:259
+03/09 [23:05:42] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.202 0.014 0.043 0.004]...                          
+03/09 [23:05:43] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.583 -0.222 -0.113 0.022]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.059 -0.034 -0.652 0.020]...                       
+03/09 [23:05:44] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.510 -0.040 -0.685 0.030]...                       
+03/09 [23:05:45] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.242 0.037 -0.458 0.005]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=42--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=42--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:05:49] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 42                                               
+                 INFO     | >> # successes: 38 (90.5%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 43...     run_libero_eval.py:259
+03/09 [23:05:51] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.165 -0.014 0.023 -0.003]...                        
+03/09 [23:05:52] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.661 -0.254 -0.054 0.005]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.068 -0.121 -0.531 0.002]...                        
+03/09 [23:05:53] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.520 -0.051 -0.696 0.021]...                       
+03/09 [23:05:54] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.513 -0.039 -0.538 0.023]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=43--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=43--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:05:58] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 43                                               
+                 INFO     | >> # successes: 39 (90.7%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 44...     run_libero_eval.py:259
+03/09 [23:06:00] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.265 0.027 -0.074 -0.006]...                        
+03/09 [23:06:01] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.482 -0.083 -0.093 0.023]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.014 -0.130 -0.505 0.051]...                       
+03/09 [23:06:02] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.380 -0.020 -0.652 0.014]...                       
+03/09 [23:06:03] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.467 -0.030 -0.586 0.003]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=44--success=False--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=44--success=False--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:06:25] INFO     | >> Success: False             run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 44                                               
+                 INFO     | >> # successes: 39 (88.6%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 45...     run_libero_eval.py:259
+03/09 [23:06:27] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.233 -0.004 -0.001 0.008]...                        
+03/09 [23:06:28] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.512 -0.297 -0.148 0.007]...                        
+                 INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.103 -0.137 -0.663 0.011]...                       
+03/09 [23:06:29] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.481 0.003 -0.527 -0.001]...                       
+03/09 [23:06:30] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.109 0.015 -0.203 0.003]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=45--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=45--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:06:34] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 45                                               
+                 INFO     | >> # successes: 40 (88.9%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 46...     run_libero_eval.py:259
+03/09 [23:06:36] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.370 -0.011 -0.024 -0.001]...                       
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.365 -0.334 -0.337 0.016]...                        
+03/09 [23:06:37] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [-0.256 -0.056 -0.648                                 
+                          -0.002]...                                            
+03/09 [23:06:38] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.428 -0.029 -0.494 0.005]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.460 0.002 -0.417 0.001]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=46--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=46--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:06:43] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 46                                               
+                 INFO     | >> # successes: 41 (89.1%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 47...     run_libero_eval.py:259
+03/09 [23:06:44] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.264 0.088 0.013 0.010]...                          
+03/09 [23:06:45] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.487 -0.214 -0.057 0.049]...                        
+03/09 [23:06:46] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.087 -0.122 -0.374 0.059]...                        
+                 INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.375 -0.045 -0.623 0.013]...                       
+03/09 [23:06:47] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.382 0.006 -0.469 -0.017]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=47--success=False--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=47--success=False--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:07:10] INFO     | >> Success: False             run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 47                                               
+                 INFO     | >> # successes: 41 (87.2%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 48...     run_libero_eval.py:259
+03/09 [23:07:11] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.092 0.043 0.001 0.003]...                          
+03/09 [23:07:12] INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.501 -0.210 -0.054 0.035]...                        
+03/09 [23:07:13] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.048 -0.212 -0.458 0.047]...                        
+                 INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.478 -0.009 -0.641 0.011]...                       
+03/09 [23:07:14] INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.403 -0.022 -0.516                                 
+                          -0.005]...                                            
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=48--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=48--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:07:18] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 48                                               
+                 INFO     | >> # successes: 42 (87.5%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 49...     run_libero_eval.py:259
+03/09 [23:07:20] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.201 0.017 0.017 -0.007]...                         
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.625 -0.225 -0.144 0.000]...                        
+03/09 [23:07:21] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.054 -0.121 -0.527 0.003]...                        
+03/09 [23:07:22] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.471 -0.076 -0.634 0.005]...                       
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.520 -0.112 -0.447 0.006]...                       
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=49--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=49--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:07:28] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 49                                               
+                 INFO     | >> # successes: 43 (87.8%)    run_libero_eval.py:259
+                 INFO     | >> Starting episode 50...     run_libero_eval.py:259
+03/09 [23:07:30] INFO     | >> Step 10: action[0] =       run_libero_eval.py:385
+                          [0.089 0.025 -0.004 0.004]...                         
+                 INFO     | >> Step 18: action[0] =       run_libero_eval.py:385
+                          [0.530 -0.257 -0.009 0.027]...                        
+03/09 [23:07:31] INFO     | >> Step 26: action[0] =       run_libero_eval.py:385
+                          [0.182 -0.145 -0.423 0.025]...                        
+03/09 [23:07:32] INFO     | >> Step 34: action[0] =       run_libero_eval.py:385
+                          [-0.442 0.019 -0.494 0.008]...                        
+                 INFO     | >> Step 42: action[0] =       run_libero_eval.py:385
+                          [-0.588 0.031 -0.513 0.007]...                        
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=50--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.mp4
+Saved replay trajectory at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero_goal/syntactic_variation/openvla-oft/openvla-oft_20000_test/command_l2/run_libero_goal_eval_task2_l2_seed_2/2026_03_09-22_57_41--episode=50--success=True--task=top_of_the_cabinet_needs_to_have_the_wine_bottle_o.npy
+03/09 [23:07:38] INFO     | >> Success: True              run_libero_eval.py:259
+                 INFO     | >> # episodes completed so    run_libero_eval.py:259
+                          far: 50                                               
+                 INFO     | >> # successes: 44 (88.0%)    run_libero_eval.py:259
+                 INFO     | >> Current task success rate: run_libero_eval.py:259
+                          0.88                                                  
+                 INFO     | >> Current total success      run_libero_eval.py:259
+                          rate: 0.88                                            
+03/09 [23:07:39] INFO     | >> Environment closed         run_libero_eval.py:259
+                          successfully                                          
+                 INFO     | >> Forced garbage collection  run_libero_eval.py:259
+                          after task                                            
+                 INFO     | >>                            run_libero_eval.py:259
+                          ===============================                       
+                          ===============================                       
+                          ==================                                    
+                 INFO     | >> RESULTS FOR L2:            run_libero_eval.py:259
+                 INFO     | >>                            run_libero_eval.py:259
+                          ===============================                       
+                          ===============================                       
+                          ==================                                    
+                 INFO     | >> Total episodes: 50         run_libero_eval.py:259
+                 INFO     | >> Total successes: 44        run_libero_eval.py:259
+                 INFO     | >> Overall success rate:      run_libero_eval.py:259
+                          0.8800 (88.0%)                                        
+                 INFO     | >>                            run_libero_eval.py:259
+                          ===============================                       
+                          ===============================                       
+                          ==================                                    
+
+====================================================================================================
+DETAILED RESULTS TABLE
+====================================================================================================
+Task                                               | Success Rate | Episodes
+----------------------------------------------------------------------------------------------------
+Top of the cabinet needs to have the wine bottle on it |       88.0% |       50
+----------------------------------------------------------------------------------------------------
+OVERALL                                            |       88.0% |       50
+====================================================================================================
+
+SUMMARY BY COMMAND LEVEL:
+------------------------------------------------------------
+               L2: 88.0% (44/50 episodes)
+====================================================================================================
+
+Finish time: Mon Mar  9 11:07:41 PM CET 2026
+==========================================
+Evaluation with seed 2 completed!

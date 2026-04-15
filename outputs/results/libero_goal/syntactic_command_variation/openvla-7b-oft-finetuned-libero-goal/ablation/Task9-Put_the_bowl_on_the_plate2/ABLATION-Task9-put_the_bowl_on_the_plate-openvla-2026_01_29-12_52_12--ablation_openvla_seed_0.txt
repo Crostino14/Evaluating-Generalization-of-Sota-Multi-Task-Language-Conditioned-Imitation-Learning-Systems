@@ -1,0 +1,1312 @@
+================================================================================
+ABLATION STUDY: Task 9 Keyword Shortcut Analysis
+================================================================================
+Task Name: Put the bowl on the plate
+Base Command: put the bowl on the plate
+Model: /home/A.CARDAMONE7/checkpoints/openvla-7b-oft-libero-goal-seed0
+Seed: 0
+Trials per ablation: 50
+Ablation tests: ['bowl_plate1', 'bowl_plate2', 'bowl_plate3', 'bowl_plate4', 'bowl_plate5']
+================================================================================
+================================================================================
+ABLATION TASK: BOWL_PLATE1
+BDDL File: put_the_bowl_on_the_plate_ablation_bowl_plate1.bddl
+================================================================================
+Using default initial states
+Original Task 9 Command: Put the bowl on the plate
+Ablation Command (from BDDL): 'bowl'
+Starting episode 1...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=1--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 1
+# successes: 0 (0.0%)
+Starting episode 2...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=2--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 2
+# successes: 0 (0.0%)
+Starting episode 3...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=3--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 3
+# successes: 0 (0.0%)
+Starting episode 4...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=4--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 4
+# successes: 0 (0.0%)
+Starting episode 5...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=5--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 5
+# successes: 0 (0.0%)
+Starting episode 6...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=6--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 6
+# successes: 0 (0.0%)
+Starting episode 7...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=7--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 7
+# successes: 0 (0.0%)
+Starting episode 8...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=8--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 8
+# successes: 0 (0.0%)
+Starting episode 9...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=9--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 9
+# successes: 0 (0.0%)
+Starting episode 10...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=10--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 10
+# successes: 0 (0.0%)
+Starting episode 11...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=11--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 11
+# successes: 0 (0.0%)
+Starting episode 12...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=12--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 12
+# successes: 0 (0.0%)
+Starting episode 13...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=13--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 13
+# successes: 0 (0.0%)
+Starting episode 14...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=14--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 14
+# successes: 0 (0.0%)
+Starting episode 15...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=15--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 15
+# successes: 0 (0.0%)
+Starting episode 16...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=16--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 16
+# successes: 0 (0.0%)
+Starting episode 17...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=17--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 17
+# successes: 0 (0.0%)
+Starting episode 18...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=18--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 18
+# successes: 0 (0.0%)
+Starting episode 19...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=19--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 19
+# successes: 0 (0.0%)
+Starting episode 20...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=20--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 20
+# successes: 0 (0.0%)
+Starting episode 21...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=21--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 21
+# successes: 0 (0.0%)
+Starting episode 22...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=22--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 22
+# successes: 0 (0.0%)
+Starting episode 23...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=23--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 23
+# successes: 0 (0.0%)
+Starting episode 24...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=24--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 24
+# successes: 0 (0.0%)
+Starting episode 25...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=25--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 25
+# successes: 0 (0.0%)
+Starting episode 26...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=26--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 26
+# successes: 0 (0.0%)
+Starting episode 27...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=27--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 27
+# successes: 0 (0.0%)
+Starting episode 28...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=28--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 28
+# successes: 0 (0.0%)
+Starting episode 29...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=29--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 29
+# successes: 0 (0.0%)
+Starting episode 30...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=30--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 30
+# successes: 0 (0.0%)
+Starting episode 31...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=31--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 31
+# successes: 0 (0.0%)
+Starting episode 32...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=32--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 32
+# successes: 0 (0.0%)
+Starting episode 33...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=33--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 33
+# successes: 0 (0.0%)
+Starting episode 34...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=34--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 34
+# successes: 0 (0.0%)
+Starting episode 35...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=35--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 35
+# successes: 0 (0.0%)
+Starting episode 36...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=36--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 36
+# successes: 0 (0.0%)
+Starting episode 37...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=37--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 37
+# successes: 0 (0.0%)
+Starting episode 38...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=38--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 38
+# successes: 0 (0.0%)
+Starting episode 39...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=39--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 39
+# successes: 0 (0.0%)
+Starting episode 40...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=40--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 40
+# successes: 0 (0.0%)
+Starting episode 41...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=41--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 41
+# successes: 0 (0.0%)
+Starting episode 42...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=42--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 42
+# successes: 0 (0.0%)
+Starting episode 43...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=43--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 43
+# successes: 0 (0.0%)
+Starting episode 44...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=44--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 44
+# successes: 0 (0.0%)
+Starting episode 45...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=45--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 45
+# successes: 0 (0.0%)
+Starting episode 46...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=46--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 46
+# successes: 0 (0.0%)
+Starting episode 47...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=47--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 47
+# successes: 0 (0.0%)
+Starting episode 48...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=48--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 48
+# successes: 0 (0.0%)
+Starting episode 49...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=49--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 49
+# successes: 0 (0.0%)
+Starting episode 50...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=50--success=False--task=ablation_task9_bowl_plate1_bowl.mp4
+Success: False
+# episodes completed so far: 50
+# successes: 0 (0.0%)
+Current task success rate: 0.0
+================================================================================
+ABLATION TASK: BOWL_PLATE2
+BDDL File: put_the_bowl_on_the_plate_ablation_bowl_plate2.bddl
+================================================================================
+Using default initial states
+Original Task 9 Command: Put the bowl on the plate
+Ablation Command (from BDDL): 'plate'
+Starting episode 1...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=1--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+Starting episode 2...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=2--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 2
+# successes: 1 (50.0%)
+Starting episode 3...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=3--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 3
+# successes: 2 (66.7%)
+Starting episode 4...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=4--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 4
+# successes: 3 (75.0%)
+Starting episode 5...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=5--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 5
+# successes: 4 (80.0%)
+Starting episode 6...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=6--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 6
+# successes: 5 (83.3%)
+Starting episode 7...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=7--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 7
+# successes: 5 (71.4%)
+Starting episode 8...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=8--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 8
+# successes: 5 (62.5%)
+Starting episode 9...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=9--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 9
+# successes: 5 (55.6%)
+Starting episode 10...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=10--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 10
+# successes: 6 (60.0%)
+Starting episode 11...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=11--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 11
+# successes: 7 (63.6%)
+Starting episode 12...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=12--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 12
+# successes: 7 (58.3%)
+Starting episode 13...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=13--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 13
+# successes: 8 (61.5%)
+Starting episode 14...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=14--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 14
+# successes: 8 (57.1%)
+Starting episode 15...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=15--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 15
+# successes: 9 (60.0%)
+Starting episode 16...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=16--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 16
+# successes: 10 (62.5%)
+Starting episode 17...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=17--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 17
+# successes: 10 (58.8%)
+Starting episode 18...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=18--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 18
+# successes: 10 (55.6%)
+Starting episode 19...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=19--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 19
+# successes: 10 (52.6%)
+Starting episode 20...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=20--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 20
+# successes: 11 (55.0%)
+Starting episode 21...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=21--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 21
+# successes: 11 (52.4%)
+Starting episode 22...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=22--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 22
+# successes: 11 (50.0%)
+Starting episode 23...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=23--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 23
+# successes: 12 (52.2%)
+Starting episode 24...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=24--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 24
+# successes: 12 (50.0%)
+Starting episode 25...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=25--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 25
+# successes: 13 (52.0%)
+Starting episode 26...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=26--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 26
+# successes: 14 (53.8%)
+Starting episode 27...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=27--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 27
+# successes: 15 (55.6%)
+Starting episode 28...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=28--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 28
+# successes: 16 (57.1%)
+Starting episode 29...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=29--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 29
+# successes: 16 (55.2%)
+Starting episode 30...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=30--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 30
+# successes: 16 (53.3%)
+Starting episode 31...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=31--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 31
+# successes: 17 (54.8%)
+Starting episode 32...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=32--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 32
+# successes: 18 (56.2%)
+Starting episode 33...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=33--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 33
+# successes: 19 (57.6%)
+Starting episode 34...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=34--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 34
+# successes: 20 (58.8%)
+Starting episode 35...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=35--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 35
+# successes: 21 (60.0%)
+Starting episode 36...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=36--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 36
+# successes: 22 (61.1%)
+Starting episode 37...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=37--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 37
+# successes: 23 (62.2%)
+Starting episode 38...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=38--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 38
+# successes: 24 (63.2%)
+Starting episode 39...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=39--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 39
+# successes: 25 (64.1%)
+Starting episode 40...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=40--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 40
+# successes: 25 (62.5%)
+Starting episode 41...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=41--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 41
+# successes: 25 (61.0%)
+Starting episode 42...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=42--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 42
+# successes: 26 (61.9%)
+Starting episode 43...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=43--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 43
+# successes: 26 (60.5%)
+Starting episode 44...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=44--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 44
+# successes: 27 (61.4%)
+Starting episode 45...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=45--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 45
+# successes: 28 (62.2%)
+Starting episode 46...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=46--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 46
+# successes: 28 (60.9%)
+Starting episode 47...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=47--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 47
+# successes: 28 (59.6%)
+Starting episode 48...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=48--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 48
+# successes: 29 (60.4%)
+Starting episode 49...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=49--success=False--task=ablation_task9_bowl_plate2_plate.mp4
+Success: False
+# episodes completed so far: 49
+# successes: 29 (59.2%)
+Starting episode 50...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=50--success=True--task=ablation_task9_bowl_plate2_plate.mp4
+Success: True
+# episodes completed so far: 50
+# successes: 30 (60.0%)
+Current task success rate: 0.6
+================================================================================
+ABLATION TASK: BOWL_PLATE3
+BDDL File: put_the_bowl_on_the_plate_ablation_bowl_plate3.bddl
+================================================================================
+Using default initial states
+Original Task 9 Command: Put the bowl on the plate
+Ablation Command (from BDDL): 'bowl plate'
+Starting episode 1...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=1--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+Starting episode 2...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=2--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+Starting episode 3...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=3--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+Starting episode 4...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=4--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+Starting episode 5...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=5--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+Starting episode 6...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=6--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 6
+# successes: 6 (100.0%)
+Starting episode 7...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=7--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 7
+# successes: 7 (100.0%)
+Starting episode 8...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=8--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 8
+# successes: 8 (100.0%)
+Starting episode 9...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=9--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 9
+# successes: 9 (100.0%)
+Starting episode 10...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=10--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 10
+# successes: 10 (100.0%)
+Starting episode 11...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=11--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 11
+# successes: 11 (100.0%)
+Starting episode 12...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=12--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 12
+# successes: 12 (100.0%)
+Starting episode 13...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=13--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 13
+# successes: 13 (100.0%)
+Starting episode 14...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=14--success=False--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: False
+# episodes completed so far: 14
+# successes: 13 (92.9%)
+Starting episode 15...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=15--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 15
+# successes: 14 (93.3%)
+Starting episode 16...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=16--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 16
+# successes: 15 (93.8%)
+Starting episode 17...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=17--success=False--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: False
+# episodes completed so far: 17
+# successes: 15 (88.2%)
+Starting episode 18...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=18--success=False--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: False
+# episodes completed so far: 18
+# successes: 15 (83.3%)
+Starting episode 19...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=19--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 19
+# successes: 16 (84.2%)
+Starting episode 20...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=20--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 20
+# successes: 17 (85.0%)
+Starting episode 21...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=21--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 21
+# successes: 18 (85.7%)
+Starting episode 22...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=22--success=False--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: False
+# episodes completed so far: 22
+# successes: 18 (81.8%)
+Starting episode 23...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=23--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 23
+# successes: 19 (82.6%)
+Starting episode 24...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=24--success=False--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: False
+# episodes completed so far: 24
+# successes: 19 (79.2%)
+Starting episode 25...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=25--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 25
+# successes: 20 (80.0%)
+Starting episode 26...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=26--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 26
+# successes: 21 (80.8%)
+Starting episode 27...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=27--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 27
+# successes: 22 (81.5%)
+Starting episode 28...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=28--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 28
+# successes: 23 (82.1%)
+Starting episode 29...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=29--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 29
+# successes: 24 (82.8%)
+Starting episode 30...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=30--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 30
+# successes: 25 (83.3%)
+Starting episode 31...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=31--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 31
+# successes: 26 (83.9%)
+Starting episode 32...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=32--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 32
+# successes: 27 (84.4%)
+Starting episode 33...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=33--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 33
+# successes: 28 (84.8%)
+Starting episode 34...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=34--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 34
+# successes: 29 (85.3%)
+Starting episode 35...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=35--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 35
+# successes: 30 (85.7%)
+Starting episode 36...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=36--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 36
+# successes: 31 (86.1%)
+Starting episode 37...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=37--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 37
+# successes: 32 (86.5%)
+Starting episode 38...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=38--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 38
+# successes: 33 (86.8%)
+Starting episode 39...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=39--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 39
+# successes: 34 (87.2%)
+Starting episode 40...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=40--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 40
+# successes: 35 (87.5%)
+Starting episode 41...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=41--success=False--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: False
+# episodes completed so far: 41
+# successes: 35 (85.4%)
+Starting episode 42...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=42--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 42
+# successes: 36 (85.7%)
+Starting episode 43...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=43--success=False--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: False
+# episodes completed so far: 43
+# successes: 36 (83.7%)
+Starting episode 44...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=44--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 44
+# successes: 37 (84.1%)
+Starting episode 45...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=45--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 45
+# successes: 38 (84.4%)
+Starting episode 46...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=46--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 46
+# successes: 39 (84.8%)
+Starting episode 47...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=47--success=False--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: False
+# episodes completed so far: 47
+# successes: 39 (83.0%)
+Starting episode 48...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=48--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 48
+# successes: 40 (83.3%)
+Starting episode 49...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=49--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 49
+# successes: 41 (83.7%)
+Starting episode 50...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=50--success=True--task=ablation_task9_bowl_plate3_bowl_plate.mp4
+Success: True
+# episodes completed so far: 50
+# successes: 42 (84.0%)
+Current task success rate: 0.84
+================================================================================
+ABLATION TASK: BOWL_PLATE4
+BDDL File: put_the_bowl_on_the_plate_ablation_bowl_plate4.bddl
+================================================================================
+Using default initial states
+Original Task 9 Command: Put the bowl on the plate
+Ablation Command (from BDDL): 'Put plate'
+Starting episode 1...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=1--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+Starting episode 2...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=2--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 2
+# successes: 1 (50.0%)
+Starting episode 3...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=3--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 3
+# successes: 2 (66.7%)
+Starting episode 4...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=4--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 4
+# successes: 2 (50.0%)
+Starting episode 5...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=5--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 5
+# successes: 3 (60.0%)
+Starting episode 6...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=6--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 6
+# successes: 4 (66.7%)
+Starting episode 7...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=7--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 7
+# successes: 4 (57.1%)
+Starting episode 8...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=8--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 8
+# successes: 4 (50.0%)
+Starting episode 9...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=9--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 9
+# successes: 4 (44.4%)
+Starting episode 10...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=10--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 10
+# successes: 5 (50.0%)
+Starting episode 11...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=11--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 11
+# successes: 6 (54.5%)
+Starting episode 12...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=12--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 12
+# successes: 6 (50.0%)
+Starting episode 13...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=13--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 13
+# successes: 7 (53.8%)
+Starting episode 14...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=14--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 14
+# successes: 7 (50.0%)
+Starting episode 15...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=15--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 15
+# successes: 8 (53.3%)
+Starting episode 16...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=16--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 16
+# successes: 9 (56.2%)
+Starting episode 17...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=17--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 17
+# successes: 9 (52.9%)
+Starting episode 18...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=18--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 18
+# successes: 9 (50.0%)
+Starting episode 19...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=19--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 19
+# successes: 9 (47.4%)
+Starting episode 20...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=20--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 20
+# successes: 10 (50.0%)
+Starting episode 21...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=21--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 21
+# successes: 10 (47.6%)
+Starting episode 22...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=22--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 22
+# successes: 10 (45.5%)
+Starting episode 23...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=23--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 23
+# successes: 11 (47.8%)
+Starting episode 24...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=24--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 24
+# successes: 11 (45.8%)
+Starting episode 25...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=25--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 25
+# successes: 12 (48.0%)
+Starting episode 26...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=26--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 26
+# successes: 13 (50.0%)
+Starting episode 27...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=27--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 27
+# successes: 13 (48.1%)
+Starting episode 28...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=28--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 28
+# successes: 14 (50.0%)
+Starting episode 29...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=29--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 29
+# successes: 14 (48.3%)
+Starting episode 30...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=30--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 30
+# successes: 15 (50.0%)
+Starting episode 31...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=31--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 31
+# successes: 15 (48.4%)
+Starting episode 32...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=32--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 32
+# successes: 16 (50.0%)
+Starting episode 33...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=33--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 33
+# successes: 17 (51.5%)
+Starting episode 34...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=34--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 34
+# successes: 18 (52.9%)
+Starting episode 35...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=35--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 35
+# successes: 18 (51.4%)
+Starting episode 36...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=36--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 36
+# successes: 18 (50.0%)
+Starting episode 37...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=37--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 37
+# successes: 19 (51.4%)
+Starting episode 38...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=38--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 38
+# successes: 20 (52.6%)
+Starting episode 39...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=39--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 39
+# successes: 20 (51.3%)
+Starting episode 40...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=40--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 40
+# successes: 20 (50.0%)
+Starting episode 41...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=41--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 41
+# successes: 20 (48.8%)
+Starting episode 42...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=42--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 42
+# successes: 21 (50.0%)
+Starting episode 43...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=43--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 43
+# successes: 21 (48.8%)
+Starting episode 44...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=44--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 44
+# successes: 22 (50.0%)
+Starting episode 45...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=45--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 45
+# successes: 23 (51.1%)
+Starting episode 46...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=46--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 46
+# successes: 23 (50.0%)
+Starting episode 47...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=47--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 47
+# successes: 23 (48.9%)
+Starting episode 48...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=48--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 48
+# successes: 24 (50.0%)
+Starting episode 49...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=49--success=False--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: False
+# episodes completed so far: 49
+# successes: 24 (49.0%)
+Starting episode 50...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=50--success=True--task=ablation_task9_bowl_plate4_put_plate.mp4
+Success: True
+# episodes completed so far: 50
+# successes: 25 (50.0%)
+Current task success rate: 0.5
+================================================================================
+ABLATION TASK: BOWL_PLATE5
+BDDL File: put_the_bowl_on_the_plate_ablation_bowl_plate5.bddl
+================================================================================
+Using default initial states
+Original Task 9 Command: Put the bowl on the plate
+Ablation Command (from BDDL): 'plate bowl'
+Starting episode 1...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=1--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 1
+# successes: 1 (100.0%)
+Starting episode 2...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=2--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 2
+# successes: 2 (100.0%)
+Starting episode 3...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=3--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 3
+# successes: 3 (100.0%)
+Starting episode 4...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=4--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 4
+# successes: 4 (100.0%)
+Starting episode 5...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=5--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 5
+# successes: 5 (100.0%)
+Starting episode 6...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=6--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 6
+# successes: 6 (100.0%)
+Starting episode 7...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=7--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 7
+# successes: 7 (100.0%)
+Starting episode 8...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=8--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 8
+# successes: 8 (100.0%)
+Starting episode 9...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=9--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 9
+# successes: 9 (100.0%)
+Starting episode 10...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=10--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 10
+# successes: 10 (100.0%)
+Starting episode 11...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=11--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 11
+# successes: 11 (100.0%)
+Starting episode 12...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=12--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 12
+# successes: 12 (100.0%)
+Starting episode 13...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=13--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 13
+# successes: 13 (100.0%)
+Starting episode 14...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=14--success=False--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: False
+# episodes completed so far: 14
+# successes: 13 (92.9%)
+Starting episode 15...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=15--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 15
+# successes: 14 (93.3%)
+Starting episode 16...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=16--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 16
+# successes: 15 (93.8%)
+Starting episode 17...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=17--success=False--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: False
+# episodes completed so far: 17
+# successes: 15 (88.2%)
+Starting episode 18...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=18--success=False--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: False
+# episodes completed so far: 18
+# successes: 15 (83.3%)
+Starting episode 19...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=19--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 19
+# successes: 16 (84.2%)
+Starting episode 20...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=20--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 20
+# successes: 17 (85.0%)
+Starting episode 21...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=21--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 21
+# successes: 18 (85.7%)
+Starting episode 22...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=22--success=False--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: False
+# episodes completed so far: 22
+# successes: 18 (81.8%)
+Starting episode 23...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=23--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 23
+# successes: 19 (82.6%)
+Starting episode 24...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=24--success=False--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: False
+# episodes completed so far: 24
+# successes: 19 (79.2%)
+Starting episode 25...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=25--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 25
+# successes: 20 (80.0%)
+Starting episode 26...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=26--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 26
+# successes: 21 (80.8%)
+Starting episode 27...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=27--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 27
+# successes: 22 (81.5%)
+Starting episode 28...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=28--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 28
+# successes: 23 (82.1%)
+Starting episode 29...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=29--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 29
+# successes: 24 (82.8%)
+Starting episode 30...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=30--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 30
+# successes: 25 (83.3%)
+Starting episode 31...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=31--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 31
+# successes: 26 (83.9%)
+Starting episode 32...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=32--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 32
+# successes: 27 (84.4%)
+Starting episode 33...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=33--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 33
+# successes: 28 (84.8%)
+Starting episode 34...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=34--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 34
+# successes: 29 (85.3%)
+Starting episode 35...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=35--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 35
+# successes: 30 (85.7%)
+Starting episode 36...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=36--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 36
+# successes: 31 (86.1%)
+Starting episode 37...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=37--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 37
+# successes: 32 (86.5%)
+Starting episode 38...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=38--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 38
+# successes: 33 (86.8%)
+Starting episode 39...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=39--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 39
+# successes: 34 (87.2%)
+Starting episode 40...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=40--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 40
+# successes: 35 (87.5%)
+Starting episode 41...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=41--success=False--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: False
+# episodes completed so far: 41
+# successes: 35 (85.4%)
+Starting episode 42...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=42--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 42
+# successes: 36 (85.7%)
+Starting episode 43...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=43--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 43
+# successes: 37 (86.0%)
+Starting episode 44...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=44--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 44
+# successes: 38 (86.4%)
+Starting episode 45...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=45--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 45
+# successes: 39 (86.7%)
+Starting episode 46...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=46--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 46
+# successes: 40 (87.0%)
+Starting episode 47...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=47--success=False--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: False
+# episodes completed so far: 47
+# successes: 40 (85.1%)
+Starting episode 48...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=48--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 48
+# successes: 41 (85.4%)
+Starting episode 49...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=49--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 49
+# successes: 42 (85.7%)
+Starting episode 50...
+Saved rollout MP4 at path /mnt/beegfs/a.cardamone7/outputs/rollouts/libero/command_ablation/run_0/2026_01_29-12_51_46--episode=50--success=True--task=ablation_task9_bowl_plate5_plate_bowl.mp4
+Success: True
+# episodes completed so far: 50
+# successes: 43 (86.0%)
+Current task success rate: 0.86
+
+================================================================================
+FINAL RESULTS
+================================================================================
+bowl_plate1 ('bowl'): 0.0% (0/50)
+bowl_plate2 ('plate'): 60.0% (30/50)
+bowl_plate3 ('bowl plate'): 84.0% (42/50)
+bowl_plate4 ('Put plate'): 50.0% (25/50)
+bowl_plate5 ('plate bowl'): 86.0% (43/50)
+
+AVERAGE: 56.0%
+================================================================================
