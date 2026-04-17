@@ -1,8 +1,12 @@
-# Evaluating Generalization of State-of-the-Art Multi-Task Language-Conditioned Imitation Learning Systems
+<div align="center">
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
+<h1>Evaluating Generalization of State-of-the-Art Multi-Task Language-Conditioned Imitation Learning Systems</h1>
+
+<img src="images/logo.png" alt="Logo" width="200"/>
+
 [![Thesis](https://img.shields.io/badge/Thesis-MSc%20Computer%20Engineering-success)](documents/Cardamone_Agostino_0622702276_Thesis.pdf)
-[![License](https://img.shields.io/badge/License-TBD-lightgrey)](#license)
+
+</div>
 
 Reproducible benchmark and evaluation framework developed for a Master's Thesis in Computer Engineering (Artificial Intelligence and Intelligent Robotics), University of Salerno, Academic Year 2025/2026.
 
@@ -225,7 +229,7 @@ pip install -r models/openvla-oft/experiments/env_requirements/libero_test_requi
 
 ### 1) Embeddings Analysis
 
-> ⚠️⚠️⚠️
+> ⚠️
 > Before running any command in this section, update all absolute paths in the referenced `.sh`/`.py` scripts and related config files (`.yaml`, `.json`) to match your local or HPC environment. 
 
 ```bash
@@ -274,7 +278,7 @@ python models/InternVLA-M1/test/libero_test/embeddings_test/analyze_embedding_ov
 
 ### 2) Fine-Tuning Commands
 
-> ⚠️⚠️⚠️
+> ⚠️
 > Before running any command in this section, update all absolute paths in the referenced `.sh` scripts and related training/config files (`.py`, `.yaml`, `.json`) to match your local or HPC environment.
 
 ```bash
@@ -296,7 +300,7 @@ sbatch models/InternVLA-M1/test/libero_test/finetune_internvla_libero_goal_l3.sh
 
 ### 3) Evaluation Commands
 
-> ⚠️⚠️⚠️
+> ⚠️
 > Before running any command in this section, update all absolute paths in the referenced `.sh` scripts and related training/config files (`.py`, `.yaml`, `.json`) to match your local or HPC environment.
 
 ```bash
