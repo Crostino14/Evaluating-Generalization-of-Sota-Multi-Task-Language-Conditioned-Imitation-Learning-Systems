@@ -189,11 +189,11 @@ cd Evaluating-Generalization-of-Sota-Multi-Task-Language-Conditioned-Imitation-L
 # OpenVLA-OFT (LIBERO evaluation environment)
 conda env create -f models/openvla-oft/experiments/env_requirements/openvla-oft_libero.yml
 
-# TinyVLA (choose one, depending on your workflow)
+# TinyVLA (First env is for evaluation, second for training)
 conda env create -f models/TinyVLA/test/env_requirements/tinyvla_libero.yml
 conda env create -f models/TinyVLA/test/env_requirements/tinyvla.yml
 
-# InternVLA-M1 (LIBERO evaluation + embeddings analysis)
+# InternVLA-M1 (LIBERO evaluation and embeddings analysis)
 conda env create -f models/InternVLA-M1/test/env_requirements/internvla-m1_libero.yml
 conda env create -f models/InternVLA-M1/test/env_requirements/internvla-m1_embeddings.yml
 ```
@@ -209,11 +209,11 @@ pip install -e LIBERO
 
 ```bash
 # TinyVLA
-conda activate tinyvla_libero   # or: conda activate tinyvla
+conda activate tinyvla_libero
 pip install -r models/TinyVLA/test/env_requirements/libero_test_requirements.txt
 
 # InternVLA-M1
-conda activate internvla-m1      # or: conda activate internvla-m1-embeddings
+conda activate internvla-m1
 pip install -r models/InternVLA-M1/test/env_requirements/libero_test_requirements.txt
 
 # OpenVLA-OFT
