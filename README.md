@@ -11,7 +11,7 @@ Reproducible benchmark and evaluation framework developed for a Master's Thesis 
 
 ## Overview / Abstract
 
-Modern robotic manipulation systems are increasingly expected to execute diverse language-conditioned tasks under conditions not explicitly observed during training. This work addresses the following research question:
+Modern robotic manipulation systems are increasingly expected to execute diverse language-conditioned tasks under conditions not explicitly observed during training. This work addresses the following question:
 
 > **"What are the capabilities of modern Vision-Language-Action (VLA) models to adapt to new scenarios that differ from those seen during training?"**
 
