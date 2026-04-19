@@ -11,7 +11,7 @@ Vision-Language-Action Models Evaluation Framework for Testing Zero-Shot Syntact
 > [!NOTE]
 > This repository reports the main implementation choices and experimental outcomes. For full methodological details, ablation study, and extended discussion, please refer to the thesis PDF in [documents/Cardamone_Agostino_0622702276_Thesis.pdf](documents/Cardamone_Agostino_0622702276_Thesis.pdf).
 
-## Overview / Abstract
+## Project Overview
 
 Modern robotic manipulation systems are increasingly expected to execute diverse language-conditioned tasks under conditions not explicitly observed during training. This work addresses the following question:
 
