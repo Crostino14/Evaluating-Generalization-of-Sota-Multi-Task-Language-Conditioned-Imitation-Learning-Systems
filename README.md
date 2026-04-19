@@ -30,9 +30,9 @@ Existing benchmarks (e.g., LIBERO, COLOSSEUM, MimicLab) mainly focus on robustne
 - Embedding-based validation of instruction variants using cosine similarity, Euclidean distance, and normalized Levenshtein distance.
 - Targeted Level-3 fine-tuning study on InternVLA-M1 with selective backbone freezing to mitigate catastrophic forgetting.
 
-### Framework Pipeline
+### Evaluation Framework Pipeline Overview
 
-![Framework pipeline overview](images/framework.png)
+![Evaluation Framework Pipeline Overview](images/framework.png)
 
 *Figure: End-to-end workflow of the proposed evaluation framework, from scenario design and model fine-tuning to syntactic/task-level generalization assessment.*
 
