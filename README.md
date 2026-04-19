@@ -4,11 +4,9 @@
 
 <img src="images/logo.png" alt="Logo" width="200"/>
 
-[![Thesis](https://img.shields.io/badge/Thesis-MSc%20Computer%20Engineering-success)](documents/Cardamone_Agostino_0622702276_Thesis.pdf)
-
 </div>
 
-Reproducible benchmark and evaluation framework developed for a Master's Thesis in Computer Engineering (Artificial Intelligence and Intelligent Robotics), University of Salerno, Academic Year 2025/2026.
+Vision-Language-Action Models Evaluation Framework for Testing Zero-Shot Syntactic and Task-Level Generalization Capabilities
 
 > [!NOTE]
 > This repository reports the main implementation choices and experimental outcomes. For full methodological details, ablation study, and extended discussion, please refer to the thesis PDF in [documents/Cardamone_Agostino_0622702276_Thesis.pdf](documents/Cardamone_Agostino_0622702276_Thesis.pdf).
