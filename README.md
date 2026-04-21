@@ -6,27 +6,30 @@
 
 </div>
 
-Vision-Language-Action Models Evaluation Framework for Testing Zero-Shot Syntactic and Task-Level Generalization Capabilities
+<p align="center">
+  <em>A Vision-Language-Action Models Evaluation Framework for Zero-Shot Syntactic and Task-Level Generalization</em>
+</p>
 
 > [!NOTE]
 > This repository reports the main implementation choices and experimental outcomes. For full methodological details, ablation study, and extended discussion, please refer to the thesis PDF in [documents/Cardamone_Agostino_0622702276_Thesis.pdf](documents/Cardamone_Agostino_0622702276_Thesis.pdf).
 
-## Project Overview
+## Project Objective
 
 Modern robotic manipulation systems are increasingly expected to execute diverse language-conditioned tasks under conditions not explicitly observed during training. This work addresses the following question:
 
 > **"What are the capabilities of modern Vision-Language-Action (VLA) models to adapt to new scenarios that differ from those seen during training?"**
 
-Existing benchmarks (e.g., LIBERO, COLOSSEUM, MimicLab) mainly focus on robustness to visual perturbations. In contrast, this repository introduces a controlled and reproducible benchmark to evaluate **zero-shot linguistic and task-level generalization**.
+Existing benchmarks (e.g., LIBERO, COLOSSEUM, MimicLab) primarily evaluate robustness to visual perturbations (changes in lighting, object appearance, or scene layout) and do not systematically address linguistic variation or task composition.
 
 ### Main Contributions
 
-- Design and implementation of a reproducible benchmark for zero-shot VLA generalization.
-- Two complementary generalization dimensions: syntactic and task-level.
-- Empirical evaluation of three state-of-the-art VLA models with different pre-training paradigms.
-- Detailed failure analysis of trajectories to localize execution-stage failure modes.
-- Embedding-based validation of instruction variants using cosine similarity, Euclidean distance, and normalized Levenshtein distance.
-- Targeted Level-3 fine-tuning study on InternVLA-M1 with selective backbone freezing to mitigate catastrophic forgetting.
+- Design and implementation of a controlled, reproducible benchmark for zero-shot generalization in VLA models, organized along two generalization dimensions and structured into levels of increasing difficulty.
+- Definition of two complementary generalization axes: **Syntactic Generalization** (Verb Substitution, Syntactic Restructuring, Compositional Spatial Reference) and **Task-Level Generalization** (Cross-Object Skill Transfer, Novel Task Composition).
+- Empirical evaluation of three state-of-the-art VLA models based on distinct pre-training paradigms: OpenVLA-OFT, TinyVLA, and InternVLA-M1.
+- Detailed failure analysis of robot trajectories via rollout video inspection and end-effector heatmaps to identify execution-stage failure modes per architecture.
+- Embedding-based validation of instruction variants using cosine similarity, Euclidean distance, and normalized Levenshtein distance to verify semantic preservation across reformulation levels.
+- Ablation study to distinguish genuine compositional generalization from training-distribution artifacts in Task-Level Generalization results.
+- Targeted Level-3 fine-tuning of InternVLA-M1 with selective backbone freezing to mitigate catastrophic forgetting and improve compositional spatial reference resolution.
 
 ### Evaluation Framework Pipeline Overview
 
@@ -57,7 +60,7 @@ Existing benchmarks (e.g., LIBERO, COLOSSEUM, MimicLab) mainly focus on robustne
 
 ## Generalization Benchmark
 
-The benchmark evaluates two dimensions of zero-shot generalization on LIBERO Goal Suite.
+The benchmark evaluates two dimensions of zero-shot generalization on the **LIBERO-Goal suite** (10 tabletop manipulation tasks). Each evaluation level is tested with multiple instruction variants per task, executed over three independent random seeds. Success rate is averaged across variants and seeds to produce statistically robust estimates.
 
 ### 1) Syntactic Generalization
 
@@ -68,11 +71,12 @@ The benchmark evaluates two dimensions of zero-shot generalization on LIBERO Goa
 #### Syntactic Generalization Test Instruction Examples
 
 | Task No. | Original Task Command | L1 Variation Task Command | L2 Variation Task Command | L3 Variation Task Command |
-|---|---|---|---|---|
-| 1 | Open the middle layer of the drawer | Pull the middle layer of the drawer | The middle layer of the drawer needs to be opened | Open the layer of the drawer located between the top and bottom |
-| 2 | Put the bowl on the stove | Set the bowl on the stove | The stove needs to have the bowl on it | Put the object between the wine bottle and the cream cheese on the stove |
-| 3 | Put the wine bottle on the top of the cabinet | Place the wine bottle on the top of the cabinet | Top of the cabinet needs to have the wine bottle on it | Put the object behind the bowl on the top of the cabinet |
+|:---:|---|---|---|---|
+| 1 | Open the middle layer of the drawer | **Pull** the middle layer of the drawer | **The middle layer of the drawer needs to be opened** | Open the layer of the drawer **located between the top and bottom** |
+| 2 | Put the bowl on the stove | **Set** the bowl on the stove | **The stove needs to have the bowl on it** | Put **the object between the wine bottle and the cream cheese** on the stove |
+| 3 | Put the wine bottle on the top of the cabinet | **Place** the wine bottle on the top of the cabinet | **Top of the cabinet needs to have the wine bottle on it** | Put **the object behind the bowl** on the top of the cabinet |
 | 4 | ... | ... | ... | ... |
+
 
 ### 2) Task-Level Generalization
 
@@ -82,13 +86,15 @@ The benchmark evaluates two dimensions of zero-shot generalization on LIBERO Goa
 #### Task Generalization Test Instruction Examples
 
 | Task No. | Training Task Command | Test Task Command |
-|---|---|---|
-| 1 | Put the bowl on the top of the cabinet | Put the plate on the top of the cabinet |
-| 2 | Put the bowl on the stove | Put the plate on the stove |
-| 3 | Put the wine bottle on the top of the cabinet | Put the cream cheese on the top of the cabinet |
+|:---:|---|---|
+| 1 | Put the bowl on the top of the cabinet | Put **the plate** on the top of the cabinet |
+| 2 | Put the bowl on the stove | Put **the plate** on the stove |
+| 3 | Put the wine bottle on the top of the cabinet | Put **the cream cheese** on the top of the cabinet |
 | 4 | ... | ... |
 
 ## Models Evaluated
+
+Three VLA models were selected to represent distinct pre-training paradigms and architectural designs. Each model was fine-tuned on the same shared set of LIBERO-Goal expert demonstrations before zero-shot evaluation.
 
 ### OpenVLA-OFT
 
@@ -207,7 +213,7 @@ pip install -r LIBERO/requirements.txt
 pip install -e LIBERO
 ```
 
-### 4) Install Model-Specific Dependencies (Placeholders)
+### 4) Install Model-Specific Dependencies
 
 ```bash
 # TinyVLA
@@ -223,7 +229,7 @@ conda activate openvla-oft
 pip install -r models/openvla-oft/experiments/env_requirements/libero_test_requirements.txt
 ```
 
-## Usage / Running Experiments
+## Usage - Running Experiments
 
 ### 1) Embeddings Analysis
 
@@ -319,30 +325,30 @@ sbatch models/InternVLA-M1/test/libero_test/run_internvla_libero_task_comp.sh
 
 ### Key Findings
 
-- All models show decreasing performance as test instructions/tasks move farther from the training distribution.
-- Syntactic Level 3 (compositional spatial references) is the most challenging linguistic setting.
-- Task-level transfer is substantially harder than in-distribution evaluation, with severe drops in cross-object and composition settings.
-- Failure patterns differ by architecture and generalization dimension.
+- All models maintain near-baseline performance at **Syntactic Level 1** (Verb Substitution), confirming that robustness to shallow lexical variation is related to the VLM backbone pre-training on large-scale data.
+- Performance degrades progressively across syntactic levels, with **Level 3 (Compositional Spatial Reference)** causing the sharpest drop — from about 90% baseline to 13.6% (OpenVLA-OFT), 40.4% (TinyVLA), and 39.0% (InternVLA-M1).
+- **Task-Level Generalization Level 1** (Cross-Object Skill Transfer) yields 0.0% for all three models, revealing that skill–object bindings are rigid and do not transfer to novel object instances.
+- Non-zero results at **Task-Level Level 2** (Novel Task Composition) are explained by the ablation study as training-distribution artifacts rather than genuine compositional generalization.
+- Failure patterns are architecture-specific: TinyVLA exhibits **lexical anchoring** (motor plan triggered by the most salient object token regardless of context), OpenVLA-OFT exhibits **goal-location bias** (target object substituted with the one most associated with the goal location), and InternVLA-M1 **fails to resolve relational spatial references** (when the target is described indirectly, e.g., "the object between X and Y", the model cannot ground the spatial clause onto the correct referent and defaults to a lexically prominent anchor).
 
 ### Syntactic Generalization Test Results
 
+> For each evaluation level, multiple instruction variants per task are tested across 3 random seeds. Success rate is averaged across variants and seeds.
+
 | Model | Baseline Mean SR% ± Std% | Level 1 Mean SR% ± Std% | Level 2 Mean SR% ± Std% | Level 3 Mean SR% ± Std% |
-|---|---:|---:|---:|---:|
+|:---:|:---:|:---:|:---:|:---:|
 | OpenVLA-OFT | 96.5% ± 0.5% | 95.9% ± 4.5% | 93.4% ± 8.8% | 13.6% ± 17.6% |
 | TinyVLA | 88.6% ± 0.7% | 84.6% ± 9.3% | 80.8% ± 11.2% | 40.4% ± 36.4% |
 | InternVLA-M1 | 94.3% ± 0.5% | 89.0% ± 8.6% | 85.7% ± 10.9% | 39.0% ± 23.2% |
 
-For each evaluation level, multiple instruction variants per task are tested across 3 random seeds. Success rate is averaged across variants and seeds.
 
 ### Task Generalization Test Results
 
 | Model | Baseline Mean SR% ± Std% | Level 1 Mean SR% ± Std% | Level 2 Mean SR% ± Std% |
-|---|---:|---:|---:|
+|:---:|:---:|:---:|:---:|
 | OpenVLA-OFT | 96.5% ± 0.5% | 0.0% ± 0.0% | 18.3% ± 0.2% |
 | TinyVLA | 88.6% ± 0.7% | 0.0% ± 0.0% | 3.1% ± 1.9% |
 | InternVLA-M1 | 94.3% ± 0.5% | 0.0% ± 0.0% | 0.0% ± 0.0% |
-
-For each evaluation level, multiple instruction variants per task are tested across 3 random seeds. Success rate is averaged across variants and seeds.
 
 ## Author and Supervisors
 
@@ -359,4 +365,4 @@ This research was carried out at the **University of Salerno** as part of the Ma
 
 Special thanks to:
 
-- **Dr. Francesco Rosa** (Co-Supervisor)
+**Dr. Francesco Rosa** (Co-Supervisor)
