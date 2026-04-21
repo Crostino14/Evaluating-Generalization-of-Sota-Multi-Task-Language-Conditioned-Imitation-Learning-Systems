@@ -83,14 +83,24 @@ The benchmark evaluates two dimensions of zero-shot generalization on the **LIBE
 - **Level 1 - Cross-Object Skill Transfer:** known primitive applied to a different but known object.
 - **Level 2 - Novel Task Composition:** sequential composition of known primitives never demonstrated together.
 
-#### Task Generalization Test Instruction Examples
+#### Task Generalization Test Instruction Examples — Level 1 (Cross-Object Skill Transfer)
 
-| Task No. | Training Task Command | Test Task Command |
+| Task N° | Training Task Command | Test Task Command |
 |:---:|---|---|
-| 1 | Put the bowl on the top of the cabinet | Put **the plate** on the top of the cabinet |
-| 2 | Put the bowl on the stove | Put **the plate** on the stove |
-| 3 | Put the wine bottle on the top of the cabinet | Put **the cream cheese** on the top of the cabinet |
+| 1 | Put the **bowl** on the top of the cabinet | Put **the plate** on the top of the cabinet |
+| 2 | Put the **bowl** on the stove | Put **the plate** on the stove |
+| 3 | Put the **wine bottle** on the top of the cabinet | Put **the cream cheese** on the top of the cabinet |
 | 4 | ... | ... |
+
+
+#### Task Generalization Test Instruction Examples — Level 2 (Novel Task Composition)
+
+| Task N° | Training Task 1 | Training Task 2 | Test Task |
+|:---:|---|---|---|
+| 1 | Open the middle layer of the drawer | Open the top layer of the drawer and put the bowl inside | **Open the middle layer of the drawer and put the bowl inside** |
+| 2 | Put the bowl on the stove | Turn on the stove | **Put the bowl on the stove and turn on the stove** |
+| 3 | Put the cream cheese on the bowl | Put the bowl on the plate | **Put the cream cheese on the bowl and put the bowl on the plate** |
+| 4 | ... | ... | ... |
 
 ## Models Evaluated
 
